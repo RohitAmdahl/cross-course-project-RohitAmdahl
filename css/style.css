@@ -3,6 +3,8 @@ body {
   margin: 0;
 }
 
+/* --------------------------------nav bar -------------------*/
+
 .logo img {
   width: 200px;
 }
@@ -14,7 +16,8 @@ header {
 nav a {
   color: #000;
   padding: 25px;
-  font-size: 1.1em;
+  font-size: 1.6em;
+  text-decoration: none;
 }
 
 .search-bar {
@@ -28,13 +31,24 @@ nav a {
   background-position: right;
 }
 
+.search {
+  display: inline-block;
+}
+
+
 .cta-1 {
   background-color: #e9c69e;
   padding: 10px 20px;
   margin: 15px;
   text-decoration: none;
-  color: #000;
+  color: #000
   font-weight: bold;
+  border-radius: 5px;
+}
+
+.cta-1 {
+  box-shadow: 0px 3px 5px ;
+  color: #000;
 }
 
 .sub-menu img {
@@ -43,4 +57,14 @@ nav a {
 
 .cart {
   max-width: 37px;
+}
+
+.cta-2{
+  background-color:#574F4F;
+  color: #e9c69e;
+  padding: 20px 50px;
+  font-size: 1.3em;
+}
+.New-arrivals{
+  background-color: #E9C69E;
 }
