@@ -59,12 +59,32 @@ nav a {
   max-width: 37px;
 }
 
-.cta-2{
+.cta-2 {
   background-color:#574F4F;
   color: #e9c69e;
   padding: 20px 50px;
   font-size: 1.3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.New-arrivals{
-  background-color: #E9C69E;
+
+.container-1 { 
+  display: inline-flex;
+  
+
+}
+
+.New-arrivals {
+  background-color: #F4E3CF;
+}
+
+.women {
+  max-width: 100%;
+  min-width: 300px;
+}
+
+.men {
+  max-width: 100%;
+  min-width: 300px;
 }
