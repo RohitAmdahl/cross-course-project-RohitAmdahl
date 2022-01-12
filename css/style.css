@@ -2,39 +2,27 @@ body {
   font-family: "Poppins", Verdana, Arial, Helvetica, Geneva, sans-serif;
 }
 
-nav {
+.logo img {
+  width: 200px;
+  margin-left: 120px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav a {
+  color: #000;
+  padding: 25px;
+  font-size: 1.1em;
 }
 
-nav ul {
-  padding: 0px;
-  text-align: center;
-  margin: 0px;
-}
-
-nav li {
-  display: inline-block;
-  font-size: 1.3em;
-  padding-right: 25px;
-  margin-right: 10px;
-}
-.logo {
-  padding-right: 120px;
-  padding-top: 30px;
-}
-
-.cta {
+section a {
   background-color: #e9c69e;
-  color: #000000;
-  padding-left: 50px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+  padding: 10px 15px;
+  margin: 20px;
 }
 
-.sub-nav {
-  display: inherit;
-  text-align: right;
-  padding-right: 25px;
-  margin-right: 10px;
+.sub-menu img {
+  max-width: 100px;
 }
