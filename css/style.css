@@ -1,6 +1,7 @@
 body {
   font-family: "Poppins", Verdana, Arial, Helvetica, Geneva, sans-serif;
-
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 
@@ -73,6 +74,8 @@ nav a {
   border-radius: 5px;
   font-weight: bold;
   text-decoration: none;
+  position: relative;
+  bottom: 50px;
 }
 
 
@@ -92,6 +95,7 @@ nav a {
 
 .container-1 { 
   display: flex;
+  justify-content:center ;
 }
 
 .Women {
@@ -129,22 +133,20 @@ nav a {
 .buy {
   padding: 10px 10px;
   box-sizing: border-box;
-  max-width: 16em;
-  
+  width: 350px;
 }
 
 .New-arrivals {
   background-color: #F4E3CF;
-  padding: 30px;
+  padding: 80px;
   display: flex;
   justify-content: space-around;
-
+  font-size: 1.3em;
 }
 
 .men-women {
   display: inline;
 }
-
 
 h1 {
   color:#574F4F ;
@@ -167,10 +169,12 @@ footer{
   padding: 10px;
 }
 
-.form-footer div{
-  display: grid;
-  background-color: #EEEDED;
-  
+#email{
+  padding: 5px 80px;
+}
+
+.form-footer {
+ 
 }
 
 .footer-text {
@@ -180,8 +184,10 @@ footer{
 }
 
 .newsletter-text {
- width: 300px;
+ width: 450px;
  text-decoration: none;
+ font-size: 1.2em;
+ padding-left: 60px;
 }
 
 
@@ -189,8 +195,7 @@ footer{
   font-size: 20px;
   border: none;
   background-color: #EEEDED;
-  margin-top: 20px ;
-  margin-bottom: 20px;
+
 }
  ul li{
   text-decoration: none;
@@ -201,5 +206,8 @@ footer{
  font-weight: bold;
 }
 
-
+.star{
+  width: 12px;
+  height: 12px;
+}
 
