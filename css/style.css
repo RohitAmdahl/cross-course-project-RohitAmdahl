@@ -133,6 +133,7 @@ nav a {
 .buy {
   padding: 10px 10px;
   box-sizing: border-box;
+  max-width: 100%;
   width: 350px;
 }
 
@@ -192,7 +193,7 @@ footer{
 
 
 .Subscribe{
-  font-size: 20px;
+  font-size: 1,3em;
   border: none;
   background-color: #EEEDED;
 
