@@ -118,6 +118,7 @@ nav a {
 .New-arrivals {
   background-color: #F4E3CF;
   padding: 30px;
+  display: flex;
 
 }
 
