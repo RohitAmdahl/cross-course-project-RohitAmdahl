@@ -45,22 +45,22 @@ nav a {
   padding: 10px 20px;
   margin: 15px;
   text-decoration: none;
-  color: #000
+  color: #000;
   font-weight: bold;
   border-radius: 5px;
 }
 
 .cta-1 {
-  box-shadow: 0px 3px 5px ;
+  box-shadow: 0px 3px 5px;
   color: #000;
 }
 
 .gender {
-   text-align: center;
+  text-align: center;
 }
 
 .cta-2 {
-  background-color:#574F4F;
+  background-color: #574f4f;
   color: #e9c69e;
   padding: 20px 80px;
   font-size: 1.5em;
@@ -72,7 +72,7 @@ nav a {
 }
 
 .buy-now {
-  background-color:#574F4F;
+  background-color: #574f4f;
   color: #e9c69e;
   padding: 20px 80px;
   font-size: 1.5em;
@@ -81,9 +81,9 @@ nav a {
   text-decoration: none;
 }
 
-.container-1 { 
+.container-1 {
   display: flex;
-  justify-content:center ;
+  justify-content: center;
 }
 
 .Women {
@@ -91,11 +91,11 @@ nav a {
   background-repeat: no-repeat;
   background-position: left bottom 80%;
   max-width: 100%;
-  min-width: 350px; 
+  min-width: 350px;
 }
 
 .men {
-  background-image: url(../images/circle\ man.png );
+  background-image: url(../images/circle\ man.png);
   background-repeat: no-repeat;
   background-position: right 20% bottom 80%;
   max-width: 100%;
@@ -115,7 +115,6 @@ nav a {
   bottom: 20px;
 }
 
-
 .buy {
   padding: 10px 10px;
   box-sizing: border-box;
@@ -124,7 +123,7 @@ nav a {
 }
 
 .New-arrivals {
-  background-color: #F4E3CF;
+  background-color: #f4e3cf;
   padding: 80px;
   display: flex;
   justify-content: space-around;
@@ -136,59 +135,62 @@ nav a {
 }
 
 h1 {
-  color:#574F4F ;
-  font-size: 2em ;
+  color: #574f4f;
+  font-size: 2em;
   margin: 20px;
-  text-decoration:underline 2px solid #574F4F;
+  text-decoration: underline 2px solid #574f4f;
   text-underline-offset: 25px;
 }
 
 h3 em {
-  color: #574F4F;
+  color: #574f4f;
   margin: 20px;
   position: absolute;
   margin-left: 50px;
 }
 
-footer{
-  background-color: #EEEDED;
+footer {
+  background-color: #eeeded;
   padding: 10px;
 }
 
-#email{
+#email {
   padding: 5px 80px;
 }
 
 .footer-text {
   display: flex;
-  justify-content: space-around;
-}
-
-.newsletter-text {
- max-width: 100%;
- width: 450px;
- text-decoration: none;
- font-size: 1.2em;
- padding-left: 60px;
-}
-
-.Subscribe{
-  font-size: 1,3em;
-  border: none;
-  background-color: #EEEDED;
-}
-
- ul li {
+  justify-content: space-evenly;
   text-decoration: none;
 }
 
-.copywrite{
- text-align: center;
- font-weight: bold;
+.newsletter-text {
+  max-width: 100%;
+  width: 450px;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding-left: 60px;
 }
 
-.star{
+.Subscribe {
+  font-size: 1, 3em;
+  border: none;
+  background-color: #eeeded;
+}
+
+ul {
+  list-style: none;
+}
+
+.copywrite {
+  text-align: center;
+  font-weight: bold;
+}
+
+.star {
   width: 12px;
   height: 12px;
+  position: relative;
+  right: 360px;
+  top: 90px;
 }
-
