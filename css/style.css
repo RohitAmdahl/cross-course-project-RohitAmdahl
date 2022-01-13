@@ -52,6 +52,11 @@ nav a {
   color: #000;
 }
 
+.gender-itmes{
+   text-align: center;
+}
+
+
 .sub-menu img {
   max-width: 10px;
 }
