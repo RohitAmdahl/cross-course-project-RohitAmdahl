@@ -1,14 +1,14 @@
 body {
   font-family: "Poppins", Verdana, Arial, Helvetica, Geneva, sans-serif;
-  
 
 }
+
+
+
 
 /* --------------------------------nav bar -------------------*/
 
-.logo img {
-  width: 200px;
-}
+
 header {
   display: flex;
   justify-content: space-between;
@@ -36,7 +36,15 @@ nav a {
   display: inline-block;
 }
 
+.sub-menu img {
+  max-width: 10px;
+}
 
+.cart {
+  max-width: 37px;
+}
+
+/* --------------------------------cta section -------------------*/
 .cta-1 {
   background-color: #e9c69e;
   padding: 10px 20px;
@@ -52,63 +60,68 @@ nav a {
   color: #000;
 }
 
-.gender-itmes{
+.gender {
    text-align: center;
 }
 
 
-.sub-menu img {
-  max-width: 10px;
-}
-
-.cart {
-  max-width: 37px;
-}
-
 .cta-2 {
   background-color:#574F4F;
   color: #e9c69e;
-  padding: 10px 60px;
-  font-size: 1.3em;
+  padding: 20px 80px;
+  font-size: 1.5em;
   border-radius: 5px;
-
+  font-weight: bold;
+  text-decoration: none;
 }
+
+
+/* --------------------------------section -------------------*/
+
 
 .buy-now {
   background-color:#574F4F;
   color: #e9c69e;
-  padding: 10px 60px;
-  font-size: 1.3em;
+  padding: 20px 80px;
+  font-size: 1.5em;
   border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
 
 .container-1 { 
   display: flex;
-  flex-direction: row;
 }
 
 .Women {
   background-image: url(../images/circle\ women.png);
   background-repeat: no-repeat;
-  background-position: top left;
+  background-position: left bottom 80%;
+  max-width: 100%;
+  min-width: 350px;
   
 }
 
 .men {
   background-image: url(../images/circle\ man.png );
   background-repeat: no-repeat;
-  background-position: top right;
-}
-
-.Women {
+  background-position: right 20% bottom 80%;
   max-width: 100%;
-  min-width: 300px;
+  min-width: 350px;
 }
 
 .men {
   max-width: 100%;
   min-width: 300px;
+}
+
+.women {
+  max-width: 100%;
+  min-width: 300px;
+  position: relative;
+  right: 50px;
+  bottom: 20px;
 
 }
 
@@ -116,7 +129,7 @@ nav a {
 .buy {
   padding: 10px 10px;
   box-sizing: border-box;
-  width: 350px;
+  max-width: 16em;
   
 }
 
@@ -124,6 +137,7 @@ nav a {
   background-color: #F4E3CF;
   padding: 30px;
   display: flex;
+  justify-content: space-around;
 
 }
 
@@ -136,26 +150,21 @@ h1 {
   color:#574F4F ;
   font-size: 2em ;
   margin: 20px;
+  text-decoration:underline 2px solid #574F4F;
+  text-underline-offset: 25px;
   
 }
 
 h3 em {
-  color: red;
-  text-align: center;
+  color: #574F4F;
   margin: 20px;
+  position: absolute;
+  margin-left: 50px;
 }
-
+/* --------------------------------footer -------------------*/
 footer{
   background-color: #EEEDED;
   padding: 10px;
-}
-
-.points-footer{ 
-  display: grid;
-  grid-template-columns: repeat(4,auto);
-
-
-  
 }
 
 .form-footer div{
@@ -165,14 +174,16 @@ footer{
 }
 
 .footer-text {
-  box-sizing: border-box;
-  width: 350px;
+  display: flex;
+  justify-content: space-around;
+
 }
 
-.newsletter {
+.newsletter-text {
  width: 300px;
  text-decoration: none;
 }
+
 
 .Subscribe{
   font-size: 20px;
@@ -184,3 +195,11 @@ footer{
  ul li{
   text-decoration: none;
 }
+
+.copywrite{
+ text-align: center;
+ font-weight: bold;
+}
+
+
+
