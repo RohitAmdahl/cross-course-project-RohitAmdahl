@@ -4,17 +4,12 @@ body {
   box-sizing: border-box;
 }
 
-
-
-
-/* --------------------------------nav bar -------------------*/
-
-
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 nav a {
   color: #000;
   padding: 25px;
@@ -45,7 +40,6 @@ nav a {
   max-width: 37px;
 }
 
-/* --------------------------------cta section -------------------*/
 .cta-1 {
   background-color: #e9c69e;
   padding: 10px 20px;
@@ -65,7 +59,6 @@ nav a {
    text-align: center;
 }
 
-
 .cta-2 {
   background-color:#574F4F;
   color: #e9c69e;
@@ -78,10 +71,6 @@ nav a {
   bottom: 50px;
 }
 
-
-/* --------------------------------section -------------------*/
-
-
 .buy-now {
   background-color:#574F4F;
   color: #e9c69e;
@@ -91,7 +80,6 @@ nav a {
   font-weight: bold;
   text-decoration: none;
 }
-
 
 .container-1 { 
   display: flex;
@@ -103,8 +91,7 @@ nav a {
   background-repeat: no-repeat;
   background-position: left bottom 80%;
   max-width: 100%;
-  min-width: 350px;
-  
+  min-width: 350px; 
 }
 
 .men {
@@ -126,7 +113,6 @@ nav a {
   position: relative;
   right: 50px;
   bottom: 20px;
-
 }
 
 
@@ -155,7 +141,6 @@ h1 {
   margin: 20px;
   text-decoration:underline 2px solid #574F4F;
   text-underline-offset: 25px;
-  
 }
 
 h3 em {
@@ -164,8 +149,6 @@ h3 em {
   position: absolute;
   margin-left: 50px;
 }
-/* --------------------------------footer -------------------*/
-
 
 footer{
   background-color: #EEEDED;
@@ -176,14 +159,9 @@ footer{
   padding: 5px 80px;
 }
 
-.form-footer {
- 
-}
-
 .footer-text {
   display: flex;
   justify-content: space-around;
-
 }
 
 .newsletter-text {
@@ -194,13 +172,12 @@ footer{
  padding-left: 60px;
 }
 
-
 .Subscribe{
   font-size: 1,3em;
   border: none;
   background-color: #EEEDED;
-
 }
+
  ul li{
   text-decoration: none;
 }
