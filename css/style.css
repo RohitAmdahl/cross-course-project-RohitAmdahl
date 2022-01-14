@@ -137,12 +137,14 @@ nav a {
   background-color: #f4e3cf;
   padding: 80px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   font-size: 1em;
 }
 
 .men-women {
-  display: inline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 h1 {
