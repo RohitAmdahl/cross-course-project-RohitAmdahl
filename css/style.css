@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", Verdana, Arial, Helvetica, Geneva, sans-serif;
-  margin: 0px;
   box-sizing: border-box;
+  margin: 0, auto;
 }
 
 header {
@@ -104,25 +104,25 @@ nav a {
 
 .Women-1 {
   width: 100%;
-  max-width: 750px;
+  max-width: 650px;
 }
 
 .men-1 {
   width: 100%;
-  max-width: 750px;
+  max-width: 650px;
 }
 
 .men {
   width: 100%;
-  max-width: 550px;
+  max-width: 520px;
 }
 
 .women {
   width: 100%;
-  max-width: 510px;
+  max-width: 419px;
   position: relative;
   right: 50px;
-  bottom: 10px;
+  bottom: -45px;
 }
 
 .buy {
