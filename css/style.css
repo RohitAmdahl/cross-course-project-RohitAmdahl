@@ -89,6 +89,7 @@ nav a {
 .Women-1 {
   background-image: url(../images/circle\ women.png);
   background-repeat: no-repeat;
+  background-size: 500px;
   background-position: left bottom 80%;
   max-width: 100%;
   min-width: 350px;
@@ -97,6 +98,7 @@ nav a {
 .men-1 {
   background-image: url(../images/circle\ man.png);
   background-repeat: no-repeat;
+  background-size: 500px;
   background-position: right 20% bottom 80%;
   max-width: 100%;
   min-width: 350px;
@@ -183,14 +185,12 @@ footer {
   width: 100%;
   text-decoration: none;
   font-size: 1em;
-  padding-left: 60px;
 }
 
 .Subscribe {
   font-size: 1, 3em;
   border: none;
   background-color: #eeeded;
-  display: block;
 }
 
 ul {
@@ -200,4 +200,10 @@ ul {
 .copywrite {
   text-align: center;
   font-weight: bold;
+}
+
+.form-footer {
+  padding-left: 100px;
+  box-sizing: border-box;
+  max-width: 550px;
 }
