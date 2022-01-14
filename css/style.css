@@ -86,7 +86,7 @@ nav a {
   justify-content: center;
 }
 
-.Women {
+.Women-1 {
   background-image: url(../images/circle\ women.png);
   background-repeat: no-repeat;
   background-position: left bottom 80%;
@@ -94,7 +94,7 @@ nav a {
   min-width: 350px;
 }
 
-.men {
+.men-1 {
   background-image: url(../images/circle\ man.png);
   background-repeat: no-repeat;
   background-position: right 20% bottom 80%;
@@ -102,17 +102,27 @@ nav a {
   min-width: 350px;
 }
 
+.Women-1 {
+  width: 100%;
+  max-width: 750px;
+}
+
+.men-1 {
+  width: 100%;
+  max-width: 750px;
+}
+
 .men {
-  max-width: 100%;
-  min-width: 300px;
+  width: 100%;
+  max-width: 550px;
 }
 
 .women {
-  max-width: 100%;
-  min-width: 300px;
+  width: 100%;
+  max-width: 510px;
   position: relative;
   right: 50px;
-  bottom: 20px;
+  bottom: 10px;
 }
 
 .buy {
