@@ -66,6 +66,7 @@ nav a {
   text-decoration: none;
   position: relative;
   bottom: 50px;
+  box-shadow: -1px 24px 12px #dbdbdb;
 }
 
 .buy-now {
@@ -76,6 +77,7 @@ nav a {
   border-radius: 5px;
   font-weight: bold;
   text-decoration: none;
+  box-shadow: -1px 24px 12px #dbdbdb;
 }
 
 .container-1 {
