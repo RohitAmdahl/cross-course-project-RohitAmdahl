@@ -52,7 +52,7 @@ nav a {
 
 .cta-1 {
   box-shadow: 0px 3px 5px;
-  color: #000;
+  color: #C4C4C40;
 }
 
 .gender {
@@ -169,6 +169,7 @@ footer {
 
 #email {
   padding: 5px 80px;
+  display: block;
 }
 
 .footer-text {
@@ -189,6 +190,7 @@ footer {
   font-size: 1, 3em;
   border: none;
   background-color: #eeeded;
+  display: block;
 }
 
 ul {
