@@ -126,7 +126,8 @@ nav a {
 }
 
 .buy {
-  padding: 10px 90px;
+  padding-right: 90px;
+  padding-top: 10px;
   box-sizing: border-box;
   max-width: 370px;
   width: 100%;
@@ -144,7 +145,6 @@ nav a {
 .men-women {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
 }
 
 h1 {
