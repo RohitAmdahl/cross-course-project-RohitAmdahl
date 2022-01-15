@@ -97,6 +97,7 @@ nav a {
   text-decoration: none;
   box-shadow: -1px 14px 12px #dbdbdb;
   text-shadow: 0 2px 5px #000;
+  text-align: center;
 }
 
 .container-1 {
@@ -145,6 +146,12 @@ nav a {
   bottom: -45px;
 }
 
+.women {
+  position: relative;
+  right: 0px;
+  bottom: 0px;
+}
+
 .buy {
   padding-right: 70px;
   padding-top: 10px;
@@ -163,6 +170,10 @@ nav a {
   display: flex;
   justify-content: center;
   font-size: 1em;
+}
+
+.New-arrivals {
+  text-align: center;
 }
 
 .men-women {
@@ -252,13 +263,32 @@ ul {
     padding: 10px 80px;
     border-radius: 10px;
   }
-  li{ 
+
+  li {
     display: none;
   }
-  nav a{
+  nav a {
     display: none;
   }
-  .cart{
+
+  .buy {
+    padding-right: 0px;
+  }
+
+  .New-arrivals {
+    flex-direction: column;
+  }
+  h3 em {
+    margin: 0px;
+    padding-top: 20px;
+    left: 0px;
+    right: 0px;
+  }
+  nav {
+    display: none;
+  }
+
+  .cart {
     display: none;
   }
   .form-footer {
@@ -267,6 +297,4 @@ ul {
   .logo-img {
     min-width: 150px;
   }
-  .cta-1 {
-    display: none;
-  }
+}

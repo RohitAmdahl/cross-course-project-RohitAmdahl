@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3fd806e42a.js" crossorigin="anonymous"></script>
     <title>Rainy day / Homepage </title>
 </head>
 <body>
@@ -16,12 +17,16 @@
           <div>
               <img src="../images/Logo.png" alt="Rainy day logo" class="logo-img">
           </div>
-          <nav>
-              <a href="#">Men</a>
-              <a href="#">Women</a>
-              <a href="#">About Us</a>
-              <a href="#"> Collection</a>
-          </nav>
+          <div class="menu-bar">
+              <input type="checkbox" id="menu checkbox" />
+              <label for="menu checkbox"><i class="fas fa-bars"></i></label>
+              <nav>
+                 <a href="#">Men</a>
+                 <a href="#">Women</a>
+                 <a href="#">About Us</a>
+                 <a href="#"> Collection</a>
+             </nav>
+        </div>
           <section class="sub-menu">
               <form class="search" action="">
                  <input type="search" placeholder="Search your style" class="search-bar">
