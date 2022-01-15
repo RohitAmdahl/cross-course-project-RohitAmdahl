@@ -228,3 +228,13 @@ ul {
   box-sizing: border-box;
   max-width: 550px;
 }
+
+@media only screen and (max-width: 600px) {
+  pre {
+    font-size: 0.8em;
+    padding: 15px;
+  }
+  .container-1 {
+    flex-direction: column;
+  }
+}
