@@ -19,11 +19,17 @@ nav a {
 }
 
 .search-bar {
-  background-image: url(../images/interface\ search.png);
-  background-repeat: no-repeat;
-  background-position: right;
-  padding: 10px 60px;
+  padding: 10px 70px;
   margin-right: 15px;
+}
+
+.click-search {
+  width: 100%;
+  max-width: fit-content;
+  cursor: pointer;
+  position: relative;
+  left: -50px;
+  top: 10px;
 }
 
 .search {
@@ -212,3 +218,5 @@ ul {
   box-sizing: border-box;
   max-width: 550px;
 }
+
+@media (max-width: 600px);
