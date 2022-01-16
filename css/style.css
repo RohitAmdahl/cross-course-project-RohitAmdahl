@@ -146,12 +146,6 @@ nav a {
   bottom: -45px;
 }
 
-.women {
-  position: relative;
-  right: 0px;
-  bottom: 0px;
-}
-
 .buy {
   padding-right: 70px;
   padding-top: 10px;
@@ -162,6 +156,8 @@ nav a {
 }
 .buy-buy {
   padding-left: 30px;
+  box-sizing: border-box;
+  max-width: 350px;
 }
 
 .New-arrivals {
@@ -170,6 +166,7 @@ nav a {
   display: flex;
   justify-content: center;
   font-size: 1em;
+  text-align: center;
 }
 
 .New-arrivals {
@@ -192,8 +189,8 @@ h1 {
 h3 em {
   color: #574f4f;
   margin: 20px;
-  position: absolute;
   margin-left: 50px;
+  text-align: center;
 }
 
 footer {
@@ -259,6 +256,9 @@ ul {
   .men-1 {
     background-size: 350px;
   }
+  .cta-1 {
+    display: none;
+  }
   .cta-2 {
     padding: 10px 80px;
     border-radius: 10px;
@@ -271,30 +271,45 @@ ul {
     display: none;
   }
 
+  .menu-bar {
+    position: relative;
+  }
+
+  .women {
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+  }
+
   .buy {
     padding-right: 0px;
+  }
+
+  .buy-now {
+    padding-left: 90px;
+    padding-right: 90px;
   }
 
   .New-arrivals {
     flex-direction: column;
   }
+
   h3 em {
     margin: 0px;
     padding-top: 20px;
     left: 0px;
     right: 0px;
   }
-  nav {
-    display: none;
-  }
 
   .cart {
     display: none;
   }
+
   .form-footer {
-    padding: 0;
+    padding: 0px;
   }
-  .logo-img {
-    min-width: 150px;
+
+  #menu-checkbox:checked ~ .menu-bar {
+    display: block;
   }
 }
