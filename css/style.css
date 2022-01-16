@@ -283,9 +283,6 @@ ul {
   li {
     display: none;
   }
-  nav a {
-    display: none;
-  }
 
   .menu-bar {
     position: relative;
@@ -293,8 +290,16 @@ ul {
 
   .women {
     position: relative;
-    right: 0px;
-    bottom: 0px;
+    right: -135px;
+    bottom: 10px;
+    width: 70%;
+  }
+
+  .men {
+    position: absolute;
+    left: 10px;
+    bottom: -947px;
+    width: 63%;
   }
 
   .buy {
@@ -334,6 +339,7 @@ ul {
   }
 
   #menu-checkbox:checked ~ .menu-bar {
-    display: inline-block;
+    display: block;
+    justify-content: center;
   }
 }
