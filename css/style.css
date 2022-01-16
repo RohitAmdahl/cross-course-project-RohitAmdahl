@@ -157,8 +157,8 @@ nav a {
 }
 .buy-buy {
   padding-left: 30px;
-  box-sizing: border-box;
   max-width: 350px;
+  display: initial;
 }
 
 .New-arrivals {
@@ -176,7 +176,8 @@ nav a {
 
 .men-women {
   display: flex;
-  flex-wrap: wrap;
+  flex: 1;
+  flex: inherit;
 }
 
 h1 {
@@ -243,6 +244,18 @@ ul {
   font-size: 18px;
 }
 
+/*---desktop phone ----*/
+
+@media only screen and (max-width: 1280px) {
+  pre {
+    font-size: 0.8em;
+  }
+  .men-women {
+    flex: 1;
+    flex-flow: inherit;
+  }
+}
+
 /*---media phone ----*/
 
 @media only screen and (max-width: 600px) {
@@ -252,11 +265,12 @@ ul {
 
   .container-1 {
     flex-direction: column;
+    margin: 30px;
   }
 
   .Women-1,
   .men-1 {
-    background-size: 350px;
+    background-size: 450px;
   }
   .cta-1 {
     display: none;
@@ -285,6 +299,14 @@ ul {
 
   .buy {
     padding-right: 0px;
+    max-width: none;
+  }
+
+  .buy-buy {
+    max-width: none;
+  }
+  .newsletter-text {
+    max-width: none;
   }
 
   .buy-now {
@@ -312,6 +334,6 @@ ul {
   }
 
   #menu-checkbox:checked ~ .menu-bar {
-    display: block;
+    display: inline-block;
   }
 }
