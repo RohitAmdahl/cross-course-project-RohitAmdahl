@@ -259,7 +259,7 @@ ul {
 
 /*---media phone ----*/
 
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
   pre {
     font-size: 0.7em;
   }
