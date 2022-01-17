@@ -255,25 +255,11 @@ ul {
     flex: 1;
     flex-flow: inherit;
   }
-
-  .Women-1 {
-    width: 100%;
-    max-width: 550px;
-  }
-  .men-1 {
-    max-width: 550px;
-  }
-  .form-footer {
-    padding-left: 65px;
-  }
-  .search-bar {
-    padding: 5px 40px;
-  }
 }
 
 /*---media phone ----*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   pre {
     font-size: 0.7em;
   }
