@@ -38,14 +38,6 @@ nav a {
   top: 10px;
 }
 
-.search {
-  display: inline-block;
-}
-
-.sub-menu {
-  padding-right: 120px;
-}
-
 .cart {
   max-width: 40px;
   float: right;
@@ -286,10 +278,6 @@ ul {
 
   li {
     display: none;
-  }
-
-  .menu-bar {
-    position: relative;
   }
 
   .women {
