@@ -220,9 +220,10 @@ footer {
 }
 
 .Subscribe {
-  font-size: 1, 3em;
+  font-size: 1em;
   border: none;
   background-color: #eeeded;
+  text-decoration: none;
 }
 
 ul {
@@ -235,7 +236,7 @@ ul {
 }
 
 .form-footer {
-  padding-left: 100px;
+  padding-left: 170px;
   box-sizing: border-box;
   max-width: 550px;
 }
@@ -278,6 +279,9 @@ ul {
   .cta-2 {
     padding: 10px 80px;
     border-radius: 10px;
+  }
+  nav {
+    display: none;
   }
 
   li {
