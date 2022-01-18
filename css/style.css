@@ -271,14 +271,26 @@ ul {
     width: 250px;
   }
   h1 {
-    font-size: 1em;
+    font-size: 1.5em;
+    color: #eeeded;
   }
   .buy-now {
     padding: 8px 50px;
     font-size: 15px;
+    box-shadow: 12px 25px 41px #d47070;
   }
+  h3 em {
+    color: #1f1e1e;
+    top: 0;
+  }
+
   .men-women {
     display: none;
+  }
+  .New-arrivals {
+    background-image: url(../images/lady\ with\ yellow\ jacket\ looking\ thup\ in\ the\ rain-min.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
