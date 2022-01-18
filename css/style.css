@@ -292,6 +292,15 @@ ul {
     background-size: cover;
     background-repeat: no-repeat;
   }
+  .newsletter-text {
+    display: none;
+  }
+  .footer-text {
+    font-size: 0.8em;
+  }
+  .form-footer {
+    padding-left: 250px;
+  }
 }
 
 /*---media phone ----*/
