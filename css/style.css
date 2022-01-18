@@ -42,8 +42,8 @@ nav a {
   max-width: 40px;
   float: right;
   position: relative;
-  left: 60px;
-  bottom: 30px;
+  left: 37px;
+  bottom: -7px;
 }
 
 .cta-1 {
@@ -54,10 +54,7 @@ nav a {
   color: #000;
   font-weight: bold;
   border-radius: 5px;
-}
-
-.cta-1 {
-  box-shadow: 0px 2px 5px;
+  box-shadow: 0px 1px 4px;
   color: #000;
 }
 
@@ -75,7 +72,7 @@ nav a {
   text-decoration: none;
   position: relative;
   bottom: 50px;
-  box-shadow: -1px 24px 12px #dbdbdb;
+  box-shadow: -1px 13px 10px #dbdbdb;
   text-shadow: 0 2px 5px #000;
 }
 
@@ -249,6 +246,42 @@ ul {
   }
 }
 
+/*---i pad phone ----*/
+
+@media only screen and (max-width: 800px) {
+  .container-1 {
+    max-width: 650px;
+    margin-left: 80px;
+  }
+  .menu-bar {
+    display: none;
+  }
+  .cta-2 {
+    padding: 5px 35px;
+    font-size: 20px;
+    top: -30px;
+  }
+  .cta-1 {
+    padding: 5px 35px;
+    font-size: 20px;
+    top: -30px;
+  }
+  .buy {
+    font-size: 0.8em;
+    width: 250px;
+  }
+  h1 {
+    font-size: 1em;
+  }
+  .buy-now {
+    padding: 8px 50px;
+    font-size: 15px;
+  }
+  .men-women {
+    display: none;
+  }
+}
+
 /*---media phone ----*/
 
 @media only screen and (max-width: 600px) {
@@ -260,7 +293,11 @@ ul {
     flex-direction: column;
     margin: 30px;
   }
-
+  .logo-img {
+    position: relative;
+    top: 6px;
+    left: 76px;
+  }
   .Women-1,
   .men-1 {
     background-size: 450px;
@@ -330,7 +367,7 @@ ul {
     padding: 0px;
   }
 
-  #menu-checkbox:checked ~ .menu-bar {
+  #menu-checkbox:checked ~ nav a {
     display: block;
     justify-content: center;
   }
