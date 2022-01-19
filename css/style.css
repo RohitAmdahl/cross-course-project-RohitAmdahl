@@ -236,7 +236,7 @@ ul {
 
 /*---desktop phone ----*/
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 1280px) {
   pre {
     font-size: 0.8em;
   }
@@ -250,91 +250,17 @@ ul {
 
 /*---media phone ----*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   pre {
     font-size: 0.7em;
   }
 
-  .container-1 {
-    flex-direction: column;
-    margin: 30px;
-  }
   .logo-img {
     position: relative;
     top: 6px;
     left: 76px;
   }
-  .Women-1,
-  .men-1 {
-    background-size: 450px;
-  }
-  .cta-1 {
-    display: none;
-  }
-  .cta-2 {
-    padding: 10px 80px;
-    border-radius: 10px;
-  }
-  nav {
-    display: none;
-  }
 
-  li {
-    display: none;
-  }
-
-  .women {
-    position: relative;
-    right: -135px;
-    bottom: 10px;
-    width: 70%;
-  }
-
-  .men {
-    position: absolute;
-    left: 10px;
-    bottom: -996px;
-    width: 63%;
-  }
-
-  .buy {
-    padding-right: 0px;
-    max-width: none;
-  }
-
-  .buy-buy {
-    max-width: none;
-  }
-  .newsletter-text {
-    max-width: none;
-  }
-
-  .buy-now {
-    padding-left: 90px;
-    padding-right: 90px;
-  }
-
-  .New-arrivals {
-    flex-direction: column;
-  }
-
-  h3 em {
-    margin: 0px;
-    padding-top: 20px;
-    left: 0px;
-    right: 0px;
-  }
-
-  .cart {
-    display: none;
-  }
-
-  .form-footer {
-    padding: 0px;
-  }
-
-  #menu-checkbox:checked ~ nav a {
-    display: block;
-    justify-content: center;
+  #menu-checkbox:checked ~ nav {
   }
 }
