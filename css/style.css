@@ -234,19 +234,10 @@ ul {
   font-size: 18px;
 }
 
-/*---desktop phone ----*/
-
-@media only screen and (min-width: 1280px) {
-  pre {
-    font-size: 0.8em;
-  }
-  .men-women {
-    flex: 1;
-    flex-flow: inherit;
-  }
-}
-
 /*---i pad phone ----*/
+
+@media only screen and (min-width: 800px) {
+}
 
 /*---media phone ----*/
 
