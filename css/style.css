@@ -226,6 +226,10 @@ ul {
 /*---i pad phone ----*/
 
 @media only screen and (min-width: 800px) {
+  .cta-2 {
+    padding: 10px 40px;
+    font-size: 1.1em;
+  }
 }
 
 /*---media phone ----*/
