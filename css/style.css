@@ -16,12 +16,18 @@ header {
 .menu-bar {
   display: none;
 }
+
 .logo-img {
   width: 50%;
   max-width: 150px;
   position: absolute;
 }
+
 .search-box {
+  padding: 5px 20px;
+  background-image: url(../images/interface\ search.png);
+  background-repeat: no-repeat;
+  background-position: right bottom -5px;
 }
 
 nav a {
@@ -29,15 +35,6 @@ nav a {
   padding: 15px;
   font-size: 1.1em;
   text-decoration: none;
-}
-
-.click-search {
-  width: 100%;
-  max-width: fit-content;
-  cursor: pointer;
-  position: relative;
-  left: -50px;
-  top: 10px;
 }
 
 .cart {
@@ -312,7 +309,7 @@ ul {
 
 /*---media phone ----*/
 
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 480px) {
   .logo-img {
     position: relative;
     top: 6px;
