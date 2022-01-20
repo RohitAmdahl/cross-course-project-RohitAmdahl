@@ -77,7 +77,7 @@ nav a {
 .buy-now {
   background-color: #574f4f;
   color: #e9c69e;
-  padding: 15px 80px;
+  padding: 15px 50px;
   font-size: 1.5em;
   border-radius: 5px;
   font-weight: bold;
@@ -228,7 +228,7 @@ ul {
 
 /*-------------------------------------------i pad phone ------------------------------------------------*/
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) and (max-width: 1050px){
   body {
     margin: 0;
   }
@@ -284,9 +284,14 @@ ul {
 
   h1 {
     margin-top: 0px;
+    font-size: 1.7em;
   }
   .buy-buy {
     padding-top: 88px;
+  }
+
+  .buy-now{
+    padding: 15px 30px;
   }
   .new-arrivals {
     flex-direction: column;
@@ -346,6 +351,8 @@ ul {
   }
   .buy {
     padding-top: 30px;
+    font-size: 1em;
+    text-align: center;
   }
 
   .buy-buy {
@@ -383,3 +390,11 @@ ul {
     display: block;
   }
 }
+
+/*------------------------------------------------dekstop --------------------------------- ----*/
+
+@media only screen and (max-width: 1200px) and (max-width: 1450px){
+  
+  .cta-2 {
+    
+  }
