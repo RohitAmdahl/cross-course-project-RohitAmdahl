@@ -16,16 +16,19 @@ header {
 .menu-bar {
   display: none;
 }
+.logo-img {
+  width: 50%;
+  max-width: 150px;
+  position: absolute;
+}
+.search-box {
+}
+
 nav a {
   color: #000;
   padding: 15px;
   font-size: 1.1em;
   text-decoration: none;
-}
-
-.search-bar {
-  padding: 10px 50px;
-  margin-right: 0px;
 }
 
 .click-search {
@@ -41,8 +44,8 @@ nav a {
   max-width: 40px;
   float: right;
   position: relative;
-  left: 37px;
-  bottom: -7px;
+  left: 28px;
+  bottom: 4px;
 }
 
 .cta-1 {
@@ -50,11 +53,9 @@ nav a {
   padding: 6px 13px;
   margin: 12px;
   text-decoration: none;
-  color: #000;
-  font-weight: bold;
+  color: #574f4f;
   border-radius: 5px;
   box-shadow: 0px 1px 4px;
-  color: #000;
 }
 
 /*------------------------------------main------------------------------------------*/
@@ -231,6 +232,33 @@ ul {
   body {
     margin: 0;
   }
+
+  .logo-img {
+    padding-top: 15px;
+    width: 60%;
+    position: relative;
+    top: 6px;
+    left: 180px;
+  }
+
+  .sub-menu {
+    display: none;
+  }
+  nav {
+    display: none;
+  }
+  #menu-checkbox {
+    display: none;
+  }
+
+  #menu-checkbox:checked ~ nav {
+    display: block;
+  }
+
+  .menu-bar {
+    display: block;
+  }
+
   .container-1 {
     flex-direction: column;
   }
