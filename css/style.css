@@ -107,7 +107,7 @@ nav a {
   background-image: url(../images/circle\ man.png);
   background-repeat: no-repeat;
   background-size: 500px;
-  background-position: right 20% bottom 80%;
+  background-position: right bottom 80%;
   max-width: 100%;
   min-width: 350px;
 }
@@ -214,7 +214,7 @@ ul {
 }
 
 .form-footer {
-  padding-left: 170px;
+  padding-left: 120px;
   box-sizing: border-box;
   max-width: 550px;
 }
