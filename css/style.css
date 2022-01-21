@@ -198,10 +198,11 @@ h3 {
 .about-text {
   background-color: #574f4f;
   color: #fff;
-  max-width: 600px;
-  max-height: 485px;
   font-size: 1em;
   text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 90px;
 }
 
 /*------------------------------------Footer-----------------------------------------------------------*/
