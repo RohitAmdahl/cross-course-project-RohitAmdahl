@@ -430,9 +430,10 @@ ul {
 
   .logo-img {
     position: relative;
-    top: 6px;
-    left: 76px;
+    top: -12px;
+    left: 134px;
   }
+
   .women {
     display: none;
   }
