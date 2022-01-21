@@ -110,10 +110,6 @@ nav a {
   min-width: 350px;
 }
 
-.men:hover {
-  transition: all is ease-in-out 250ms;
-}
-
 .women-1 {
   width: 100%;
   max-width: 650px;
@@ -256,21 +252,40 @@ ul {
     margin: 0;
   }
 
+  .fas.fa-bars {
+    position: absolute;
+    left: 26px;
+  }
+  .search-box {
+    display: inline;
+  }
+  .sub-menu {
+    position: absolute;
+    top: 105px;
+    margin-right: 115px;
+  }
+  .search-box {
+    padding-left: 66px;
+    padding-right: 20px;
+  }
+  .cta-1 {
+    left: 95px;
+  }
+
   .logo-img {
     padding-top: 15px;
-    width: 60%;
+    width: 80%;
     position: relative;
     top: 6px;
     left: 180px;
+    padding-bottom: 30px;
   }
 
-  .sub-menu {
-    display: none;
-  }
-  nav {
-    display: none;
-  }
   #menu-checkbox {
+    display: none;
+  }
+
+  nav {
     display: none;
   }
 
@@ -349,9 +364,28 @@ ul {
 /*------------------------------------------------media phone---------------------------------- ----*/
 
 @media only screen and (max-width: 430px) and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+
   .logo-img {
     position: absolute;
     left: 100px;
+  }
+  .search-box {
+    padding-left: 66px;
+    padding-right: 20px;
+    margin-left: 81px;
+    margin-bottom: -5px;
+    margin-top: -10px;
+  }
+  }
+  .cta-1 {
+    display: none;
+  }
+  .cart {
+    left: 61px;
+    bottom: 26px;
   }
 
   .men-1 {
@@ -378,6 +412,8 @@ ul {
     margin: 0;
     padding-top: 20px;
     width: 235px;
+    font-size: 3em;
+    
   }
   .buy {
     padding-top: 30px;
@@ -403,7 +439,7 @@ ul {
   }
 
   h3 {
-    font-size: 2em;
+    font-size: 1.4em;
   }
 
   .form-footer {
@@ -412,8 +448,10 @@ ul {
   }
 
   .footer-text {
-    font-size: 0.8em;
-    margin: 0;
+    display: none;
+  }
+  .copywrite {
+    font-size: 12px;
   }
 
   #menu-checkbox:checked ~ nav {
