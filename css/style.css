@@ -17,7 +17,7 @@ header {
 }
 
 .logo-img {
-  width: 70%;
+  width: 100%;
   max-width: 150px;
 }
 #menu-checkbox {
@@ -254,17 +254,16 @@ ul {
 
 /*-------------------------------------------------------i pad phone ------------------------------------------------*/
 
-@media only screen and (max-width: 800px) {
+@media (max-width: 800px) {
   body {
     margin: 0;
   }
 
-  .fas.fa-bars {
-    position: absolute;
-    left: 26px;
-  }
   .search-box {
     display: inline;
+  }
+  .cart {
+    margin-top: 50px;
   }
   .sub-menu {
     position: absolute;
@@ -274,6 +273,7 @@ ul {
   .search-box {
     padding-left: 66px;
     padding-right: 20px;
+    margin-top: 47px;
   }
   .cta-1 {
     left: 95px;
@@ -284,12 +284,8 @@ ul {
     width: 80%;
     position: relative;
     top: 6px;
-    left: 180px;
+    left: 0px;
     padding-bottom: 30px;
-  }
-
-  #menu-checkbox {
-    display: none;
   }
 
   nav {
@@ -371,7 +367,7 @@ ul {
 
 /*------------------------------------------------media phone---------------------------------- ----*/
 
-@media only screen and (max-width: 430px) {
+@media (max-width: 430px) {
   body {
     margin: 0;
   }
@@ -381,19 +377,22 @@ ul {
     left: 100px;
   }
   .search-box {
+    left: 0px;
+    right: 0px;
+    top: 0px;
     padding-left: 66px;
-    padding-right: 20px;
-    margin-left: 81px;
-    margin-bottom: -5px;
-    margin-top: -10px;
+    bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 113px;
+    margin-left: 93px;
+    position: absolute;
   }
 
   .cta-1 {
     display: none;
   }
   .cart {
-    left: 61px;
-    bottom: 26px;
+    display: none;
   }
 
   .men-1 {
@@ -456,6 +455,7 @@ ul {
 
   .footer-text {
     display: none;
+    margin: 0;
   }
 
   .copywrite {
