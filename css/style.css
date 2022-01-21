@@ -379,7 +379,7 @@ ul {
     margin-bottom: -5px;
     margin-top: -10px;
   }
-  }
+
   .cta-1 {
     display: none;
   }
@@ -413,7 +413,6 @@ ul {
     padding-top: 20px;
     width: 235px;
     font-size: 3em;
-    
   }
   .buy {
     padding-top: 30px;
@@ -450,6 +449,7 @@ ul {
   .footer-text {
     display: none;
   }
+
   .copywrite {
     font-size: 12px;
   }
@@ -458,5 +458,3 @@ ul {
     display: block;
   }
 }
-
-/*------------------------------------------------dekstop --------------------------------- ----*/
