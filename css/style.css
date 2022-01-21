@@ -456,5 +456,6 @@ ul {
 
   #menu-checkbox:checked ~ nav {
     display: block;
+    position: absolute;
   }
 }
