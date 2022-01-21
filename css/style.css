@@ -186,11 +186,22 @@ h3 {
 
 .about {
   text-align: center;
-  background-image: url(../images/about\ us.jpg);
-  height: 50vh;
+  background-image: url(../images/about\ us\ pic.png);
+  height: 40vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -284px;
+  color: #000;
+  width: 100%;
+  text-shadow: -1px 1px 2px #fff;
+}
+
+.about-text {
+  background-color: #574f4f;
+  color: #fff;
+  max-width: 600px;
+  max-height: 485px;
+  font-size: 1em;
+  text-align: left;
 }
 
 /*------------------------------------Footer-----------------------------------------------------------*/
