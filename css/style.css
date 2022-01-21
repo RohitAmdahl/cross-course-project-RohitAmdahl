@@ -395,25 +395,21 @@ ul {
 
   .logo-img {
     position: relative;
-    left: 212px;
+    top: 15px;
+    left: 150px;
   }
+
   .search-box {
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    top: 0px;
-    right: 0px;
-    margin-left: 73px;
-    margin-top: 115px;
-    padding-right: 38px;
+    position: relative;
+    left: -61px;
   }
 
   .fas.fa-bars,
   i {
     position: absolute;
     right: 395px;
-    left: 17px;
-    top: 122px;
+    left: 6px;
+    top: -36px;
   }
 
   .cart {
