@@ -9,16 +9,22 @@ body {
 header {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.navigation {
+  display: flex;
 }
 
 .logo-img {
-  width: 50%;
+  width: 70%;
   max-width: 150px;
 }
-label,
-input {
+#menu-checkbox {
+  display: none;
+}
+
+.fas.fa-bars {
   display: none;
 }
 
@@ -27,6 +33,7 @@ input {
   background-image: url(../images/interface\ search.png);
   background-repeat: no-repeat;
   background-position: right bottom -5px;
+  cursor: pointer;
 }
 
 nav a {
@@ -245,7 +252,7 @@ ul {
   font-size: 18px;
 }
 
-/*-------------------------------------------i pad phone ------------------------------------------------*/
+/*-------------------------------------------------------i pad phone ------------------------------------------------*/
 
 @media only screen and (max-width: 800px) {
   body {
@@ -364,7 +371,7 @@ ul {
 
 /*------------------------------------------------media phone---------------------------------- ----*/
 
-@media only screen and (max-width: 430px) and (max-width: 600px) {
+@media only screen and (max-width: 430px) {
   body {
     margin: 0;
   }
