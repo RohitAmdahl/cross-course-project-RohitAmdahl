@@ -180,7 +180,7 @@ nav a {
 
 h1 {
   color: #574f4f;
-  font-size: 28px;
+  font-size: 2px;
   margin: 20px;
   text-decoration: underline 2px solid #574f4f;
   text-underline-offset: 25px;
@@ -269,9 +269,10 @@ ul {
     margin: 0;
   }
 
-  .fas.fa-bars {
-    position: absolute;
+  label {
+    display: block;
   }
+
   .search-box {
     display: inline;
   }
@@ -303,6 +304,10 @@ ul {
 
   nav {
     display: none;
+  }
+
+  #menu-checkbox:checked ~ nav {
+    display: clock;
   }
 
   .container-1 {
