@@ -247,7 +247,7 @@ ul {
 
 /*-------------------------------------------i pad phone ------------------------------------------------*/
 
-@media only screen and (max-width: 800px) and (max-width: 1050px) {
+@media only screen and (max-width: 800px) {
   body {
     margin: 0;
   }
@@ -321,8 +321,9 @@ ul {
   }
 
   h1 {
-    margin-top: 0px;
+    margin: 0px;
     font-size: 1.7em;
+    text-align: center;
   }
   .buy-buy {
     padding-top: 88px;
@@ -358,6 +359,18 @@ ul {
     color: #e9c69e;
     border-radius: 10px;
     background: #574f4f;
+  }
+}
+
+@media only screen and (max-width: 802px) and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+  nav {
+    font-size: 14px;
+  }
+  .new-arrivals {
+    flex-direction: column;
   }
 }
 
