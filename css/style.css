@@ -180,7 +180,7 @@ nav a {
 
 h1 {
   color: #574f4f;
-  font-size: 2px;
+  font-size: 28px;
   margin: 20px;
   text-decoration: underline 2px solid #574f4f;
   text-underline-offset: 25px;
@@ -269,10 +269,9 @@ ul {
     margin: 0;
   }
 
-  label {
-    display: block;
+  .fas.fa-bars {
+    position: absolute;
   }
-
   .search-box {
     display: inline;
   }
@@ -297,17 +296,13 @@ ul {
     padding-top: 15px;
     width: 80%;
     position: relative;
-    top: 6px;
+    top: -6px;
     left: 0px;
     padding-bottom: 30px;
   }
 
   nav {
     display: none;
-  }
-
-  #menu-checkbox:checked ~ nav {
-    display: clock;
   }
 
   .container-1 {
@@ -372,6 +367,12 @@ ul {
     color: #e9c69e;
     border-radius: 10px;
     background: #574f4f;
+  }
+  #menu-checkbox:checked ~ nav {
+    display: grid;
+    position: absolute;
+    left: 32px;
+    top: 155px;
   }
 }
 
