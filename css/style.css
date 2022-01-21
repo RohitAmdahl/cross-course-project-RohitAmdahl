@@ -487,6 +487,9 @@ ul {
   .copywrite {
     font-size: 12px;
   }
+  .e-post {
+    position: inherit;
+  }
 
   #menu-checkbox:checked ~ nav {
     display: grid;
