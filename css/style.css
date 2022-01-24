@@ -326,7 +326,9 @@ group-picture {
 }
 .welcome-1 {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  align-items: self-end;
 }
 .four {
   grid-column: 2;
@@ -391,6 +393,14 @@ group-picture {
 .womens-section {
   max-width: 100px;
 }
+/*------------------------------------product -----------------------------------------------------------*/
+.cart-product {
+  background-image: url(../images/red\ star.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  background-position-y: 2px;
+}
 
 /*------------------------------------Log in and sign up -----------------------------------------------------------*/
 .products-login {
@@ -418,6 +428,11 @@ group-picture {
   grid-template-columns: 161px 400px;
   grid-gap: 10px;
 }
+.create-account {
+  margin-left: 0px;
+  margin-bottom: 50px;
+}
+
 .wrap {
   display: flex;
   justify-content: space-evenly;
