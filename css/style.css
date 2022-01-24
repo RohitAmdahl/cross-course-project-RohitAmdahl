@@ -33,8 +33,7 @@ header {
   display: none;
 }
 
-.fas fa-bars,
-label {
+#burger {
   display: none;
 }
 
@@ -438,6 +437,10 @@ body {
 
   #menu-checkbox:checked ~ nav {
     display: clock;
+  }
+
+  #burger {
+    display: block;
   }
 
   .container-1 {
