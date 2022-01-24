@@ -250,7 +250,6 @@ ul {
   text-shadow: -1px 1px 2px #fff;
   font-size: 2.5em;
   margin: 0;
-  padding-top: 40px;
 }
 
 .about-text {
@@ -330,6 +329,12 @@ body {
   position: relative;
   right: -180px;
   top: -200px;
+  width: 100%;
+  max-width: 16px;
+}
+.choose-my-style {
+  text-align: unset;
+  margin-bottom: 65px;
 }
 
 /*........................................collection-----------------------------------..........................................*/
@@ -356,6 +361,8 @@ body {
 .welcome-collection {
   display: grid;
   grid-template-columns: repeat(3, auto);
+  justify-content: space-evenly;
+  margin-top: 50px;
 }
 
 /*-------------------------------------------------------i pad phone  media quarry ------------------------------------------------*/
@@ -480,6 +487,29 @@ body {
     left: 32px;
     top: 155px;
   }
+  .welcome-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .choose-my-style {
+    font-size: 22px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-left: 64px;
+    margin-bottom: 64px;
+  }
+  .products {
+    width: 100%;
+    max-width: 100px;
+  }
+  .welcome-2 {
+    width: 100%;
+    max-width: 542px;
+  }
 }
 
 /*------------------------------------------------media phone--media quarry -------------------------------- ----*/
@@ -512,8 +542,7 @@ body {
     display: none;
   }
 
-  .cta-1,
-  .cta-2 {
+  .cta-1 {
     display: none;
   }
 
@@ -592,5 +621,27 @@ body {
     position: absolute;
     left: 32px;
     top: 155px;
+  }
+
+  /*------------------------------------------------Men--media quarry -------------------------------- ----*/
+
+  .welcome-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .choose-my-style {
+    font-size: 22px;
+    padding-bottom: 40px;
+    text-align: -moz-right;
+    padding-bottom: 40px;
+    padding-left: 64px;
+    margin-bottom: 64px;
+  }
+  .products {
+    width: 100%;
+    max-width: 100px;
   }
 }
