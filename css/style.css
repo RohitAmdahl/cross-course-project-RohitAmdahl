@@ -380,8 +380,12 @@ body {
 }
 
 /*------------------------------------Log in and sign up -----------------------------------------------------------*/
-.Log-in-section {
-  display: flex;
+.products-login {
+  width: 100%;
+  max-width: 600px;
+  background-image: url(../images/log\ in\ page-circle.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 /*-------------------------------------------------------i pad phone  media quarry ------------------------------------------------*/
