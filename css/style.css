@@ -243,6 +243,7 @@ ul {
   background-image: url(../images/about\ us.jpg);
   height: 50vh;
   background-repeat: no-repeat;
+  background-position-y: center;
   background-size: cover;
   color: #000;
   width: 100%;
