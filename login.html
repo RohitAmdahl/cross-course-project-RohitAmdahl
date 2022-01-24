@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
-    <title>Rainy day / Homepage </title>
+    <title>Rainy day| Log In </title>
 </head>
 <body>
   <header>
@@ -33,8 +33,8 @@
        <div>
            <section class="navigation-2">
                <input type="search" placeholder="search your style"class="search-box">
-               <a class="cta-1" href="">Log in</a>
-               <a class="cta-1" href="">Sign Up</a>
+               <a class="cta-1" href="login.html">Log in</a>
+               <a class="cta-1" href="signup.html">Sign Up</a>
                <img src="../images/cart.png" alt="cart" class="cart">
            </section>
        </div>       
@@ -42,15 +42,30 @@
     <main>
       <section class="Log-in-section">
         <div>
-          <img src="./images/man jacket 2.png" alt="" class="Login">
+          <img src="./images/man jacket blue.png" alt="" class="products">
         </div>
-      </section>
-         <section class="Log-in-section">
         <div>
-          <img src="./images/women jacket  red 5.png" alt="red color jacket unisex style ">
+          <img src="./images/women jacket  red 5.png" alt="red color jacket unisex style" class="products">
         </div>
       </section>
-      <img src="" alt="">
+      <form method="post">
+        <div>
+          <img src="./images/login illustration.png" alt="log in illustration">
+        </div>
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="Email" />
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" maxlength="10" required />
+          <div>
+            <input type="submit" value="Send Now" class="cta" />
+          </div>
+          
+
+          
+      </form>
+
 
     </main>
     <footer>
