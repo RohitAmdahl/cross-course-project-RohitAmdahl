@@ -240,8 +240,8 @@ ul {
 
 .about {
   text-align: center;
-  background-image: url(../images/about\ us\ pic.png);
-  height: 70vh;
+  background-image: url(../images/about\ us.jpg);
+  height: 50vh;
   background-repeat: no-repeat;
   background-size: cover;
   color: #000;
@@ -305,9 +305,6 @@ group-picture {
 }
 
 /*------------------------------------Men page and women page -----------------------------------------------------------*/
-body {
-  margin: 0;
-}
 
 .welcome-2 {
   width: 100%;
@@ -385,6 +382,33 @@ body {
   background-image: url(../images/log\ in\ page-circle.png);
   background-repeat: no-repeat;
   background-size: 100%;
+}
+
+.cta {
+  background-color: #e9c69e;
+  text-decoration: none;
+  color: #000000;
+  border-radius: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 7px 50px;
+  position: relative;
+  left: 287px;
+}
+
+.account {
+  display: grid;
+  grid-template-columns: 161px 400px;
+  grid-gap: 10px;
+}
+.wrap {
+  display: flex;
+  justify-content: space-evenly;
+}
+.login-picture {
+  position: relative;
+  left: 250px;
+  margin-bottom: 20px;
 }
 
 /*-------------------------------------------------------i pad phone  media quarry ------------------------------------------------*/
