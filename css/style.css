@@ -806,4 +806,7 @@ group-picture {
   .footer-text {
     display: none;
   }
+  #burger {
+    display: block;
+  }
 }
