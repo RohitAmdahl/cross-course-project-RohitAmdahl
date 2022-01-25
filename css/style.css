@@ -269,7 +269,8 @@ ul {
   background-color: #574f4f;
   color: #fff;
   text-align: left;
-  width: 500px;
+  width: 100%;
+  max-width: 700px;
   margin: 0 auto;
   padding: 40px 90px;
   position: relative;
