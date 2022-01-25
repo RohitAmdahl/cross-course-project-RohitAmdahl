@@ -330,6 +330,7 @@ group-picture {
   grid-template-columns: repeat(4, 1fr);
   justify-content: center;
   align-items: self-end;
+  gap: 20px;
 }
 .four {
   grid-column: 2;
