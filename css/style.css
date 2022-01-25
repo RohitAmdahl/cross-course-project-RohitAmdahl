@@ -395,6 +395,35 @@ group-picture {
 .womens-section {
   max-width: 100px;
 }
+/*------------------------------------checkout page -----------------------------------------------------------*/
+.card-details {
+  text-align: center;
+  text-decoration: none;
+}
+
+.shipping {
+  display: flex;
+  justify-content: center;
+  padding: 50px 10px;
+  height: 50px;
+}
+.btn {
+  background-color: #e9c69e;
+  padding: 12px 50px;
+  margin: 12px;
+  text-decoration: none;
+  color: #574f4f;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px;
+  font-weight: bold;
+  font-size: 1.5em;
+  align-items: center;
+}
+.purchase {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
 /*------------------------------------product -----------------------------------------------------------*/
 .cart-product {
   background-image: url(../images/red\ star.png);
@@ -455,7 +484,7 @@ group-picture {
 
 .account {
   display: grid;
-  grid-template-columns: 161px 400px;
+  grid-template-columns: 161px 300px;
   grid-gap: 10px;
 }
 .create-account {
