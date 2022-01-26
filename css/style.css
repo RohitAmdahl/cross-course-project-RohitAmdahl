@@ -713,6 +713,9 @@ group-picture {
     font-size: 0.9em;
     margin-left: 6px;
   }
+  .cart {
+    position: inherit;
+  }
 
   #menu-checkbox:checked ~ nav {
     display: grid;
