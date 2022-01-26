@@ -30,7 +30,7 @@ header {
 
 .logo-img {
   width: 100%;
-  max-width: 150px;
+  max-width: 100px;
 }
 
 #menu-checkbox {
@@ -683,9 +683,9 @@ group-picture {
 
   .logo-img {
     position: absolute;
-    left: 135px;
+    left: 155px;
     right: 0px;
-    top: 0px;
+    top: 42px;
     bottom: 0px;
     margin-top: 11px;
   }
@@ -732,6 +732,9 @@ group-picture {
     padding-top: 17px;
     left: -1px;
     font-size: 22px;
+  }
+  nav a {
+    font-weight: bold;
   }
 
   .men-1 {
