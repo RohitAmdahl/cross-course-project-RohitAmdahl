@@ -527,8 +527,12 @@ group-picture {
     display: inline;
   }
   .cart {
-    margin-top: 50px;
+    margin-top: 0;
+    left: 28px;
+    bottom: 30px;
+    right: 0px;
   }
+
   .sub-menu {
     position: absolute;
     top: 105px;
@@ -563,6 +567,16 @@ group-picture {
 
   #burger {
     display: block;
+    position: absolute;
+    top: -37px;
+    left: 27px;
+  }
+  .navigation-2 {
+    position: relative;
+    left: -40px;
+    margin-top: 0px;
+    top: 23px;
+    left: -48px;
   }
 
   .container-1 {
@@ -589,7 +603,7 @@ group-picture {
   }
 
   h1 {
-    margin: 0px;
+    margin: 0;
     font-size: 28px;
     text-align: center;
   }
@@ -667,6 +681,10 @@ group-picture {
     margin: 0;
   }
 
+  .cta-2-hide {
+    display: grid;
+  }
+
   .logo-img {
     position: relative;
     top: 15px;
@@ -691,7 +709,9 @@ group-picture {
   }
 
   .cta-1 {
-    display: none;
+    padding: 5px 5px;
+    margin: 0;
+    font-size: 0.7em;
   }
 
   .men-1 {
@@ -720,6 +740,7 @@ group-picture {
     padding-top: 20px;
     width: 235px;
     font-size: 3em;
+    text-align: -moz-right;
   }
   .buy {
     padding-top: 30px;
