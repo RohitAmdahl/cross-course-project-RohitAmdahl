@@ -538,17 +538,11 @@ group-picture {
   }
 
   .cart {
-    margin-top: 0;
-    left: 28px;
-    bottom: 30px;
-    right: 0px;
+    position: static;
+    margin-top: 48px;
+    margin-left: 8px;
   }
 
-  .sub-menu {
-    position: absolute;
-    top: 105px;
-    margin-right: 115px;
-  }
   .search-box {
     padding-left: 66px;
     padding-right: 20px;
@@ -562,19 +556,23 @@ group-picture {
 
   .logo-img {
     position: absolute;
+    top: 17px;
+    left: 329px;
   }
 
   nav {
     display: none;
   }
 
-  #menu-checkbox:checked ~ nav {
-    display: clock;
-  }
-
   #burger {
     display: block;
     position: static;
+    margin-top: 46px;
+    margin-right: 0;
+    margin-left: -32px;
+    font-size: 25px;
+    outline: 2px solid #e9c69e;
+    padding: 10px;
   }
   .navigation-2 {
     position: static;
