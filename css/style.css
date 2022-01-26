@@ -43,8 +43,7 @@ header {
 
 .search-box {
   padding: 5px 20px;
-  background-image: url(../images/interface\ search.png);
-  background-repeat: no-repeat;
+  background: url(../images/interface\ search.png) no-repeat;
   background-position: right bottom -5px;
   cursor: pointer;
 }
@@ -126,8 +125,7 @@ nav a {
 }
 
 .women-1 {
-  background-image: url(../images/circle\ women.png);
-  background-repeat: no-repeat;
+  background: url(../images/circle\ women.png) no-repeat;
   background-size: 500px;
   background-position: left bottom 80%;
   max-width: 100%;
@@ -135,8 +133,7 @@ nav a {
 }
 
 .men-1 {
-  background-image: url(../images/circle\ man.png);
-  background-repeat: no-repeat;
+  background: url(../images/circle\ man.png) no-repeat;
   background-size: 500px;
   background-position: right bottom 80%;
   max-width: 100%;
@@ -227,13 +224,6 @@ footer {
   display: block;
 }
 
-.subscribe {
-  font-size: 1em;
-  border: none;
-  background-color: #eeeded;
-  text-decoration: none;
-}
-
 ul {
   list-style: none;
 }
@@ -251,6 +241,17 @@ ul {
 
 .copy {
   font-size: 18px;
+}
+
+.subscribe {
+  font-size: 0.9em;
+  border: none;
+  color: #534040;
+  text-decoration: none;
+  background-size: 20px;
+  text-align: justify;
+  padding-top: 18px;
+  padding-left: 57px;
 }
 
 /*........................................About us ..........................................*/
@@ -313,14 +314,14 @@ group-picture {
 }
 
 .sosial-media {
-  width: 18%;
+  width: 9%;
   padding-right: 10px;
   padding-top: 20px;
 }
 
 .rainy {
   padding: 0px 50px;
-  font-size: 2.5rem;
+  font-size: 2em;
   text-transform: uppercase;
   margin-bottom: 0px;
 }
@@ -366,8 +367,7 @@ group-picture {
 /*........................................collection-----------------------------------..........................................*/
 
 .background {
-  background-image: url(../images/collection\ page.jpg);
-  background-repeat: no-repeat;
+  background: url(../images/collection\ page.jpg) no-repeat;
   background-size: cover;
   background-position-y: center;
   display: block;
@@ -417,7 +417,7 @@ group-picture {
 .btn {
   background-color: #e9c69e;
   padding: 12px 50px;
-  margin: 12px;
+  margin: 50px;
   text-decoration: none;
   color: #574f4f;
   border-radius: 5px;
@@ -431,10 +431,10 @@ group-picture {
   justify-content: center;
   margin-top: 50px;
 }
+
 /*------------------------------------product -----------------------------------------------------------*/
 .cart-product {
-  background-image: url(../images/red\ star.png);
-  background-repeat: no-repeat;
+  background: url(../images/red\ star.png) no-repeat;
   background-position: center;
   position: absolute;
   background-position-y: 2px;
@@ -444,6 +444,7 @@ group-picture {
   max-width: 250px;
   padding: 20px 20px;
   border: thin solid #574f4f;
+  margin-top: 60px;
 }
 
 .items-2 {
@@ -471,10 +472,10 @@ group-picture {
 /*------------------------------------Log in and sign up -----------------------------------------------------------*/
 .products-login {
   width: 100%;
-  max-width: 600px;
-  background-image: url(../images/log\ in\ page-circle.png);
-  background-repeat: no-repeat;
+  max-width: 400px;
+  background: url(../images/log\ in\ page-circle.png) no-repeat;
   background-size: 100%;
+  margin: 40px 0;
 }
 
 .cta {
@@ -511,6 +512,20 @@ group-picture {
 .discount-code {
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.illustration {
+  width: 100%;
+}
+
+/*------------------------------------order conferm -----------------------------------------------------------*/
+.Confermation {
+  text-align: center;
+}
+.order {
+  display: flex;
+  flex-direction: column;
 }
 
 /*-------------------------------------------------------i pad phone  media quarry ------------------------------------------------*/
@@ -520,16 +535,6 @@ group-picture {
     margin: 0;
   }
 
-  label {
-    display: block;
-    position: relative;
-    left: -118px;
-    top: 90px;
-  }
-
-  .search-box {
-    display: inline;
-  }
   .cart {
     margin-top: 0;
     left: 28px;
@@ -546,19 +551,15 @@ group-picture {
     padding-left: 66px;
     padding-right: 20px;
     margin-top: 47px;
+    display: inline;
+    position: static;
   }
   .cta-1 {
     left: 95px;
   }
 
   .logo-img {
-    padding-top: 15px;
-    width: 80%;
-    position: relative;
-    right: 29px;
-    left: 257px;
-    top: -17px;
-    padding-bottom: 30px;
+    position: static;
   }
 
   nav {
@@ -647,6 +648,7 @@ group-picture {
     border-radius: 10px;
     background: #574f4f;
   }
+
   #menu-checkbox:checked ~ nav {
     display: grid;
     position: absolute;
@@ -696,16 +698,7 @@ group-picture {
   }
 
   .search-box {
-    position: relative;
-    left: -61px;
-  }
-
-  .fas.fa-bars,
-  i {
-    position: absolute;
-    right: 395px;
-    left: 6px;
-    top: -36px;
+    position: static;
   }
 
   .cart {
@@ -725,12 +718,6 @@ group-picture {
     background-size: 70%;
   }
 
-  .logo-img {
-    position: relative;
-    top: -12px;
-    left: 134px;
-  }
-
   .women {
     display: none;
   }
@@ -748,7 +735,7 @@ group-picture {
   }
   .buy {
     padding-top: 30px;
-    font-size: 1em;
+    font-size: 1.2em;
     text-align: center;
   }
 
@@ -789,6 +776,11 @@ group-picture {
     position: inherit;
   }
 
+  #burger {
+    display: block;
+    position: static;
+  }
+
   #menu-checkbox:checked ~ nav {
     display: grid;
     position: absolute;
@@ -817,9 +809,7 @@ group-picture {
     max-width: 152px;
   }
   /*------------------------------------------------about us -------------------------------- ----*/
-  .about {
-    background-size: contain;
-  }
+
   .about-text {
     padding-left: 15px;
     padding-right: 15px;
@@ -830,14 +820,10 @@ group-picture {
   .footer-text {
     display: none;
   }
-  #burger {
-    display: block;
-  }
 
   .new {
     font-size: 2.5em;
     text-align: center;
-    padding-top: 15px;
     display: contents;
   }
   .welcome-collection {
@@ -850,5 +836,80 @@ group-picture {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .follow-media {
+    padding-left: 62px;
+  }
+  .login-picture {
+    display: none;
+  }
+  /*------------------------------------Log in and sign up -----------------------------------------------------------*/
+  .account {
+    grid-template-columns: 100px 200px;
+  }
+  .cta {
+    font-size: 17px;
+    margin: 50px 0px;
+    left: 65px;
+  }
+  .products-login {
+    margin: 50px 0px;
+    max-width: 300px;
+  }
+  .create-account {
+    font-size: 1.5em;
+    text-align: -moz-left;
+  }
+  .label {
+    font-size: 13px;
+  }
+  /*------------------------------------product page and payment page order page  ---------------------------------------------*/
+  .items-2 {
+    display: inline;
+  }
+  .mens-jackets {
+    text-align: inherit;
+    box-sizing: border-box;
+    width: 325px;
+    text-align: center;
+  }
+  .btn {
+    padding: 5px 10px;
+    font-size: 17px;
+    margin: 30px 30px;
+  }
+
+  .menswear {
+    font-size: 1.6em;
+    text-align: end;
+  }
+  .sub-heading {
+    font-size: 18px;
+  }
+  .details {
+    text-align: left;
+    font-size: small;
+  }
+
+  .card-details {
+    font-size: 1.6em;
+    text-align: end;
+    margin-bottom: 22px;
+  }
+  .shipping {
+    padding-top: 10px;
+  }
+  .Confermation {
+    text-align: -moz-center;
+  }
+  .order-conferm {
+    font-size: 1.4em;
+  }
+  .cta-3 {
+  }
+  .noroff {
+    font-size: 1.5em;
+    margin-bottom: 74px;
+    margin-bottom: 56px;
   }
 }
