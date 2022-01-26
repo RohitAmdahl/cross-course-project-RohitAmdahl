@@ -549,6 +549,7 @@ group-picture {
     margin-top: 47px;
     display: inline;
     position: static;
+    outline: 2px red;
   }
   .cta-1 {
     left: 95px;
