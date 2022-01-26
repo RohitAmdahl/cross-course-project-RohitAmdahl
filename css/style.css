@@ -16,6 +16,10 @@ header {
   display: flex;
 }
 
+.cta-2hide {
+  display: none;
+}
+
 .navigation-2 {
   margin-top: 25px;
 }
@@ -666,7 +670,7 @@ group-picture {
   }
   .products {
     width: 100%;
-    max-width: 100px;
+    max-width: 180px;
   }
   .welcome-2 {
     width: 100%;
@@ -810,8 +814,7 @@ group-picture {
     margin-bottom: 64px;
   }
   .products {
-    width: 100%;
-    max-width: 100px;
+    max-width: 152px;
   }
   /*------------------------------------------------about us -------------------------------- ----*/
   .about {
@@ -829,5 +832,23 @@ group-picture {
   }
   #burger {
     display: block;
+  }
+
+  .new {
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 15px;
+    display: contents;
+  }
+  .welcome-collection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+  }
+  .wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
