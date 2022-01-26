@@ -692,7 +692,7 @@ group-picture {
     width: 100%;
     max-width: 542px;
   }
-  /*------------------------------------------------collection-------------------------------- ----*/
+  /*------------------------------------------------collection-,log in, Sign up ------------------------------- ----*/
   .new {
     margin-top: 25px;
     padding-top: 405px;
@@ -703,6 +703,44 @@ group-picture {
   }
   .welcome-collection {
     grid-template-columns: repeat(2, auto);
+  }
+  .wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .login-picture {
+    left: 177px;
+  }
+  .cta {
+    left: 169px;
+    margin-bottom: 65px;
+  }
+  .items-2 {
+    display: initial;
+  }
+  .btn {
+    position: relative;
+    left: 144px;
+    padding: 10px 30px;
+    font-size: 1.2em;
+  }
+  .sub-heading {
+    font-size: medium;
+    text-align: center;
+  }
+  .menswear {
+    margin-top: 25px;
+  }
+  .cart-product {
+    margin-bottom: -18px;
+    position: static;
+  }
+  .card-details {
+    text-decoration: underline;
+    margin-bottom: 50px;
+  }
+  .btn {
+    position: initial;
   }
 }
 
