@@ -563,6 +563,12 @@ group-picture {
 
   nav {
     display: none;
+    background-color: #e9c69e;
+    left: 0px;
+    padding-bottom: 152px;
+    padding-right: 100px;
+    padding-left: 100px;
+    font-size: 22px;
   }
 
   #burger {
@@ -575,10 +581,21 @@ group-picture {
     outline: 2px solid #e9c69e;
     padding: 10px;
   }
+
+  #menu-checkbox:checked ~ nav {
+    display: grid;
+    position: absolute;
+    left: 32px;
+    top: 155px;
+  }
+  .women-1,
+  .men-1 {
+    max-width: 500px;
+    background-size: 370px;
+  }
   .navigation-2 {
     position: static;
   }
-
   .container-1 {
     flex-direction: column;
   }
@@ -644,12 +661,14 @@ group-picture {
     background: #574f4f;
   }
 
-  #menu-checkbox:checked ~ nav {
-    display: grid;
-    position: absolute;
-    left: 32px;
-    top: 155px;
+  /*--------------------------------------------------About us, men.women,  --------------------------*/
+  .group-picture {
+    width: 100%;
   }
+  .about {
+    margin-top: 20px;
+  }
+
   .welcome-1 {
     display: flex;
     flex-direction: column;
@@ -672,6 +691,18 @@ group-picture {
   .welcome-2 {
     width: 100%;
     max-width: 542px;
+  }
+  /*------------------------------------------------collection-------------------------------- ----*/
+  .new {
+    margin-top: 25px;
+    padding-top: 405px;
+    font-size: 2em;
+  }
+  .new-1 {
+    font-size: 1.4em;
+  }
+  .welcome-collection {
+    grid-template-columns: repeat(2, auto);
   }
 }
 
