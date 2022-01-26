@@ -681,10 +681,6 @@ group-picture {
     margin: 0;
   }
 
-  .cta-2-hide {
-    display: grid;
-  }
-
   .logo-img {
     position: absolute;
     left: 135px;
@@ -704,20 +700,38 @@ group-picture {
     position: static;
     margin-bottom: 19px;
   }
-
-  .cart {
-    display: none;
+  #burger {
+    display: block;
+    position: static;
+    font-size: 22px;
+    margin-top: 73px;
   }
 
   .cta-1 {
     padding: 10px 15px;
     margin: 0;
-    font-size: 0.7em;
+    font-size: 0.9em;
+    margin-left: 6px;
+  }
+
+  #menu-checkbox:checked ~ nav {
+    display: grid;
+    position: absolute;
+    left: 0px;
+    top: 155px;
+  }
+
+  nav {
+    background-color: #e9c69e;
+    padding: 50px;
+    padding-top: 17px;
+    left: -1px;
   }
 
   .men-1 {
     background-size: 70%;
   }
+
   .women-1 {
     background-size: 70%;
   }
@@ -737,6 +751,7 @@ group-picture {
     font-size: 3em;
     text-align: -moz-right;
   }
+
   .buy {
     padding-top: 30px;
     font-size: 1.2em;
@@ -780,18 +795,6 @@ group-picture {
     position: inherit;
   }
 
-  #burger {
-    display: block;
-    position: static;
-  }
-
-  #menu-checkbox:checked ~ nav {
-    display: grid;
-    position: absolute;
-    left: 32px;
-    top: 155px;
-  }
-
   /*------------------------------------------------Men- women -media quarry -------------------------------- ----*/
 
   .welcome-1 {
@@ -801,6 +804,10 @@ group-picture {
     align-items: center;
     margin: 0;
   }
+  .welcome-2 {
+    margin-top: 28px;
+  }
+
   .choose-my-style {
     font-size: 22px;
     padding-bottom: 40px;
@@ -830,20 +837,24 @@ group-picture {
     text-align: center;
     display: contents;
   }
+
   .welcome-collection {
     display: flex;
     flex-direction: column;
     margin-top: 100px;
     align-items: center;
   }
+
   .wrap {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .follow-media {
     padding-left: 62px;
   }
+
   .login-picture {
     display: none;
   }
@@ -887,9 +898,11 @@ group-picture {
     font-size: 1.6em;
     text-align: end;
   }
+
   .sub-heading {
     font-size: 18px;
   }
+
   .details {
     text-align: left;
     font-size: small;
@@ -900,17 +913,22 @@ group-picture {
     text-align: end;
     margin-bottom: 22px;
   }
+
   .shipping {
     padding-top: 10px;
   }
+
   .Confermation {
     text-align: -moz-center;
   }
+
   .order-conferm {
     font-size: 1.4em;
   }
+
   .cta-3 {
   }
+
   .noroff {
     font-size: 1.5em;
     margin-bottom: 74px;
