@@ -705,6 +705,8 @@ group-picture {
     position: static;
     font-size: 22px;
     margin-top: 73px;
+    outline: 2px solid #e9c69e;
+    outline-offset: 7px;
   }
 
   .cta-1 {
@@ -729,6 +731,7 @@ group-picture {
     padding: 50px;
     padding-top: 17px;
     left: -1px;
+    font-size: 22px;
   }
 
   .men-1 {
@@ -798,7 +801,7 @@ group-picture {
     position: inherit;
   }
 
-  /*------------------------------------------------Men- women -media quarry -------------------------------- ----*/
+  /*------------------------------------------------Men- women , collection-media quarry -------------------------------- ----*/
 
   .welcome-1 {
     display: flex;
@@ -822,6 +825,10 @@ group-picture {
   .products {
     max-width: 152px;
   }
+  .background {
+    margin-top: 30px;
+  }
+
   /*------------------------------------------------about us -------------------------------- ----*/
 
   .about-text {
@@ -927,9 +934,6 @@ group-picture {
 
   .order-conferm {
     font-size: 1.4em;
-  }
-
-  .cta-3 {
   }
 
   .noroff {
