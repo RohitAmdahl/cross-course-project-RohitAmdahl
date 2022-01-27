@@ -40,7 +40,6 @@
 
   #burger {
     display: block;
-    position: static;
     margin-top: 46px;
     margin-right: 0;
     margin-left: -32px;
@@ -528,5 +527,14 @@
     right: 0px;
     margin-bottom: 20px;
     font-size: 14px;
+  }
+  .items-2 {
+    display: inline;
+  }
+  .mens-jackets {
+    text-align: center;
+  }
+  .subscribe {
+    font-size: 22px;
   }
 }
