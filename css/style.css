@@ -8,16 +8,14 @@ body {
 
 header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   padding-top: 15px;
 }
 
 .navigation {
   display: flex;
-}
-
-.cta-2hide {
-  display: none;
+  flex-wrap: wrap;
 }
 
 .navigation-2 {
@@ -121,6 +119,7 @@ nav a {
 
 .container-1 {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -288,7 +287,7 @@ ul {
 .wrapper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .follow-media {
@@ -501,11 +500,12 @@ group-picture {
 
 .wrap {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .login-picture {
   position: relative;
-  left: 250px;
+  left: 200px;
   margin-bottom: 20px;
 }
 .discount-code {
