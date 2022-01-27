@@ -436,8 +436,7 @@ group-picture {
 .cart-product {
   background: url(../images/red\ star.png) no-repeat;
   background-position: center;
-  position: absolute;
-  background-position-y: 2px;
+  background-size: 20px;
 }
 .items-1 {
   width: 100%;
@@ -538,7 +537,6 @@ group-picture {
   }
 
   .cart {
-    position: static;
     margin-top: 48px;
     margin-left: 8px;
   }
@@ -734,7 +732,9 @@ group-picture {
     margin-top: 25px;
   }
   .cart-product {
+    margin-left: 7px;
     margin-bottom: -18px;
+    margin-top: -8px;
     position: static;
   }
   .card-details {
@@ -777,6 +777,7 @@ group-picture {
     position: static;
     font-size: 22px;
     margin-top: 73px;
+    margin-left: -8px;
   }
 
   .cta-1 {
