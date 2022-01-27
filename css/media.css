@@ -44,7 +44,6 @@
     margin-right: 0;
     margin-left: -32px;
     font-size: 25px;
-    outline: 2px solid #e9c69e;
     padding: 10px;
   }
 
@@ -420,8 +419,8 @@
   }
   .create-account {
     font-size: 1.5em;
-    text-align: -moz-left;
   }
+
   .label {
     font-size: 13px;
   }
