@@ -480,7 +480,7 @@ group-picture {
   text-decoration: none;
   color: #000000;
   border-radius: 5px;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
   padding: 7px 50px;
   position: relative;
@@ -500,7 +500,8 @@ group-picture {
 .wrap {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+  margin-top: 45px;
 }
 .login-picture {
   position: relative;

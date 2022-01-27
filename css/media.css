@@ -23,7 +23,7 @@
   .logo-img {
     position: absolute;
     top: 17px;
-    left: 329px;
+    left: 349px;
   }
 
   nav {
@@ -213,7 +213,7 @@
   }
 }
 
-/*------------------------------------------------media phone--media quarry -------------------------------- ----*/
+/*-----------------------------------------------media phone--media quarry -------------------------------- ----*/
 
 @media (max-width: 430px) {
   body {
@@ -482,5 +482,51 @@
     font-size: 1.5em;
     margin-bottom: 74px;
     margin-bottom: 56px;
+  }
+}
+
+@media (max-width: 920px) {
+  .women-1,
+  .men-1 {
+    background-size: 350px;
+  }
+  .welcome-1 {
+    align-items: center;
+    margin-top: 25px;
+  }
+  .welcome-2 {
+    align-items: center;
+    margin-top: 50px;
+  }
+  h1 {
+    font-size: 1.2em;
+  }
+  .star {
+    left: 148px;
+  }
+  .footer-text {
+    margin-left: 45px;
+  }
+  .form-footer {
+    padding-left: 45px;
+  }
+  .about {
+    margin-top: 25px;
+  }
+  .about-text {
+    max-width: 680px;
+  }
+  .group-picture {
+    width: 100%;
+  }
+  .wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cta {
+    left: 163px;
+    right: 0px;
+    margin-bottom: 20px;
+    font-size: 14px;
   }
 }
