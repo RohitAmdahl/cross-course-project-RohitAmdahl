@@ -421,6 +421,11 @@ group-picture {
   align-items: center;
   cursor: pointer;
 }
+
+.mens-jackets {
+  text-align: center;
+}
+
 .purchase {
   display: flex;
   justify-content: center;
@@ -462,6 +467,7 @@ group-picture {
 .details {
   box-sizing: border-box;
   max-width: 500px;
+  text-align: left;
 }
 .remove {
   text-decoration: underline;
@@ -506,7 +512,7 @@ group-picture {
   margin-top: 40px;
 }
 .wrap-1 {
-  margin-left: 50px;
+  margin: 50px;
 }
 
 .login-picture {
