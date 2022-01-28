@@ -55,9 +55,7 @@ nav a {
 .cart {
   max-width: 40px;
   float: right;
-  position: relative;
-  left: 4px;
-  bottom: 4px;
+  position: static;
 }
 
 .cta-1 {
@@ -193,7 +191,6 @@ h1 {
   color: #574f4f;
   font-size: 2em;
   margin: 20px;
-  text-decoration: underline 2px solid #574f4f;
   text-underline-offset: 25px;
 }
 
@@ -377,7 +374,6 @@ group-picture {
   color: #000;
   text-shadow: 3px 5px 5px #dbdbdb;
   font-size: 46px;
-  padding-top: 250px;
 }
 .new-1 {
   font-style: italic;
@@ -432,17 +428,13 @@ group-picture {
 }
 
 /*------------------------------------product -----------------------------------------------------------*/
-.cart-product {
-  background: url(../images/red\ star.png) no-repeat;
-  background-position: center;
-  background-size: 20px;
-}
 .items-1 {
   width: 100%;
   max-width: 250px;
   padding: 20px 20px;
   border: thin solid #574f4f;
 }
+
 .sub-heading {
   font-size: 1.1em;
 }
@@ -450,10 +442,11 @@ group-picture {
 .items-2 {
   width: 100%;
   max-width: 80px;
-  display: block;
+  display: inline-block;
   padding: 20px 20px;
   border: thin solid #574f4f;
 }
+
 .price {
   box-sizing: border-box;
   max-width: 500px;
@@ -469,6 +462,11 @@ group-picture {
 .details {
   box-sizing: border-box;
   max-width: 500px;
+}
+.remove {
+  text-decoration: underline;
+  color: #920404;
+  font-size: 1em;
 }
 /*------------------------------------Log in and sign up -----------------------------------------------------------*/
 .products-login {
@@ -504,9 +502,13 @@ group-picture {
 .wrap {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  margin-top: 45px;
+  justify-content: center;
+  margin-top: 40px;
 }
+.wrap-1 {
+  margin-left: 50px;
+}
+
 .login-picture {
   position: relative;
   left: 200px;
