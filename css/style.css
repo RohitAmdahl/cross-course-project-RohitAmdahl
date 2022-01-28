@@ -123,7 +123,7 @@ nav ul a :hover {
 }
 
 .women-1 {
-  background: url(../images/circle\ women.png) no-repeat;
+  background: url(../images/circlewomen.png) no-repeat;
   background-size: 500px;
   background-position: left bottom 80%;
   max-width: 100%;
@@ -131,7 +131,7 @@ nav ul a :hover {
 }
 
 .men-1 {
-  background: url(../images/circle\ man.png) no-repeat;
+  background: url(../images/circleman.png) no-repeat;
   background-size: 500px;
   background-position: right bottom 80%;
   max-width: 100%;
@@ -255,7 +255,7 @@ ul {
 
 .about {
   text-align: center;
-  background-image: url(../images/about\ us.jpg);
+  background-image: url(../images/aboutus.jpg);
   height: 50vh;
   background-repeat: no-repeat;
   background-position-y: center;
@@ -365,7 +365,7 @@ group-picture {
 /*........................................collection-----------------------------------..........................................*/
 
 .background {
-  background: url(../images/collection\ page.jpg) no-repeat;
+  background: url(../images/collectionpage.jpg) no-repeat;
   background-size: cover;
   background-position-y: center;
   display: block;
