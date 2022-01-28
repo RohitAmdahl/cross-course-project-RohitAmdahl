@@ -51,7 +51,7 @@
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   body {
     margin: 0;
   }
@@ -267,7 +267,7 @@
 
 /*-----------------------------------------------media phone--media quarry -------------------------------- ----*/
 
-@media (max-width: 600px) {
+@media (max-width: 430px) {
   body {
     margin: 0;
   }
