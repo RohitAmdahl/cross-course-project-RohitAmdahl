@@ -506,7 +506,7 @@ group-picture {
   max-width: 400px;
   background: url(../images/loginpage-circle.png) no-repeat;
   background-size: 100%;
-  margin: 40px 0;
+  margin: 40px;
 }
 
 .cta {
@@ -560,7 +560,7 @@ group-picture {
 .illustration {
   width: 100%;
   max-width: 310px;
-  margin-top: 45px;
+  margin: 45px;
 }
 
 /*------------------------------------order conferm -----------------------------------------------------------*/
