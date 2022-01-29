@@ -50,6 +50,9 @@ nav a {
   padding: 7px;
   font-size: 1em;
 }
+a {
+  text-decoration: none;
+}
 
 .cart {
   max-width: 40px;
@@ -62,10 +65,14 @@ nav a {
   padding: 6px 13px;
   margin: 12px;
   text-decoration: none;
-  color: #574f4f;
+  color: #000;
   border-radius: 5px;
   box-shadow: 0px 1px 4px;
   font-weight: bold;
+}
+
+.cta-1:hover {
+  background-color: #9b986a;
 }
 
 /*---------------------------------------main-----------------------------------------------------------*/
@@ -84,8 +91,11 @@ nav a {
   text-decoration: none;
   position: relative;
   bottom: 50px;
-  box-shadow: -1px 13px 10px #dbdbdb;
+  box-shadow: -1px 13px 10px 5px #dbdbdb;
   text-shadow: 0 2px 5px #000;
+}
+.cta-2:hover {
+  background-color: #000;
 }
 
 .cta-3 {
@@ -111,6 +121,9 @@ nav a {
   box-shadow: -1px 14px 12px #dbdbdb;
   text-shadow: 0 2px 5px #000;
   text-align: center;
+}
+.buy-now:hover {
+  background-color: #000;
 }
 
 .container-1 {
