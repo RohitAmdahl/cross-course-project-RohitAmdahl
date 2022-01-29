@@ -177,6 +177,7 @@ a {
   box-sizing: border-box;
   max-width: 370px;
   text-align: center;
+  font-weight: bold;
 }
 .buy-buy {
   padding-left: 30px;
@@ -201,7 +202,7 @@ a {
 }
 
 h1 {
-  color: #574f4f;
+  color: #000000;
   font-size: 2em;
   margin: 20px;
   text-underline-offset: 25px;
