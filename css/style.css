@@ -430,6 +430,7 @@ group-picture {
 
 .mens-jackets {
   text-align: center;
+  margin-left: 50px;
 }
 
 .purchase {
@@ -478,6 +479,7 @@ group-picture {
   text-decoration: underline;
   color: #920404;
   font-size: 1em;
+  font-style: italic;
 }
 /*------------------------------------Log in and sign up -----------------------------------------------------------*/
 .products-login {
