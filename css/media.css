@@ -385,6 +385,10 @@
     padding: 0;
   }
 
+  .price {
+    justify-content: center;
+  }
+
   .footer-text {
     display: none;
   }
@@ -500,6 +504,7 @@
   .menswear {
     font-size: 1.6em;
     text-align: end;
+    text-decoration: underline;
   }
 
   .sub-heading {
@@ -514,7 +519,6 @@
   .card-details {
     font-size: 1.6em;
     text-align: end;
-    margin-bottom: 22px;
   }
 
   .shipping {
