@@ -1,7 +1,7 @@
 body {
   font-family: "Poppins", Verdana, Arial, Helvetica, Geneva, sans-serif;
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 auto;
 }
 
 /*------------------------------------header------------------------------------------------------------*/
@@ -43,7 +43,7 @@ header {
   background: url(../images/interfacesearch.png) no-repeat;
   background-position: right bottom -5px;
   cursor: pointer;
-  border: 3px solid #000000;
+  
 }
 
 nav a {
@@ -92,9 +92,17 @@ a {
   text-decoration: none;
   position: relative;
   bottom: 50px;
-  box-shadow: -1px 13px 10px 5px #dbdbdb;
   text-shadow: 0 2px 5px #000;
+  box-shadow:  1.3px 1.3px 20.4px rgba(0, 0, 0, 0.059),
+  2.9px 2.9px 38.2px rgba(0, 0, 0, 0.076),
+  5.4px 5.4px 53px rgba(0, 0, 0, 0.082),
+  10.9px 10.9px 63.8px rgba(0, 0, 0, 0.083),
+  26.3px 26.3px 70.5px rgba(0, 0, 0, 0.079),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+
 }
+
 .cta-2:hover {
   background-color: #000;
 }
@@ -119,9 +127,17 @@ a {
   border-radius: 5px;
   font-weight: bold;
   text-decoration: none;
-  box-shadow: -1px 14px 12px #dbdbdb;
   text-shadow: 0 2px 5px #000;
   text-align: center;
+  box-shadow:2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+
 }
 .buy-now:hover {
   background-color: #000;
@@ -130,42 +146,44 @@ a {
 .container-1 {
   display: flex;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .women-1 {
   background: url(../images/circlewomen.png) no-repeat;
-  background-size: 500px;
+  background-size: 400px;
   background-position: left bottom 80%;
-  max-width: 100%;
-  min-width: 350px;
+  width: 100%;
+  max-width: 300px;
+  margin-right: 40px;
 }
 
 .men-1 {
   background: url(../images/circleman.png) no-repeat;
-  background-size: 500px;
+  background-size: 400px;
   background-position: right bottom 80%;
-  max-width: 100%;
-  min-width: 350px;
+  width: 100%;
+  max-width: 300px;
 }
 
 .women-1 {
   width: 100%;
-  max-width: 650px;
+  max-width: 450px;
 }
 
 .men-1 {
   width: 100%;
-  max-width: 650px;
+  max-width: 450px;
 }
 /*------------------------------------section new arrivals------------------------------------------------*/
 .men {
   width: 100%;
-  max-width: 520px;
+  max-width: 450px;
 }
 
 .women {
   width: 100%;
-  max-width: 419px;
+  max-width: 350px;
   position: relative;
   right: 100px;
   bottom: -45px;
@@ -180,7 +198,6 @@ a {
   font-weight: bold;
 }
 .buy-buy {
-  padding-left: 30px;
   max-width: 350px;
   display: initial;
 }
@@ -229,8 +246,9 @@ footer {
 }
 
 #email {
-  padding: 5px 80px;
+  padding: 5px 15px;
   display: block;
+  margin-top: 5px;
 }
 
 ul {
@@ -260,6 +278,12 @@ ul {
   text-align: justify;
   padding-top: 18px;
   padding-left: 57px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.newsletter-text {
+  width: 221px;
 }
 
 /*........................................About us ..........................................*/
@@ -392,6 +416,7 @@ group-picture {
   text-shadow: 3px 5px 5px #dbdbdb;
   font-size: 46px;
   text-decoration: underline;
+  padding-top: 58px;
 }
 .new-1 {
   font-style: italic;
