@@ -47,9 +47,27 @@
   .mens-jackets {
     text-align: center;
   }
+
   .subscribe {
     font-size: 22px;
   }
+
+  .subscribe {
+    font-size: 0.9em;
+    border: none;
+    color: #534040;
+    text-decoration: none;
+    background-size: 20px;
+    text-align: justify;
+    padding-top: 18px;
+    padding-left: 57px;
+    cursor: pointer;
+    margin-top: 15px;
+  } 
+  
+
+
+
 }
 
 @media (max-width: 700px) {
