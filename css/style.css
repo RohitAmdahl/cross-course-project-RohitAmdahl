@@ -158,12 +158,12 @@ a {
 
 .women-1 {
   width: 100%;
-  max-width: 450px;
+  max-width: 480px;
 }
 
 .men-1 {
   width: 100%;
-  max-width: 450px;
+  max-width: 480px;
 }
 /*------------------------------------section new arrivals------------------------------------------------*/
 .men {
@@ -351,24 +351,21 @@ group-picture {
 
 .welcome-2 {
   width: 100%;
-  max-width: 400px;
   margin-top: 85px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  margin-top: 25px;
 }
+
 .welcome-1 {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: center;
-  align-items: self-end;
-  gap: 20px;
-  margin-top: 22px;
+
 }
 .four {
   grid-column: 2;
 }
 .main {
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-row-end: 3;
+
 }
 .products {
   width: 100%;
