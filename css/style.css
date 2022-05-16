@@ -355,11 +355,10 @@ group-picture {
   justify-content: center;
   gap: 60px;
   padding: 50px;
-  background-image: url(/images/circleman.png);
-  background-repeat: no-repeat;
   width: 100%;
-  background-position-x: left;
   background-size: 600px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .shopping-women{
@@ -369,12 +368,11 @@ group-picture {
   justify-content: center;
   gap: 60px;
   padding: 50px;
-  background-image: url(/images/circlewomen.png);
-  background-repeat: no-repeat;
   width: 100%;
-  background-position-x: right;
   margin: 0 auto;
   background-size: 600px;
+  margin: 0 auto;
+  max-width: 1200px;
 
 }
 
