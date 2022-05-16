@@ -349,6 +349,39 @@ group-picture {
 
 /*------------------------------------Men page and women page -----------------------------------------------------------*/
 
+.shopping{
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  align-items: baseline;
+  justify-content: center;
+  gap: 60px;
+  padding: 50px;
+  background-image: url(/images/circleman.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position-x: 660px;
+}
+
+.shopping-women{
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  align-items: baseline;
+  justify-content: center;
+  gap: 60px;
+  padding: 50px;
+  background-image: url(/images/circlewomen.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position-x: 660px;
+}
+
+
+.details {
+  box-sizing: border-box;
+  max-width: 500px;
+  text-align: left;
+}
+
 .welcome-2 {
   width: 100%;
   margin-top: 85px;
@@ -358,19 +391,21 @@ group-picture {
   margin-top: 25px;
 }
 
-.welcome-1 {
 
-}
 .four {
   grid-column: 2;
 }
-.main {
 
+.main {
+ margin-top: 50px;
 }
+
 .products {
   width: 100%;
   max-width: 120px;
+  padding-left: 35px;
 }
+
 .star {
   position: relative;
   right: -180px;
@@ -378,9 +413,17 @@ group-picture {
   width: 100%;
   max-width: 16px;
 }
-.choose-my-style {
-  text-align: unset;
-  margin-bottom: 65px;
+
+.style_text{
+  color: #000000;
+  font-size: 2em;
+  padding-top: 25px;
+  text-underline-offset: 25px;
+  margin: 0 auto;
+  max-width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*........................................collection-----------------------------------..........................................*/
@@ -492,16 +535,14 @@ group-picture {
   display: flex;
   justify-content: flex-start;
   gap: 25px;
+  border-bottom-style: dashed;
 }
+
 .menswear {
   text-align: center;
   padding-bottom: 10px;
 }
-.details {
-  box-sizing: border-box;
-  max-width: 500px;
-  text-align: left;
-}
+
 .remove {
   text-decoration: underline;
   color: #920404;
