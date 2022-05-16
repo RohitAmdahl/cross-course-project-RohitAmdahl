@@ -1,7 +1,51 @@
 @media (max-width: 920px) {
-  .women-1,
-  .men-1 {
-    background-size: 350px;
+  h1{
+    font-size:1.5rem;
+    padding: 0px;
+  }
+
+   p{
+    font-size: 0.9rem;
+    padding: 0px;
+  }
+
+  .about-text{
+    padding: 20px;
+    font-size: 0.9rem;
+    max-width: 680px;
+  }
+  
+  .men{
+    display: none;
+  }
+
+  .women{
+    max-width: 320px;
+    position: inherit;
+  }
+
+  .buy{
+    width: 350px;
+    margin: 0 auto;
+  }
+
+  .shopping{
+    max-width: 500px;
+    grid-template-columns: 250px 250px;
+  }
+
+  .shopping-women{
+    max-width: 500px;
+    grid-template-columns: 250px 250px;
+  }
+
+  .group-picture {
+    max-width: 601px;
+    padding-bottom: 10px; 
+  }
+
+  .navigation {
+    padding: 20px;
   }
 
   .welcome-1 {
@@ -16,8 +60,10 @@
   .star {
     left: 148px;
   }
+
   .footer-text {
-    margin-left: 45px;
+    margin: 0 auto;
+    max-width: 850px;
   }
   .form-footer {
     padding-left: 45px;
@@ -25,48 +71,52 @@
   .about {
     margin-top: 25px;
   }
-  .about-text {
-    max-width: 680px;
+  .welcome-collection {
+    grid-template-columns: 250px auto;
+    padding-top: 50px;
   }
-  .group-picture {
-    width: 100%;
-  }
-  .wrap {
-    flex-direction: column;
-    align-items: center;
-  }
-  .cta {
-    left: 163px;
-    right: 0px;
-    margin-bottom: 20px;
-    font-size: 14px;
-  }
-  .items-2 {
-    display: inline;
-  }
-  .mens-jackets {
-    text-align: center;
-  }
+ 
+.star{
+  top: -183px;
+  left: 192px;
 
-  .subscribe {
-    font-size: 22px;
-  }
+}
+.create-account {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+ 
+}
+.purchase {
+  margin: 0 auto;
+}
 
-  .subscribe {
-    font-size: 0.9em;
-    border: none;
-    color: #534040;
-    text-decoration: none;
-    background-size: 20px;
-    text-align: justify;
-    padding-top: 18px;
-    padding-left: 57px;
-    cursor: pointer;
-    margin-top: 15px;
-  } 
-  
+.card-details {
+  margin: 0 auto;
+}
 
+.wrap {
+  padding: 0px;
+}
 
+.wrap {
+  max-width: 500px;
+  margin-top: 20px;
+}
+.subscribe {
+  padding: 20px;
+  background: aliceblue;
+  color: #574f4f;
+  font-weight: 600;
+  border-radius: 20px;
+  box-shadow:
+  7.9px 7.9px 10px rgba(0, 0, 0, 0.011),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.get-in-touch {
+  margin: 0;
+}
 
 }
 
@@ -176,6 +226,7 @@
   .new-arrivals {
     flex-direction: column;
     align-items: center;
+    
   }
 
   .newsletter-text {
