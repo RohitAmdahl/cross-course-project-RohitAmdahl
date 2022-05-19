@@ -141,9 +141,19 @@
 .about-text {
   padding-left: 50px;
   padding-right: 60px ;
-  max-width: 420px;
+  max-width: 590px;
+}
 
-  
+.about {
+  margin-top: 20px;
+}
+.background{
+  height: 350px;
+}
+
+
+.follow-media {
+  padding: 0;
 }
   .cart {
     margin-top: 48px;
@@ -409,223 +419,21 @@
     top: 155px;
   }
 
-  nav {
-    background-color: #e9c69e;
-    padding: 50px;
-    padding-top: 17px;
-    left: -1px;
-    font-size: 22px;
-    border-radius: 10px;
-    top: 213px;
-  }
 
-  .men-1 {
-    background-size: 70%;
-  }
-
-  .women-1 {
-    background-size: 70%;
-  }
-
-  .women {
-    display: none;
-  }
-
-  .men {
-    position: inherit;
-  }
-
-  h1 {
-    margin: 0;
-    padding-top: 20px;
-    width: 235px;
-    font-size: 3em;
-    text-align: -moz-right;
-  }
-
-  .buy {
-    font-size: 1.2em;
-    text-align: center;
-  }
-
-  .buy-buy {
-    padding: 0px;
-    font-size: 0.7em;
-  }
-  .cta-2 {
-    padding: 10px 30px;
-    font-size: 1em;
-  }
-
-  .payment {
-    display: none;
-  }
-
-  .buy-now {
-    padding: 10px 40px;
-  }
-
-  h3 {
-    font-size: 1.4em;
-  }
-
-  .form-footer {
-    margin: 0;
-    padding: 0;
-  }
-
-  .price {
-    justify-content: center;
-  }
-
-  .footer-text {
-    display: none;
-  }
-
-  .copywrite {
-    font-size: 12px;
-  }
-  .e-post {
-    position: inherit;
-  }
-
+  
   /*------------------------------------------------Men- women , collection-media quarry -------------------------------- ----*/
 
-  .welcome-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-  }
-  .welcome-2 {
-    margin-top: 28px;
-  }
-
-  .choose-my-style {
-    font-size: 22px;
-    padding-bottom: 40px;
-    text-align: -moz-right;
-    padding-left: 64px;
-    margin-bottom: 64px;
-  }
-  .products {
-    max-width: 152px;
-  }
-  .background {
-    margin-top: 30px;
-  }
 
   /*------------------------------------------------about us -------------------------------- ----*/
 
-  .about-text {
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 20px;
-    
-  }
-  .group-picture {
-    width: 100%;
-  }
-  .footer-text {
-    display: none;
-  }
-
-  .new {
-    font-size: 2.5em;
-    text-align: center;
-    display: contents;
-  }
-
-  .welcome-collection {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    align-items: center;
-  }
-
-  .wrap {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .follow-media {
-    padding-left: 62px;
-  }
-
-  .login-picture {
-    display: none;
-  }
+  
+ 
+  
   /*------------------------------------Log in and sign up -----------------------------------------------------------*/
-  .account {
-    grid-template-columns: 100px 200px;
-  }
-  .cta {
-    font-size: 17px;
-    margin: 50px 0px;
-    left: 65px;
-  }
-  .products-login {
-    margin: 50px 0px;
-    max-width: 300px;
-  }
-  .create-account {
-    font-size: 1.5em;
-  }
-
-  .label {
-    font-size: 13px;
-  }
+ 
+  
   /*------------------------------------product page and payment page order page  ---------------------------------------------*/
-  .items-2 {
-    display: inline;
-  }
-  .mens-jackets {
-    text-align: inherit;
-    box-sizing: border-box;
-    width: 325px;
-    text-align: center;
-  }
-  .btn {
-    padding: 5px 10px;
-    font-size: 17px;
-    margin: 30px 30px;
-  }
 
-  .menswear {
-    font-size: 1.6em;
-    text-align: end;
-    text-decoration: underline;
-  }
 
-  .sub-heading {
-    font-size: 18px;
-  }
 
-  .details {
-    text-align: left;
-    font-size: small;
-  }
-
-  .card-details {
-    font-size: 1.6em;
-    text-align: end;
-  }
-
-  .shipping {
-    padding-top: 10px;
-  }
-
-  .Confermation {
-    text-align: -moz-center;
-  }
-
-  .order-conferm {
-    font-size: 1.4em;
-  }
-
-  .noroff {
-    font-size: 1.5em;
-    margin-bottom: 74px;
-    margin-bottom: 56px;
-  }
 }
