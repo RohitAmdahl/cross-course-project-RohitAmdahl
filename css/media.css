@@ -127,10 +127,17 @@
     margin: 0 auto;
     
   }
+  h1{
+    font-size: 1.2em;
+  }
 
   .cart {
     margin-top: 48px;
     margin-left: 8px;
+  }
+
+  .products {
+    max-width: 120px;
   }
 
   .search-box {
@@ -275,6 +282,7 @@
   }
   .welcome-2 {
     max-width: 800px;
+    margin-top: 5px;
   }
   /*------------------------------------------------collection-,log in, Sign up ------------------------------- ----*/
   .new {
