@@ -127,17 +127,36 @@
     margin: 0 auto;
     
   }
-  h1{
-    font-size: 1.2em;
+  .style_text{
+    font-size: 1.5em;
+  }
+  main{
+    margin: opx;
   }
 
+.price {
+  width: 220px;
+  padding-left: 35px;
+}
+.about-text {
+  padding-left: 50px;
+  padding-right: 60px ;
+  max-width: 420px;
+
+  
+}
   .cart {
     margin-top: 48px;
     margin-left: 8px;
   }
 
-  .products {
+  .details {
     max-width: 120px;
+
+  }
+  .details-1 {
+    max-width: 120px;
+
   }
 
   .search-box {
@@ -502,6 +521,7 @@
     padding-left: 15px;
     padding-right: 15px;
     margin-top: 20px;
+    
   }
   .group-picture {
     width: 100%;
