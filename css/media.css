@@ -25,8 +25,9 @@
   }
 
   .buy{
-    width: 350px;
+    width: 320px;
     margin: 0 auto;
+    padding-left: 19px;
   }
 
   .shopping{
@@ -42,6 +43,10 @@
   .group-picture {
     max-width: 601px;
     padding-bottom: 10px; 
+  }
+  
+  .mens-jackets {
+    margin: 0 auto;
   }
 
 .cta {
@@ -95,30 +100,30 @@
   margin: 0 auto;
 }
 
-.wrap-1 {
-  margin: 0 auto;
-  max-width: 450px;
-}
+
 
 .wrap {
   max-width: 500px;
   margin-top: 20px;
   padding: 0px;
+  margin-top: 0px;
 }
+
 .subscribe {
   padding: 20px;
   background: aliceblue;
   color: #574f4f;
   font-weight: 600;
   border-radius: 20px;
+  text-align: center;
   box-shadow:
   7.9px 7.9px 10px rgba(0, 0, 0, 0.011),
   100px 100px 80px rgba(0, 0, 0, 0.07);
+  margin-top: 10px;
 }
 
-.get-in-touch {
-  margin: 0;
-}
+
+
 
 }
 
@@ -135,6 +140,30 @@
   main{
     margin: opx;
   }
+  .get-in-touch {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .order-star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .wrap-1 {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  
+  p {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    }
 
 .price {
   width: 220px;
