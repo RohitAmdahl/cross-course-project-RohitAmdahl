@@ -449,13 +449,13 @@
   .navigation-2 {
     position: static;
     margin-top: 37px;
-    width: 230px;
+    width: 400px;
     padding-top: 8px;
   }
 
   .search-box {
     position: static;
-    margin-bottom: 19px;
+    margin-bottom: 32px;
   }
   #burger {
     display: block;
@@ -471,10 +471,7 @@
     font-size: 0.9em;
     margin-left: 6px;
   }
-  .cart {
-    position: inherit;
-    margin-top: 0;
-  }
+ 
 
   #menu-checkbox:checked ~ nav {
     display: grid;
@@ -486,7 +483,17 @@
 
   
   /*------------------------------------------------Men- women , collection-media quarry -------------------------------- ----*/
+header{
+  margin: 0 auto;
+  padding: 0px;
+}
 
+.logo-img{
+  padding-right: 0px;
+  left: 251px;
+}
+
+}
 
   /*------------------------------------------------about us -------------------------------- ----*/
 
