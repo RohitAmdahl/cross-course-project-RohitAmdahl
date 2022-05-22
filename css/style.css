@@ -263,7 +263,7 @@ ul {
 }
 
 .form-footer {
-  padding-left: 120px;
+  padding-left: 50px;
   box-sizing: border-box;
   max-width: 550px;
 }
@@ -309,7 +309,7 @@ ul {
   margin: 0 auto;
   padding: 40px 90px;
   position: relative;
-  top: -100px;
+  top: -40px;
   padding: 50px 150px;
   font-size: 1.1em;
   box-sizing: border-box;
@@ -321,12 +321,13 @@ ul {
   flex-wrap: wrap;
   justify-content: space-around;
   margin: 0 auto;
+  max-width: 1100px;
 }
 
 .follow-media {
   font-size: 2.6em;
   padding-bottom: 30px;
-  padding-top: 60px;
+  padding-top: 0px;
   margin: 0px;
   text-decoration: underline;
 }
@@ -334,6 +335,10 @@ ul {
 .about-media {
   text-align: center;
   max-width: 600px;
+}
+
+.get-in-touch {
+  margin: 0;
 }
 
 .team {
@@ -358,7 +363,7 @@ ul {
   padding: 0px 50px;
   font-size: 2em;
   text-transform: uppercase;
-  margin-bottom: 0px;
+  margin: 0px;
 }
 
 /*------------------------------------Men page and women page -----------------------------------------------------------*/
