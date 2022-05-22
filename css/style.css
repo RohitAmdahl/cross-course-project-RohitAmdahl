@@ -533,7 +533,7 @@ ul {
 /*------------------------------------product -----------------------------------------------------------*/
 .items-1 {
   width: 100%;
-  max-width: 250px;
+  max-width: 300px;
   padding: 20px 20px;
   border: thin solid #574f4f;
 }
@@ -646,6 +646,9 @@ ul {
 
 .Confirmation {
   margin-left: 50px;
+  background-color:#F3F3F3 ;
+  padding: 25px;
+
 }
 
 .illustration {
