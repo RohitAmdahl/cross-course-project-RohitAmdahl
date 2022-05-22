@@ -132,8 +132,12 @@
 @media (max-width: 700px) {
   body {
     margin: 0 auto;
-    
   }
+
+  .copywrite {
+    padding: 15px;
+  }
+
   .style_text{
     font-size: 1.5em;
   }
@@ -438,6 +442,14 @@
     margin: 0;
   }
 
+  .header{
+    max-width: 500px;
+  }
+
+  .fas.fa-shopping-cart {
+    font-size: 20px;
+  }
+
   .logo-img {
     position: absolute;
     left: 155px;
@@ -446,6 +458,7 @@
     bottom: 0px;
     margin-top: 11px;
   }
+
   .navigation-2 {
     position: static;
     margin-top: 37px;
@@ -457,11 +470,12 @@
     position: static;
     margin-bottom: 32px;
   }
+
   #burger {
     display: block;
     position: static;
     font-size: 22px;
-    margin-top: 73px;
+    margin-top: 34px;
     margin-left: -8px;
   }
 
@@ -480,8 +494,27 @@
     top: 155px;
   }
 
+  ul{
+    padding-right: 40px;
+  }
 
+  .wrap-1 {
+    margin-top: 50px;
+  }
+
+  .wrap{
+    margin-top: 50px;
+  }
   
+  .order-confirm {
+    font-size: 1.5em;
+  }
+
+  .Confirmation {
+    margin-left: 0;
+  }
+
+
   /*------------------------------------------------Men- women , collection-media quarry -------------------------------- ----*/
 header{
   margin: 0 auto;
@@ -491,20 +524,116 @@ header{
 .logo-img{
   padding-right: 0px;
   left: 251px;
+  margin: 0px;
 }
 
+.search-box{
+  padding-right: 95px;
 }
 
-  /*------------------------------------------------about us -------------------------------- ----*/
+.cta-1 {
+  margin-right: 25px;
+}
 
-  
- 
-  
-  /*------------------------------------Log in and sign up -----------------------------------------------------------*/
- 
-  
-  /*------------------------------------product page and payment page order page  ---------------------------------------------*/
+.newsletter-text {
+  display: none;
+}
 
+.products-login {
+  margin-top: 50px;
+  max-width: 400px;
+}
 
+.form{
+  margin-top:25px ;
+}
 
+.footer-text {
+  max-width: 500px;
+  margin: 0 auto;
+  }
+
+}
+
+/*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
+
+@media (max-width: 420px) {
+  body {
+    margin: 0 auto;
+  }
+  .cta-1 {
+    font-size: 16px;
+    padding: 8px;
+    margin: 8px;
+  }
+
+  .style_text {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+  }
+
+  .navigation-2 {
+    margin: 0 auto;
+    max-width: 250px;
+  }
+
+  .search-box {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 35px;
+    margin-top: 65px;
+  }
+  .logo-img{
+    top: 0px;
+    left: 150px;
+    margin-top: 10px;  
+  }
+
+  #burger {
+    margin-top: 15px;
+    margin-left: 24px;
+  }
+  .container-1 {
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .buy-buy {
+    margin: 0 auto;
+    max-width: 250px;
+  }
+  .buy {
+    width: 250px;
+  }
+  ul{
+    padding: 0px 15px;
+  }
+  .copywrite {
+    padding: 10px;
+  }
+
+  .shopping, .shopping-women{
+    display: grid;
+   margin: 0 auto;
+    grid-template-columns: 250px;
+    padding: 0;
+  }
+
+  .welcome-collection {
+    display: grid;
+    grid-template-columns: 250px;
+    padding: 0;
+    margin-bottom: 15px;
+    padding-top: 36px;
+
+  }
+  .discount-code {
+    max-width: fit-content;
+  }
+  .account {
+    grid-template-columns: 330px;
+    margin: 0 auto;
+  }
+  wrap-1 {
+    margin: 0 auto;
+  }
 }
