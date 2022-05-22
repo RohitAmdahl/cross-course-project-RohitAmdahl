@@ -630,10 +630,18 @@ header{
     max-width: fit-content;
   }
   .account {
-    grid-template-columns: 330px;
+    grid-template-columns: 320px;
     margin: 0 auto;
   }
-  wrap-1 {
-    margin: 0 auto;
+
+nav a {
+  text-align: end;
+}
+ 
+
+  nav{
+    padding-right: 156px;
+    padding-top: 64px;
+    margin-top: -23px;
   }
 }
