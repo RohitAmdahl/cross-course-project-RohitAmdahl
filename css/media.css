@@ -671,4 +671,43 @@ nav a {
     padding: 0px;
     margin: 0px;
   }
+  .navigation-2{
+    margin-left: 10px;
+
+  }
+  h1{
+    font-size: 1rem;
+  }
+
+  h2{
+    font-size: 0.9rem;
+  }
+
+  p{
+    font-size: 0.7rem;
+  }
+
+  .cta-2{
+    font-size: 1rem;
+    padding: 15px 40px;
+  }
+  .new-arrivals {
+    flex-direction: inherit;
+  }
+  #burger {
+    margin-top: 10px;
+  }
+  logo-img {
+    left: 95px;
+  }
+  nav a{
+    font-size: medium;
+    width: 90px;
+  
+  }
+
+  .cta{
+    max-width: 250px;
+    margin: 0 auto;
+  }
 }
