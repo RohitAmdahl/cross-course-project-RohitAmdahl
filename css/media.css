@@ -656,6 +656,16 @@ nav a {
     padding-top: 64px;
     margin-top: -23px;
   }
+  .cta{
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  .details {
+    padding: 20px;
+  }
+  .account {
+    grid-template-columns: 250px;
+  }
 }
 
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
