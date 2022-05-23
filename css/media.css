@@ -55,6 +55,7 @@
   
   .navigation {
     padding: 20px;
+    padding-right: 0px;
   }
 
   .welcome-1 {
@@ -107,7 +108,7 @@
   max-width: 500px;
   margin-top: 20px;
   padding: 0px;
-  margin-top: 0px;
+  margin-top: 10px;
 }
 
 .subscribe {
@@ -121,10 +122,7 @@
   7.9px 7.9px 10px rgba(0, 0, 0, 0.011),
   100px 100px 80px rgba(0, 0, 0, 0.07);
   margin-top: 10px;
-}
-
-
-
+ }
 
 } 
 
@@ -134,6 +132,11 @@
   body {
     margin: 0 auto;
   }
+
+  .Confirmation {
+    margin-left: 0px;
+  }
+
 
   .copywrite {
     padding: 15px;
@@ -209,7 +212,7 @@
   }
 
   .search-box {
-    padding-left: 66px;
+    padding-left: 20px;
     padding-right: 20px;
     margin-top: 47px;
     display: inline;
@@ -229,7 +232,7 @@
   .logo-img {
     position: absolute;
     top: 17px;
-    left: 330px;
+    left: 247px;
   }
 
   nav {
@@ -433,18 +436,28 @@
     padding-top: 20px;
   }
 
+.navigation-2{
+  margin: 0 auto ;
+  max-width: 500px;
+}
+
 
 }
 
 /*-----------------------------------------------media phone--media quarry -------------------------------- ----*/
 
-@media (max-width: 500px) {
+@media (max-width: 540px)  {
   body {
     margin: 0;
   }
 
   .header{
     max-width: 500px;
+  }
+
+  .navigation-2 {
+    max-width: 281px;
+    margin: 0 auto;
   }
 
   .fas.fa-shopping-cart {
@@ -511,9 +524,6 @@
     font-size: 1.5em;
   }
 
-  .Confirmation {
-    margin-left: 0;
-  }
 
 
   /*------------------------------------------------Men- women , collection-media quarry -------------------------------- ----*/
@@ -555,6 +565,7 @@ header{
   }
 
 }
+
 
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
 
@@ -644,5 +655,20 @@ nav a {
     padding-right: 156px;
     padding-top: 64px;
     margin-top: -23px;
+  }
+}
+
+/*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
+/*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
+
+
+@media (max-width: 456px) {
+  body {
+    margin: 0;
+  }
+
+  #burger {
+    padding: 0px;
+    margin: 0px;
   }
 }
