@@ -569,7 +569,7 @@ header{
 
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
 
-@media only screen and (max-width: 420px) {
+@media (max-width: 420px) {
   body {
     margin: 0 auto;
   }
@@ -744,8 +744,16 @@ nav a {
   .illustration {
     margin: 0 auto;
   }
-  
+
   .wrap-1 {
     margin-bottom: 45px;
+  }
+
+  .logo-img{
+    left: 100px;
+  }
+
+  .products-login{
+    padding-left: 20px;
   }
 } 
