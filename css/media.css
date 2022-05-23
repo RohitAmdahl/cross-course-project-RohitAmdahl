@@ -642,7 +642,7 @@ header{
     max-width: fit-content;
   }
   .account {
-    grid-template-columns: 320px;
+ 
     margin: 0 auto;
   }
 
