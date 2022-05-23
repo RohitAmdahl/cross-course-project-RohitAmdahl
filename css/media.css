@@ -717,7 +717,10 @@ nav a {
   nav a{
     font-size: medium;
     width: 90px;
-  
+  }
+
+  #burger {
+    padding-right: 17px;
   }
 
   .cta{
@@ -725,18 +728,23 @@ nav a {
     margin: 0 auto;
     margin-bottom: 25px;
   }
+
   .details {
     padding: 20px;
   }
+
   .account {
     grid-template-columns: 250px;
   }
+
   .btn {
     margin: 10 10px;
   }
+
   .illustration {
     margin: 0 auto;
   }
+  
   .wrap-1 {
     margin-bottom: 45px;
   }
