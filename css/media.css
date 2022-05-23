@@ -569,7 +569,7 @@ header{
 
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
 
-@media (max-width: 420px) {
+@media only screen and (max-width: 420px) {
   body {
     margin: 0 auto;
   }
@@ -675,8 +675,8 @@ nav a {
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
 
-/* 
-@media (max-width: 456px) {
+
+@media (max-width: 320px) {
   body {
     margin: 0;
   }
@@ -723,6 +723,7 @@ nav a {
   .cta{
     max-width: 250px;
     margin: 0 auto;
+    margin-bottom: 25px;
   }
   .details {
     padding: 20px;
@@ -733,4 +734,7 @@ nav a {
   .btn {
     margin: 10 10px;
   }
-} */
+  .illustration {
+    margin: 0 auto;
+  }
+} 
