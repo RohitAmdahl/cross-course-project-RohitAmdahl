@@ -666,6 +666,12 @@ nav a {
   .account {
     grid-template-columns: 250px;
   }
+  .footer-text{
+    margin-top: 25px;
+  }
+  .noroff {
+    padding: 15px;
+  }
 }
 
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
