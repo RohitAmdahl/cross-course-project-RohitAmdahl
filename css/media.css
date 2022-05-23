@@ -591,9 +591,9 @@ header{
 
   .search-box {
     padding-left: 10px;
-    padding-right: 10px;
     margin-bottom: 35px;
     margin-top: 65px;
+    padding-right: 49px;
   }
   .logo-img{
     top: 0px;
