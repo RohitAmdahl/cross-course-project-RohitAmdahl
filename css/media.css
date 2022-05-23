@@ -710,4 +710,13 @@ nav a {
     max-width: 250px;
     margin: 0 auto;
   }
+  .details {
+    padding: 20px;
+  }
+  .account {
+    grid-template-columns: 250px;
+  }
+  .btn {
+    margin: 10 10px;
+  }
 }
