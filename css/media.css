@@ -1,4 +1,4 @@
-@media (max-width: 920px) {
+ @media (max-width: 920px) {
   h1{
     font-size:1.5rem;
     padding: 0px;
@@ -126,11 +126,11 @@
 
 
 
-}
+} 
 
 
 /* -------------------------------------------------------------720px -------------------------------------------- */
-@media (max-width: 700px) {
+@media (max-width: 600px)  {
   body {
     margin: 0 auto;
   }
@@ -438,7 +438,7 @@
 
 /*-----------------------------------------------media phone--media quarry -------------------------------- ----*/
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   body {
     margin: 0;
   }
