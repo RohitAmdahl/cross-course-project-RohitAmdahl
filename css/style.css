@@ -416,7 +416,7 @@ ul {
 
 /*------------------------------------Men page and women page -----------------------------------------------------------*/
 
-/* .shopping{
+ .shopping{
   display: grid;
   grid-template-columns: 250px 250px 250px;
   align-items: baseline;
@@ -493,7 +493,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+} 
 
 /*........................................collection-----------------------------------..........................................*/
 
