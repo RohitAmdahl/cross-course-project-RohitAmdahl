@@ -47,18 +47,19 @@
 </header>
 <main>
   <section class="contact">
-    <div class="contact_info">
-        <h1 id="get_in_touch">GET IN TOUCH</h1>
-        <p>Fill the form and we will call you </p>
-        <p> Rainy day 
-        <p> Customer care number +35200101-201</p>
-        <p class="contact_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem amet dolorem,  placeat cum dolorum atque velit blanditiis, voluptate quo culpa aut? Repellat autem vero quos sit corporis!</p>
+       <div class="contact_info">
+          <h1 id="get_in_touch">GET IN TOUCH</h1>
+          <p>Fill the form and we will call you </p>
+          <p> Rainy day 
+          <p> Customer care number +35200101-201</p>
+          <p class="contact_text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem amet dolorem,  placeat cum dolorum atque velit blanditiis, voluptate quo culpa aut? Repellat autem vero quos sit corporis!</p>       
+        </div>
       </div>
       <div class="form">
-        <div class="contact_logo">
+        <!-- <div class="contact_logo">
           <img src="/images/help-call.png" alt="get help symbol">
-        </div>
-        <div>
+        </div> -->
+        <div class="feedback">
           <form action="submit.html" class="account">
             <label class="label" for="name">Full name</label>
             <input type="text" id="name" name="name" />
@@ -70,11 +71,15 @@
             <input type="address" id="address" name="address" maxlength="10" required />
             <label class="label" for="phone">Phone number</label>
             <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" required />
+              <form action="submit.html" method="post">
+                <label for="text">Send us feedback</label>
+                <textarea name="text" id="review" cols="30" rows="10"></textarea>
+                <button type="submit" class="cta">Send</button>
+              </form>
           </form>
         </div>    
       </div>
   </section>
-
 </main>
     
     <footer>

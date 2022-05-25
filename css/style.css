@@ -318,11 +318,18 @@ ul {
    padding: 20px;
 }
 
-.Subscribe {
+/* .Subscribe {
   padding: 10px;
   margin-top: 10px;
   width: 217px;
 }
+
+.subscribe {
+  padding: 10px;
+  margin: 10px;
+  color: #574f4f;
+  width: 217px;
+} */
 
 .discount_code {
   border-bottom-style: groove;
@@ -438,7 +445,11 @@ ul {
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
-  
+}
+
+.women_men{
+  width: 100%;
+  margin-top: 50px ;
 }
 
 .men_page_picture{
@@ -543,11 +554,15 @@ ul {
   height: 265px;
   width: 250px;
   padding: 20px;
-  box-shadow:
+  box-shadow:  1.7px 1.7px 1.4px rgba(0, 0, 0, -0.001),
+  3.9px 3.9px 3.1px rgba(0, 0, 0, 0.001),
   6.7px 6.7px 5.3px rgba(0, 0, 0, 0.006),
+  10.3px 10.3px 8.2px rgba(0, 0, 0, 0.012),
+  15.2px 15.2px 12.2px rgba(0, 0, 0, 0.019),
   22.3px 22.3px 17.9px rgba(0, 0, 0, 0.027),
-  100px 100px 80px rgba(0, 0, 0, 0.07)
-;
+  33.5px 33.5px 26.8px rgba(0, 0, 0, 0.037),
+  53.4px 53.4px 42.7px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
   border-radius: 8px;
 
 }
@@ -611,7 +626,7 @@ ul {
 .mens-jackets {
   text-align: center;
   margin-left: 50px;
-  background-color: #E1E0D24D;
+  background-color: #F3F3F3;
   padding: 10px 30px; 
 }
 
@@ -643,6 +658,7 @@ ul {
 
 .sub-heading {
   font-size: 1.1em;
+  padding: 10px 0px;
 }
 
 .items-2 {
@@ -722,7 +738,7 @@ ul {
   text-decoration: none;
   color: #574f4f;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   padding: 10px 40px; 
   cursor: pointer;
@@ -818,4 +834,10 @@ ul {
 #get_in_touch{
   font-size: 2.5em;
   margin: 0;
+  font-style: italic;
 } 
+
+.feedback{
+  background-color: #F3F3F3;
+  padding: 30px;
+}
