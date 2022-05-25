@@ -415,33 +415,14 @@ ul {
 }
 
 /*------------------------------------Men page and women page -----------------------------------------------------------*/
-
- .shopping{
-  display: grid;
-  grid-template-columns: 250px 250px 250px;
-  align-items: baseline;
-  justify-content: center;
-  gap: 60px;
-  padding: 50px;
-  width: 100%;
-  background-size: 600px;
+.women_page_picture{
   margin: 0 auto;
   max-width: 1200px;
 }
 
-.shopping-women{
-  display: grid;
-  grid-template-columns: 250px 250px 250px;
-  align-items: baseline;
-  justify-content: center;
-  gap: 60px;
-  padding: 50px;
-  width: 100%;
-  margin: 0 auto;
-  background-size: 600px;
+.men_page_picture{
   margin: 0 auto;
   max-width: 1200px;
-
 }
 
 
