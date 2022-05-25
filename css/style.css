@@ -656,10 +656,11 @@ ul {
   box-sizing: border-box;
   max-width: 500px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   gap: 25px;
   border-bottom-style: dashed;
   margin-top: 35px;
+  padding-bottom: 10px;
 }
 
 .menswear {
@@ -668,10 +669,18 @@ ul {
 }
 
 .remove {
-  text-decoration: underline;
-  color: #920404;
+  color: #1502fc;
   font-size: 1em;
   font-style: italic;
+}
+
+.remove_link{
+  padding: 25px;
+
+}
+
+.quantity{
+
 }
 /*------------------------------------Log in and sign up -----------------------------------------------------------*/
 .products-login {
