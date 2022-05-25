@@ -11,6 +11,10 @@ body {
   margin: 0 auto;
 }
 
+img{
+  width: 100%;
+}
+
 
 
 /*------------------------------------header------------------------------------------------------------*/
@@ -244,6 +248,8 @@ h1 {
   font-size: 2em;
   margin: 20px;
   text-underline-offset: 25px;
+  margin-top: 0px;
+
 }
 
 h3 {
@@ -365,7 +371,7 @@ ul {
 }
 
 .about-text {
-  background-color: #574f4f;
+  background-color: #6f6a6a;
   color: #fff;
   text-align: left;
   width: 500px;
@@ -556,6 +562,7 @@ ul {
   gap: 60px;
   padding: 50px;
   background-color: #fdf0f0;
+  margin-top: 50px;
 }
 
 .men-section {
@@ -566,6 +573,7 @@ ul {
   gap: 60px;
   padding: 50px;
   background-color: #e2e9ec;
+  margin-top: 50px;
 }
 
 
@@ -591,13 +599,13 @@ ul {
 .btn {
   background-color: #e9c69e;
   padding: 12px 50px;
-  margin: 50px;
+  margin: 30px 10px;
   text-decoration: none;
   color: #574f4f;
   border-radius: 5px;
   box-shadow: 1px 1px 4px;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.2em;
   align-items: center;
   cursor: pointer;
 }
@@ -605,12 +613,26 @@ ul {
 .mens-jackets {
   text-align: center;
   margin-left: 50px;
+  background-color: #E1E0D24D;
+  padding: 10px 30px; 
 }
 
 .purchase {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+}
+
+.fa-solid.fa-circle-plus {
+  padding: 5px 10px;
+  background-color: #e9c69e;
+  width: 40px;
+}
+
+.fa-solid.fa-circle-minus {
+  padding: 5px 10px;
+  background-color: #e9c69e;
+  width: 40px;
 }
 
 /*------------------------------------product -----------------------------------------------------------*/
@@ -658,7 +680,7 @@ ul {
   display: flex;
   justify-content: space-around;
   gap: 25px;
-  border-bottom-style: dashed;
+  border-bottom-style: inset;
   margin-top: 35px;
   padding-bottom: 10px;
 }
@@ -679,8 +701,9 @@ ul {
 
 }
 
-.quantity{
-
+.sosial_network{
+  font-size: 2.5em;
+  padding-bottom: 10px;
 }
 /*------------------------------------Log in and sign up -----------------------------------------------------------*/
 .products-login {
@@ -774,3 +797,27 @@ ul {
   display: flex;
   flex-direction: column;
 }
+
+/*------------------------------------contact -----------------------------------------------------------*/
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px auto;
+  padding: 50px;
+}
+
+.contact_info{
+  max-width: 700px;
+  padding-right: 25px;
+}
+
+.contact_text{
+  padding-top:  24px;
+
+}
+
+#get_in_touch{
+  font-size: 2.5em;
+  margin: 0;
+} 
