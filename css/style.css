@@ -223,7 +223,7 @@ a {
 }
 
 .new-arrivals {
-  max-width: 1000px;
+  max-width: 1200px;
   padding: 80px;
   display: flex;
   flex-wrap: wrap;
@@ -476,9 +476,7 @@ ul {
 }
 
 .star {
-  position: relative;
-  right: -180px;
-  top: -200px;
+  position: absolute;
   width: 100%;
   max-width: 16px;
 }
@@ -539,9 +537,16 @@ ul {
 
 .cards {
   outline: 0.5px solid black;
-  height: 250px;
+  height: 265px;
   width: 250px;
   padding: 20px;
+  box-shadow:
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.006),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.027),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+  border-radius: 8px;
+
 }
 
 .women-section {
@@ -551,7 +556,7 @@ ul {
   justify-content: center;
   gap: 60px;
   padding: 50px;
-  background-color: #e2e9ec;
+  background-color: #fdf0f0;
 }
 
 .men-section {
@@ -561,15 +566,10 @@ ul {
   justify-content: center;
   gap: 60px;
   padding: 50px;
+  background-color: #e2e9ec;
 }
 
 
-
-
-
-.womens-section {
-  max-width: 100px;
-}
 
 /*------------------------------------checkout page -----------------------------------------------------------*/
 .card-details {
@@ -638,9 +638,19 @@ ul {
   box-sizing: border-box;
   max-width: 500px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   gap: 25px;
   border-bottom-style: dashed;
+}
+
+.price-1 {
+  box-sizing: border-box;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  border-bottom-style: dashed;
+  margin-top: 35px;
 }
 
 .menswear {
@@ -662,6 +672,7 @@ ul {
 
 .text{
   color: rgba(255, 7, 7, 0.999);
+  padding: 20px 0px;
 
 
 }
