@@ -1,4 +1,4 @@
- @media (max-width: 920px) {
+  @media (max-width: 920px) {
   h1{
     font-size:1.5rem;
     padding: 0px;
@@ -30,16 +30,6 @@
     padding-left: 19px;
   }
 
-  .shopping{
-    max-width: 500px;
-    grid-template-columns: 250px 250px;
-  }
-
-  .shopping-women{
-    max-width: 500px;
-    grid-template-columns: 250px 250px;
-  }
-
   .group-picture {
     max-width: 601px;
     padding-bottom: 10px; 
@@ -58,16 +48,6 @@
     padding-right: 0px;
   }
 
-  .welcome-1 {
-    align-items: center;
-    margin-top: 25px;
-  }
-  .welcome-2 {
-    align-items: center;
-    margin-top: 50px;
-  }
-
-  
 
   .footer-text {
     margin: 0 auto;
@@ -124,7 +104,7 @@
   margin-top: 10px;
  }
 
-} 
+}  
 
 
 /* -------------------------------------------------------------720px -------------------------------------------- */
