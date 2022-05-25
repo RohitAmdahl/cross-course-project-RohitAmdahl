@@ -1,3 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 body {
   font-family: "Poppins", Verdana, Arial, Helvetica, Geneva, sans-serif;
   box-sizing: border-box;
@@ -62,8 +69,13 @@ nav a {
   padding-right: 25px;
   font-size: 1em;
 }
+
 a {
   text-decoration: none;
+}
+
+.active {
+  color: #87caf5;
 }
 
 .cart {
@@ -264,6 +276,9 @@ footer {
 
 .footer_links {
   display: inherit;
+  padding: 0px 30px;
+  margin: 10px 0px;
+
 }
 
 #email {
@@ -418,11 +433,15 @@ ul {
 .women_page_picture{
   margin: 0 auto;
   max-width: 1200px;
+  width: 100%;
+  
 }
 
 .men_page_picture{
   margin: 0 auto;
   max-width: 1200px;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 
@@ -452,7 +471,7 @@ ul {
 
 .products {
   width: 100%;
-  max-width: 120px;
+  max-width: 160px;
   padding-left: 35px;
 }
 
@@ -504,7 +523,7 @@ ul {
 .welcome-collection {
   display: grid;
   grid-template-columns: 250px 250px 250px;
-  align-items: baseline;
+  align-items: center;
   justify-content: center;
   gap: 60px;
   padding: 50px;
@@ -517,6 +536,37 @@ ul {
   width: 100%;
   max-width: 250px;
 }
+
+.cards {
+  outline: 0.5px solid black;
+  height: 250px;
+  width: 250px;
+  padding: 20px;
+}
+
+.women-section {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  align-items:center;
+  justify-content: center;
+  gap: 60px;
+  padding: 50px;
+  background-color: #e2e9ec;
+}
+
+.men-section {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 50px;
+}
+
+
+
+
+
 .womens-section {
   max-width: 100px;
 }
