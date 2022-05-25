@@ -52,6 +52,8 @@ li {
   cursor: pointer;
   border-radius: 6px;
   height: 40px;
+  border: 2px solid #e9c69e;
+ 
   
 }
 
@@ -167,7 +169,7 @@ a {
   padding: 11px 30px;
   font-size: 1em;
   color: #e9c69e;
-  border-radius: 10px;
+  border-radius: 5px;
   background: #574f4f;
   margin-top: 15px;
 }
@@ -201,7 +203,7 @@ a {
   box-sizing: border-box;
   max-width: 370px;
   text-align: center;
-  font-weight: bold;
+  
 }
 .buy-buy {
   max-width: 350px;
@@ -254,6 +256,16 @@ footer {
   align-items: baseline;
 }
 
+ .footer_links a {
+  text-decoration: none;
+  color: #000000;
+  
+} 
+
+.footer_links {
+  display: inherit;
+}
+
 #email {
   padding: 5px 15px;
   display: block;
@@ -269,13 +281,6 @@ ul {
   max-width: 800px;
   margin: 0 auto;
   padding: 15px;
-}
-
-.discount_code {
-  font-size: 1.3em;
-  font-style: italic;
-  font-weight: bold;
-  color: #686730;
 }
 
 .form-footer {
@@ -297,12 +302,33 @@ ul {
 .Subscribe {
   padding: 10px;
   margin-top: 10px;
+  width: 217px;
 }
 
 .discount_code {
   border-bottom-style: groove;
   cursor: pointer;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+  color: #af00ff;
+  margin: 0px;
  }
+
+ .discount_sign_up {
+  cursor: pointer;
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+  color: #af00ff;
+  margin: 0px;
+ }
+
+
 
 
 /*........................................About us ..........................................*/
@@ -390,7 +416,7 @@ ul {
 
 /*------------------------------------Men page and women page -----------------------------------------------------------*/
 
-.shopping{
+/* .shopping{
   display: grid;
   grid-template-columns: 250px 250px 250px;
   align-items: baseline;
@@ -467,7 +493,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 /*........................................collection-----------------------------------..........................................*/
 
@@ -663,12 +689,7 @@ margin: 50px;
   margin-bottom: 20px; 
 }
 
-.discount-code {
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  
-}
+
 
 .Confirmation {
   margin-left: 50px;
