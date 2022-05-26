@@ -24,9 +24,15 @@ header {
   padding-top: 15px;
 }
 
-li {
+li  {
   list-style: none;
+  color: #341f6c;
 }
+
+ li a:hover {
+  color: #fa0000;
+}
+
 
 .navigation {
   display: flex;
@@ -77,7 +83,8 @@ a {
 }
 
 .active {
-  color: #87caf5;
+  color:#4400ff;
+ 
 }
 
 .cart {
@@ -332,7 +339,7 @@ ul {
 } */
 
 .discount_code {
-  border-bottom-style: groove;
+  border: groove;
   cursor: pointer;
   text-align: center;
   margin-bottom: 50px;
@@ -341,6 +348,19 @@ ul {
   font-weight: bold;
   color: #af00ff;
   margin: 0px;
+  animation-name: blinker;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+ }
+
+ .discount_code:hover{
+   animation-play-state: paused;
+ }
+ @keyframes blinker{
+   0%{opacity: 1.0;}
+   50%{opacity: 0.0;}
+   100%{opacity: 1.0;}
  }
 
  .discount_sign_up {
