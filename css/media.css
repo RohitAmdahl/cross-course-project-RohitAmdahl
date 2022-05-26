@@ -37,6 +37,7 @@
   
   .mens-jackets {
     margin: 0 auto;
+    margin-bottom: 20px;
   }
 
   .cta {
@@ -82,13 +83,22 @@
   margin: 0 auto;
 }
 
+.men-section {
+  grid-template-columns: 250px auto;
+  padding-top: 50px;
+}
+
+.women-section {
+  grid-template-columns: 250px auto;
+  padding-top: 50px;
+}
+
 
 
 .wrap {
   max-width: 500px;
-  margin-top: 20px;
+  margin-top: 40px;
   padding: 0px;
-  margin-top: 10px;
 }
 
 .subscribe {
@@ -104,6 +114,19 @@
   margin-top: 10px;
  }
 
+ .form-footer {
+  padding-right: 0;
+}
+
+.shopping{
+  margin-bottom: 20px;
+}
+
+.Confirmation {
+  text-align: center;
+  margin: 20px 0px ;
+}
+
 }  
 
 
@@ -116,7 +139,11 @@
   .Confirmation {
     margin-left: 0px;
   }
-
+  
+  li a {
+    display: grid;
+   
+  }
 
   .copywrite {
     padding: 15px;
@@ -146,10 +173,13 @@
     margin: 0 auto;
     max-width: 400px;
   }
+  ul{
+    padding-right: 0;
+  }
   
   p {
     margin: 0 auto;
-    display: flex;
+    
     justify-content: center;
     padding-bottom: 10px;
     }
@@ -218,7 +248,7 @@
 
   nav {
     display: none;
-    background-color: #e9c69e;
+    background-color: #f7f7f7;
     left: 0px;
     padding-bottom: 165px;
     padding-top: 55px;
@@ -244,16 +274,17 @@
     top: 155px;
   }
 
-
   .women-1,
   .men-1 {
     max-width: 500px;
     background-size: 370px;
   }
+
   .navigation-2 {
     position: static;
     display: inherit;
   }
+
   .container-1 {
     flex-direction: column;
   }
@@ -262,6 +293,7 @@
     position: absolute;
     left: 1px;
   }
+
   .men:hover {
     z-index: 1;
     transform: scale(1.1);
@@ -273,6 +305,7 @@
     padding-bottom: 20px;
     
   }
+
   .women:hover {
     transform: scale(1.1);
     transition: ease-out 250ms;
@@ -283,6 +316,7 @@
     font-size: 2em;
     text-align: center;
   }
+
   .men-women{
     flex-direction: column;
   }
@@ -295,10 +329,10 @@
   .buy-now {
     padding: 10px 30px;
   }
+
   .new-arrivals {
     flex-direction: column;
     align-items: center;
-    
   }
 
   .footer-text {
@@ -323,11 +357,34 @@
     margin: 0 auto;
     max-width: 500px;
   }
+  
   .contact_info{
     margin: 0 auto;
     max-width: fit-content;
   }
 
+  .footer_links a  {
+    margin: 0px;
+    padding: 0;
+    
+    
+  }
+  .footer_links  {
+    margin: 0px;
+    padding-left: 0px;
+    margin-top: 15px;
+    padding-right: 0px;
+    padding-left: 20px;
+    
+  }
+  .footer-text {
+   margin: 0;
+   padding-right: 0px;
+  }
+
+  .form-footer {
+    margin-top: 20px;
+  }
 
   /*--------------------------------------------------About us, men.women,  --------------------------*/
   .group-picture {
@@ -449,9 +506,9 @@
 
   .logo-img {
     position: absolute;
-    left: 155px;
+    left: 140px;
     right: 0px;
-    top: 30px;
+    top: 15px;
     bottom: 0px;
     margin-top: 11px;
   }
@@ -507,7 +564,14 @@
     font-size: 1.5em;
   }
 
-
+.women-section {
+  display: flex;
+  flex-direction: column;
+}
+.men-section {
+  display: flex;
+  flex-direction: column;
+}
 
   /*------------------------------------------------Men- women , collection-media quarry -------------------------------- ----*/
 header{
@@ -581,7 +645,7 @@ header{
   .logo-img{
     top: 0px;
     left: 150px;
-    margin-top: 10px;  
+      
   }
 
   #burger {
