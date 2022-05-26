@@ -87,11 +87,15 @@ a {
  
 }
 
-.cart {
+.fas.fa-shopping-cart {
+  font-size: 22px;
+}
+
+/* .cart {
   max-width: 40px;
   float: right;
   position: static;
-}
+} */
 
 .cta-1 {
   background-color: #e9c69e;
