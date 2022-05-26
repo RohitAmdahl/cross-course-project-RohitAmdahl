@@ -33,6 +33,10 @@ li  {
   color: #797101;
 }
 
+.fa-solid.fa-magnifying-glass {
+  color: #797101;
+}
+
 
 .navigation {
   display: flex;
@@ -66,10 +70,12 @@ li  {
   border-radius: 6px;
   height: 40px;
   border: 2px solid #e9c69e;
- 
-  
+
 }
 
+.search_input {
+ font-size: 20px;
+}
 nav a {
   color: #000;
   padding-right: 25px;
