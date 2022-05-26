@@ -30,7 +30,7 @@ li  {
 }
 
  li a:hover {
-  color: #fa0000;
+  color: #797101;
 }
 
 
@@ -99,6 +99,7 @@ a {
   margin: 15px;
   text-decoration: none;
   color: #000;
+  border-radius: 5px;
 }
 
 .color{
@@ -296,6 +297,7 @@ footer {
   padding: 5px 15px;
   display: block;
   margin-top: 5px;
+  
 }
 
 ul {
@@ -346,22 +348,10 @@ ul {
   font-size: 1.5em;
   font-style: italic;
   font-weight: bold;
-  color: #af00ff;
+  color: #574f4f;
   margin: 0px;
-  animation-name: blinker;
-  animation-duration: 2s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
  }
 
- .discount_code:hover{
-   animation-play-state: paused;
- }
- @keyframes blinker{
-   0%{opacity: 1.0;}
-   50%{opacity: 0.0;}
-   100%{opacity: 1.0;}
- }
 
  .discount_sign_up {
   cursor: pointer;
