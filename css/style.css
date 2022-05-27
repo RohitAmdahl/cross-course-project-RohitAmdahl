@@ -37,6 +37,13 @@ li  {
   color: #797101;
 }
 
+.sub_nav{
+  outline: 2px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .navigation {
   display: flex;
@@ -48,6 +55,7 @@ li  {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .logo-img {
@@ -102,12 +110,15 @@ a {
 } */
 
 .cta-1 {
-  background-color: #e9c69e;
+  background: #e9c69e;
   padding: 6px 13px;
   margin: 15px;
   text-decoration: none;
   color: #000;
   border-radius: 5px;
+  width: 100px; 
+  height: 39px;
+  font-size: 18px;
 }
 
 .color{
