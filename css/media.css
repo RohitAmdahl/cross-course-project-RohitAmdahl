@@ -212,6 +212,12 @@
     margin-left: 8px;
   }
 
+  .cards{
+    height: 245px;
+    width: 220px;
+    
+  }
+
   .details {
     max-width: 320px;
     margin: 0 auto;
@@ -475,6 +481,7 @@
   .discount-code {
     max-width: 250px;
     margin: 0 auto;
+    width: 210px;
   }
 
   .login-picture {
@@ -695,8 +702,10 @@ header{
     padding-top: 36px;
 
   }
-  .discount-code {
+  .discount_code {
     max-width: fit-content;
+    width: 210px;
+    
   }
   .account {
  
@@ -726,6 +735,9 @@ nav a {
  
   .noroff {
     padding: 15px;
+  }
+  .discount_code{
+    width: 250px;
   }
 }
 
