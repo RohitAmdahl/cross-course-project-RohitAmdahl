@@ -613,7 +613,7 @@ ul {
 
 .women-section {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: 250px 250px 250px;
   align-items:center;
   justify-content: center;
   gap: 60px;
@@ -625,7 +625,7 @@ ul {
  
 .men-section {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: 250px 250px 250px;
   align-items: center;
   justify-content: center;
   gap: 60px;
