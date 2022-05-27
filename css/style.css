@@ -11,10 +11,6 @@ body {
   margin: 0 auto;
 }
 
-
-
-
-
 /*------------------------------------header------------------------------------------------------------*/
 
 header {
@@ -39,7 +35,6 @@ li  {
 }
 
 .sub_nav{
-  outline: 2px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,6 +78,7 @@ li  {
 
 }
 
+
 .search_input {
  font-size: 20px;
  position: absolute;
@@ -93,7 +89,9 @@ li  {
  background-color: #574f4f;
  color: #e9c69e;
  
-
+}
+.cta_mobile{
+  display: none;
 }
 
 nav a {
@@ -615,43 +613,45 @@ ul {
 
 .women-section {
   display: grid;
-  grid-template-columns: 250px 250px 250px;
+  grid-template-columns: repeat(3,1fr);
   align-items:center;
   justify-content: center;
   gap: 60px;
   padding: 50px;
   background-color: #f6f4f4;
   margin-top: 50px;
+  
 }
  
 .men-section {
   display: grid;
-  grid-template-columns: 250px 250px 250px;
+  grid-template-columns: repeat(3,1fr);
   align-items: center;
   justify-content: center;
   gap: 60px;
   padding: 50px;
   background-color: #e2e9ec;
   margin-top: 50px;
+ 
 }
 
 /*------------------------------------checkout page -----------------------------------------------------------*/
-.card-details {
+ .card-details {
   text-align: center;
   text-decoration: none;
   margin-top: 50px;
-}
+} 
 
-.car {
+/* .car {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 
 .shipping {
   padding: 50px 10px;
   height: 50px;
-}
+} 
 
 .btn {
   background-color: #e9c69e;
