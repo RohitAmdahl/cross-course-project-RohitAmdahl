@@ -88,6 +88,7 @@ li  {
  top: 14.5px;
  background-color: #574f4f;
  color: #e9c69e;
+ border-radius: 8px;
  
 }
 .cta_mobile{
@@ -301,6 +302,9 @@ footer {
   background-color: #dbdbdb;
 }
 /*------------------------------------Footer-----------------------------------------------------------*/
+.discount_text {
+  display: contents;
+}
 
 .footer-text {
   display: flex;
