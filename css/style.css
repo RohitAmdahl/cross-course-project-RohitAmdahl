@@ -146,6 +146,7 @@ a {
   text-align: center;
 }
 
+
 .cta-2 {
   background-color: #574f4f;
   color: #e9c69e;
@@ -390,7 +391,6 @@ ul {
   margin: 0 auto;
  }
 
-
  .discount_sign_up {
   cursor: pointer;
   text-align: center;
@@ -402,10 +402,14 @@ ul {
   margin: 0px;
  }
 
-
-
-
 /*........................................About us ..........................................*/
+.sosial_icon-1{
+color: #831352;
+}
+
+.sosial_icon-2{
+ color: rgb(73, 44, 1);
+}
 
 .about {
   text-align: center;
