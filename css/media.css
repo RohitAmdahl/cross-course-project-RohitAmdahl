@@ -126,7 +126,9 @@
   text-align: center;
   margin: 20px 0px ;
 }
-
+.shipping{
+  margin-bottom: 15px;
+}
 }  
 
 
@@ -523,11 +525,11 @@
 
   .logo-img {
     position: absolute;
-    left: 140px;
     right: 0px;
     top: 15px;
     bottom: 0px;
     margin-top: 11px;
+    left: 202px;
   }
 
   .navigation-2 {
@@ -542,11 +544,21 @@
     margin-bottom: 32px;
   }
 
+  .search_input{
+    left: 386px;
+    top: 91px;
+  
+  }
+    .fas.fa-shopping-cart {
+        margin-left: 35px;
+        margin-top: 17px;
+    }
+
   #burger {
     display: block;
     position: static;
     font-size: 22px;
-    margin-top: 34px;
+    margin-top: 59px;
     margin-left: -8px;
   }
 
@@ -603,7 +615,7 @@ header{
 }
 
 .search-box{
-  padding-right: 95px;
+  padding-right: 80px;
 }
 
 .cta-1 {
@@ -626,6 +638,19 @@ header{
 .footer-text {
   max-width: 500px;
   margin: 0 auto;
+  padding-top: 50px;
+  }
+
+ .discount_code {
+   width: 293px;
+  }
+
+  .cta-1{
+    width: 200px;
+    margin: 10px;
+  }
+  ul{
+    text-align: center;
   }
 
 }
@@ -689,7 +714,7 @@ header{
 
   .shopping, .shopping-women{
     display: grid;
-   margin: 0 auto;
+    margin: 0 auto;
     grid-template-columns: 250px;
     padding: 0;
   }
