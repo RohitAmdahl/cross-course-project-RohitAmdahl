@@ -141,11 +141,20 @@
   .Confirmation {
     margin-left: 0px;
   }
+  header {
+    position: static;
+  }
   
   li a {
-    display: grid;
-   
+    display: block;
   }
+
+  .search_input{
+    left: 394px;
+    top: 78px;
+    position: absolute;
+  }
+  
 
   .copywrite {
     padding: 15px;
@@ -182,7 +191,6 @@
 
   p {
     margin: 0 auto;
-    
     justify-content: center;
     padding-bottom: 10px;
     }
@@ -251,7 +259,7 @@
 
   .logo-img {
     position: absolute;
-    top: 17px;
+    top: 12px;
     left: 247px;
   }
 
@@ -281,8 +289,8 @@
     position: absolute;
     left: 32px;
     top: 155px;
-    
   }
+
   .sub_nav{
     display: none;
   }
@@ -404,6 +412,12 @@
     margin-top: 20px;
   }
 
+  .fas.fa-shopping-cart {
+    position: absolute;
+    left: 467px;
+    top: 87px;
+  
+  }
   /*--------------------------------------------------About us, men.women,  --------------------------*/
   .group-picture {
     width: 100%;
@@ -525,9 +539,8 @@
 
   .logo-img {
     position: absolute;
-    right: 0px;
-    top: 15px;
-    bottom: 0px;
+    top: 9px;
+    left: 196px;
     margin-top: 11px;
     left: 202px;
   }
@@ -542,15 +555,16 @@
   .search-box {
     position: static;
     margin-bottom: 32px;
+    width: 200px;
   }
 
   .search_input{
-    left: 386px;
+    left: 390px;
     top: 91px;
-  
   }
+
     .fas.fa-shopping-cart {
-        margin-left: 35px;
+        margin-left: -8px;
         margin-top: 17px;
     }
 
@@ -684,16 +698,19 @@ header{
     margin-top: 65px;
     padding-right: 49px;
   }
+
   .logo-img{
     top: 0px;
-    left: 150px;
-      
+    left: 150px; 
+    max-width: 100px; 
   }
 
-  #burger {
-    margin-top: 15px;
-    margin-left: 24px;
+  .search_input {
+    left: 288px;
+    top: 72px;
   }
+
+ 
   .container-1 {
     padding: 20px;
     margin: 0 auto;
@@ -705,9 +722,11 @@ header{
   .buy {
     width: 250px;
   }
+  
   ul{
     padding: 0px 15px;
   }
+
   .copywrite {
     padding: 10px;
   }
@@ -725,21 +744,20 @@ header{
     padding: 0;
     margin-bottom: 15px;
     padding-top: 36px;
-
   }
+
   .discount_code {
     max-width: fit-content;
-    width: 210px;
-    
+    width: 210px; 
   }
+
   .account {
- 
     margin: 0 auto;
   }
 
-nav a {
-  text-align: end;
-}
+  nav a {
+    text-align: end;
+  }
  
 
   nav{
@@ -764,6 +782,18 @@ nav a {
   .discount_code{
     width: 250px;
   }
+
+  #burger {
+    margin-top: 25px;
+    margin-right: -6px;
+  }
+
+  .fas.fa-shopping-cart {
+    left: 359px;
+    margin-top: 0px;
+    top: 78px;
+  }
+
 }
 
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
@@ -775,14 +805,23 @@ nav a {
     margin: 0;
   }
 
+  .fas.fa-shopping-cart {
+    left: 371px;
+    top: 60px;
+  }
+
+  .navigation-2 {
+    width: 200px;
+  }
+  .navigation{
+    padding-right: 10;
+  }
+
   #burger {
     padding: 0px;
     margin: 0px;
   }
-  .navigation-2{
-    margin-left: 10px;
 
-  }
   h1{
     font-size: 1rem;
   }
