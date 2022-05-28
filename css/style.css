@@ -382,6 +382,15 @@ ul {
   color: #574f4f;
   width: 217px;
 } */
+.footer_content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.newsletter-text_1{
+  padding: 0;
+}
 
 .discount_code {
   border: groove;
