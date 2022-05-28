@@ -101,18 +101,7 @@
   padding: 0px;
 }
 
-.subscribe {
-  padding: 20px;
-  background: aliceblue;
-  color: #574f4f;
-  font-weight: 600;
-  border-radius: 20px;
-  text-align: center;
-  box-shadow:
-  7.9px 7.9px 10px rgba(0, 0, 0, 0.011),
-  100px 100px 80px rgba(0, 0, 0, 0.07);
-  margin-top: 10px;
- }
+
 
  .form-footer {
   padding-right: 0;
@@ -369,15 +358,7 @@
     padding: 0px;
   }
  
-  .Subscribe {
-    margin-top: 10px;
-    padding: 11px 30px;
-    font-size: 1em;
-    color: #e9c69e;
-    border-radius: 10px;
-    background: #574f4f;
-    margin-top: 15px;
-  }
+ 
 
   .confirmation{
     margin: 0 auto;
