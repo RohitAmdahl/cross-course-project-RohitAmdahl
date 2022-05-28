@@ -152,9 +152,10 @@ a {
 
 
 .cta-2 {
-  background-color: #574f4f;
+
+   background-color: #574f4f;
   color: #e9c69e;
-  padding: 8px 45px;
+  padding: 5px 30px;
   font-size: 1.5em;
   border-radius: 5px;
   font-weight: bold;
@@ -167,14 +168,14 @@ a {
   5.4px 5.4px 53px rgba(0, 0, 0, 0.082),
   10.9px 10.9px 63.8px rgba(0, 0, 0, 0.083),
   26.3px 26.3px 70.5px rgba(0, 0, 0, 0.079),
-  100px 100px 80px rgba(0, 0, 0, 0.07)
+  100px 100px 80px rgba(0, 0, 0, 0.07) 
 ;
 
 }
 
-.cta-2:hover {
+ .cta-2:hover {
   background-color: #000;
-}
+} 
 
 .cta-3 {
   background-color: #574f4f;
@@ -225,9 +226,9 @@ a {
   margin-top: 10px;
   padding: 11px 30px;
   font-size: 1em;
-  color: #e9c69e;
+  color: #000000;
   border-radius: 5px;
-  background: #574f4f;
+  background: #87CAF5;
   margin-top: 15px;
   margin-bottom: 15px;
   border-radius: 8px;
@@ -236,6 +237,7 @@ a {
 .women-1 {
   width: 100%;
   max-width: 450px;
+  
 }
 
 .men-1 {
