@@ -332,6 +332,7 @@ footer {
   display: inherit;
   padding: 0px 30px;
   margin: 10px 0px;
+ 
 
 }
 
@@ -567,9 +568,8 @@ color: #831352;
 /*........................................collection-----------------------------------..........................................*/
 
 .background {
-  background: url(../images/collectionpage.jpg) no-repeat;
+  background: url(../images/collectionpage_1.jpg) no-repeat;
   background-size: cover;
-  background-position-y: center;
   display: block;
   justify-content: center;
   text-align: center;
@@ -578,9 +578,7 @@ color: #831352;
 
 .new {
   color: #000;
-  text-shadow: 3px 5px 5px #dbdbdb;
   font-size: 46px;
-  text-decoration: underline;
   padding-top: 58px;
 }
 
