@@ -102,7 +102,6 @@
 }
 
 
-
  .form-footer {
   padding-right: 0;
 }
@@ -869,5 +868,8 @@ header{
 
   .products-login{
     padding-left: 20px;
+  }
+  .price{
+    padding: 0;
   }
 } 
