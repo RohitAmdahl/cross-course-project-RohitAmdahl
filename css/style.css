@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: 2px solid forestgreen;
 }
 
 
@@ -42,6 +43,9 @@ li  {
 }
 .search_container{
   margin-right: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -74,25 +78,25 @@ li  {
 
 .search-box {
   padding: 5px 10px;
-  cursor: pointer;
   border-radius: 6px;
   height: 40px;
   border: 2px solid #e9c69e;
   position: relative;
-
+  
 }
 
 
 .search_input {
  font-size: 20px;
- position: absolute;
- left: 156px;
+ position: absolute; 
+ left: 156px; 
  height: 40px;
  width: 50px;
- top: 14.5px;
+ /* top: 14.5px; */
  background-color: #574f4f;
  color: #e9c69e;
  border-radius: 8px;
+ cursor: pointer;
  
 }
 .cta_mobile{
@@ -495,6 +499,20 @@ color: #831352;
   max-width: 920px;
   padding-bottom: 20px;
 }
+
+
+.menu-bar{
+  outline: 2px solid red;
+}
+
+header{
+  outline: 2px solid red;
+}
+
+
+
+
+
 
 .sosial-media {
   width: 9%;
