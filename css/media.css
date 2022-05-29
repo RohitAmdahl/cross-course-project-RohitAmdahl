@@ -212,7 +212,7 @@
 
   .cards{
     height: 245px;
-    width: 220px;
+    width: 241px;
     
   }
 
@@ -371,16 +371,17 @@
 
   .footer_links a  {
     margin: 0px;
-    padding: 0;
-    
+    padding: 0 px;
+    width: 150px;
     
   }
+
   .footer_links  {
     margin: 0px;
     padding-left: 0px;
     margin-top: 15px;
-    padding-right: 0px;
     padding-left: 20px;
+    padding-right: 9px;
     
   }
   .footer-text {
@@ -596,6 +597,10 @@
   flex-direction: column;
 }
 
+.price{
+  padding: 0;
+}
+
   /*------------------------------------------------Men- women , collection-media quarry -------------------------------- ----*/
 header{
   margin: 0 auto;
@@ -637,6 +642,10 @@ header{
 
  .discount_code {
    width: 293px;
+  }
+
+  .discount_code {
+    font-size: 22px;
   }
 
   .cta-1{
@@ -759,6 +768,7 @@ header{
   .noroff {
     padding: 15px;
   }
+
   .discount_code{
     width: 250px;
   }
@@ -774,6 +784,13 @@ header{
     top: 78px;
   }
 
+  .footer_links  {
+    margin: 0px;
+    padding-left: 0px;
+    margin-top: 15px;
+    padding-right: 9px;
+    
+  }
 }
 
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
@@ -871,5 +888,16 @@ header{
   }
   .price{
     padding: 0;
+  }
+
+  .footer_content{
+    margin: 0 auto;
+  }
+  .discount_code {
+    font-size: 16px;
+  }
+
+  .footer_links {
+    font-size: 16px;
   }
 } 

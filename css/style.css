@@ -332,8 +332,8 @@ footer {
   display: inherit;
   padding: 0px 30px;
   margin: 10px 0px;
+  padding-left: 0px;
  
-
 }
 
 #email {
@@ -355,9 +355,9 @@ ul {
 }
 
 .form-footer {
-  padding-left: 50px;
   box-sizing: border-box;
   max-width: 550px;
+  padding-top: 15px;
 }
 
 .copy {
@@ -382,6 +382,7 @@ ul {
   color: #574f4f;
   width: 217px;
 } */
+
 .footer_content{
   display: flex;
   flex-wrap: wrap;
