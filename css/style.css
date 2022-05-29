@@ -640,11 +640,7 @@ color: #831352;
   justify-content: center;
   gap: 60px;
   padding: 50px;
-  background-color: #f6f4f4;
-  background-image: url(/images/circlewomen.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  
+  background-color: #f6f4f4; 
 }
  
 .men-section {
@@ -655,10 +651,6 @@ color: #831352;
   gap: 60px;
   padding: 50px;
   background-color: #e2e9ec;
-  background-image: url(/images/circleman.png);
-  background-repeat: no-repeat;
-  background-position: bottom;
- 
 }
 
 /*------------------------------------checkout page -----------------------------------------------------------*/
