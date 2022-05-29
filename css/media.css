@@ -727,7 +727,7 @@ header{
 
   .search_input {
     top: 72px;
-    left: 266px; 
+    
   }
 
   .container-1 {
@@ -811,10 +811,9 @@ header{
   }
 
   .fas.fa-shopping-cart {
-    left: 359px;
     margin-top: 0px;
-    left: 340px;
     top: 75px;
+    left: 364px;
   }
 
   .footer_links  {
