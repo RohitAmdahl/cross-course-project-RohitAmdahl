@@ -776,7 +776,13 @@ header{
   }
 
   nav a {
-    text-align: end;
+    text-align: center;
+    width: 400px;
+  }
+
+  .cta-1.cta_mobile {
+    margin: 0 auto;
+    font-size: 1.3rem;
   }
  
 
