@@ -119,8 +119,24 @@
 .footer_content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  }
+
+  .footer_links {
+    display: flex;
+    justify-content: space-between;
+    text-align: -moz-left;
+    box-sizing: border-box;
+    width: 600px;
+    padding-right: 0;
+    
+  }
+
+  .footer_links_2 {
+    padding: 20px;
+    margin-top: 10px;
+
   }
 }  
 
@@ -371,20 +387,22 @@
     max-width: fit-content;
   }
 
-  .footer_links a  {
+  .footer_links a {
     margin: 0px;
     padding: 0 px;
     width: 150px;
     
   }
 
-   .footer_links  {
+   .footer_links{
     margin: 0px;
-    padding-left: 0px;
-    margin-top: 15px;
-    padding-left: 20px;
-    padding-right: 9px; 
+    box-sizing: border-box;
+    width: 500px;
   } 
+
+  .footer_links_2 {
+    padding: inherit;
+  }
   
   .footer-text {
    margin: 0;
@@ -543,8 +561,8 @@
   }
 
   .search_input{
-    left: 390px;
     top: 91px;
+    left: 293px;
   }
 
     .fas.fa-shopping-cart {
@@ -606,6 +624,10 @@
 .footer_links{
   padding-left: 0px;
 
+}
+
+.footer_links {
+  display: contents;
 }
 
   /*------------------------------------------------Men- women , collection-media quarry -------------------------------- ----*/
@@ -702,11 +724,12 @@ header{
   }
 
   .search_input {
-    left: 288px;
+    
     top: 72px;
+    left: 296px;
+  
   }
 
- 
   .container-1 {
     padding: 20px;
     margin: 0 auto;
@@ -804,7 +827,7 @@ header{
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
 
 
-@media (max-width: 320px) {
+/* @media (max-width: 320px) {
   body {
     margin: 0;
   }
@@ -850,7 +873,7 @@ header{
   }
 
   #burger {
-    margin-top: 32px;
+    margin: 0;
   }
 
   .cta{
@@ -936,4 +959,4 @@ header{
     height: 220px;
     width: 206px;
   }
-} 
+}  */
