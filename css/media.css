@@ -715,18 +715,19 @@ header{
     margin-bottom: 35px;
     margin-top: 65px;
     padding-right: 49px;
+    width: 207px;
   }
 
   .logo-img{
     top: 0px;
     left: 150px; 
     max-width: 100px; 
+    margin-top: 15px;
   }
 
   .search_input {
-    
     top: 72px;
-    left: 296px;
+    left: 266px;
   
   }
 
@@ -806,12 +807,13 @@ header{
   #burger {
     margin-top: 25px;
     margin-right: -6px;
+    margin-left: 10px;
   }
 
   .fas.fa-shopping-cart {
     left: 359px;
     margin-top: 0px;
-    top: 78px;
+    left: 340px;
   }
 
   .footer_links  {
