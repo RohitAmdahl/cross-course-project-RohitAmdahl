@@ -728,6 +728,7 @@ header{
   .search_input {
     top: 72px;
     left: 266px;
+    
   
   }
 
@@ -814,6 +815,7 @@ header{
     left: 359px;
     margin-top: 0px;
     left: 340px;
+    top: 75px;
   }
 
   .footer_links  {
