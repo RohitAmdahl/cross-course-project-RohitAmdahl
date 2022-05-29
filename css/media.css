@@ -554,7 +554,7 @@
     position: static;
     font-size: 22px;
     margin-top: 59px;
-    margin-left: -8px;
+    margin-left: 38px;
   }
 
   .cta-1 {
@@ -573,7 +573,7 @@
   }
 
   ul{
-    padding-right: 40px;
+    padding-right: 77px;
   }
 
   .wrap-1 {
@@ -599,6 +599,10 @@
 
 .price{
   padding: 0;
+}
+.footer_links{
+  padding-left: 0px;
+
 }
 
   /*------------------------------------------------Men- women , collection-media quarry -------------------------------- ----*/
@@ -814,11 +818,6 @@ header{
     padding-right: 10;
   }
 
-  #burger {
-    padding: 0px;
-    margin: 0px;
-  }
-
   h1{
     font-size: 1rem;
   }
@@ -838,9 +837,7 @@ header{
   .new-arrivals {
     flex-direction: inherit;
   }
-  #burger {
-    margin-top: 10px;
-  }
+
   logo-img {
     left: 95px;
   }
@@ -850,7 +847,7 @@ header{
   }
 
   #burger {
-    padding-right: 17px;
+    margin-top: 32px;
   }
 
   .cta{
@@ -881,6 +878,7 @@ header{
 
   .logo-img{
     left: 100px;
+    top: 13px;
   }
 
   .products-login{
@@ -899,5 +897,40 @@ header{
 
   .footer_links {
     font-size: 16px;
+  }
+  .search-box{
+    padding-right: 36px;
+    margin-right: 43px;
+  }
+  .fas.fa-shopping-cart {
+    left: 285px;
+    top: 84px;
+  }
+  .search_input{
+    left: 216px;
+  }
+  .cta-1.cta_mobile {
+    width: 120px;
+   
+  }
+  nav a {
+    padding: 0;
+  }
+
+  .footer_content {
+    display: contents;
+  }
+
+  .style_text {
+   font-size: 1em;
+   margin-top: 10px;
+   padding-bottom: 0px;
+  }
+  .price-1{
+    border: none;
+  }
+  .cards {
+    height: 220px;
+    width: 206px;
   }
 } 

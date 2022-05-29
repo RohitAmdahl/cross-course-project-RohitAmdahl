@@ -236,13 +236,15 @@ a {
 
 .women-1 {
   width: 100%;
-  max-width: 450px;
-  
+  max-width: 500px;
+  border-right-width: 0.6px;
+  border-right-style: solid;
 }
 
 .men-1 {
   width: 100%;
-  max-width: 450px;
+  max-width: 500px;
+
 }
 /*------------------------------------section new arrivals------------------------------------------------*/
 .men {
