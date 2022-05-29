@@ -93,14 +93,11 @@
   padding-top: 50px;
 }
 
-
-
 .wrap {
   max-width: 500px;
   margin-top: 40px;
   padding: 0px;
 }
-
 
  .form-footer {
   padding-right: 0;
@@ -114,18 +111,23 @@
   text-align: center;
   margin: 20px 0px ;
 }
+
 .shipping{
   margin-bottom: 15px;
 }
+
+.footer_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
 }  
 
 
 /* -------------------------------------------------------------720px -------------------------------------------- */
-@media (max-width: 600px)  {
-  body {
-    margin: 0 auto;
-  }
-
+ @media (max-width: 600px)  {
+ 
   .Confirmation {
     margin-left: 0px;
   }
@@ -135,6 +137,8 @@
   
   li a {
     display: block;
+    padding-right: 0;
+    padding-top: 10px;
   }
 
   .search_input{
@@ -142,7 +146,6 @@
     top: 78px;
     position: absolute;
   }
-  
 
   .copywrite {
     padding: 15px;
@@ -201,7 +204,6 @@
   height: 350px;
 }
 
-
 .follow-media {
   padding: 0;
 }
@@ -217,11 +219,10 @@
     max-width: 320px;
     margin: 0 auto;
     padding-bottom: 10px;
-
   }
+
   .details-1 {
     max-width: 120px;
-
   }
 
   .search-box {
@@ -232,7 +233,6 @@
     position: static;
     outline: 2px red;
   }
-
 
   .mens-jackets {
     margin: 0 auto;
@@ -250,14 +250,14 @@
 
   nav {
     display: none;
-    background-color: #f7f7f7;
+    background-color: #fcfcfc;
     left: 0px;
     padding-bottom: 165px;
     padding-top: 55px;
-    padding-right: 100px;
-    padding-left: 100px;
     font-size: 22px;
     font-weight: 600;
+    z-index: 1;
+    text-align: center;
   }
 
   #burger {
@@ -272,7 +272,7 @@
   #menu-checkbox:checked ~ nav {
     display: block;
     position: absolute;
-    left: 32px;
+    left: 0px;
     top: 155px;
   }
 
@@ -282,7 +282,10 @@
   .cta_mobile{
     display:block;
     margin-bottom: 10px;
-    margin-top: 50px;
+    margin-top: 10px;
+    width: 355px;
+    height: 50px;
+    font-size: 1.4rem;
   }
 
   .women-1,
@@ -354,7 +357,9 @@
     padding: 0px;
   }
  
- 
+ .offer_discount {
+  display: flex;
+}
 
   .confirmation{
     margin: 0 auto;
@@ -373,14 +378,14 @@
     
   }
 
-  .footer_links  {
+   .footer_links  {
     margin: 0px;
     padding-left: 0px;
     margin-top: 15px;
     padding-left: 20px;
-    padding-right: 9px;
-    
-  }
+    padding-right: 9px; 
+  } 
+  
   .footer-text {
    margin: 0;
    padding-right: 0px;
@@ -394,8 +399,9 @@
     position: absolute;
     left: 467px;
     top: 87px;
+    } 
   
-  }
+  
   /*--------------------------------------------------About us, men.women,  --------------------------*/
   .group-picture {
     width: 100%;
@@ -426,9 +432,10 @@
   .welcome-2 {
     max-width: 800px;
     margin-top: 5px;
-  }
+  } 
+
   /*------------------------------------------------collection-,log in, Sign up ------------------------------- ----*/
-  .new {
+   .new {
     margin-top: 25px;
     font-size: 2em;
   }
@@ -492,8 +499,7 @@
   max-width: 500px;
 }
 
-
-}
+} 
 
 /*-----------------------------------------------media phone--media quarry -------------------------------- ----*/
 
