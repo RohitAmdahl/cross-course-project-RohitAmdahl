@@ -727,9 +727,7 @@ header{
 
   .search_input {
     top: 72px;
-    left: 266px;
-    
-  
+    left: 266px; 
   }
 
   .container-1 {
@@ -770,6 +768,7 @@ header{
   .discount_code {
     max-width: fit-content;
     width: 210px; 
+    margin: 0 auto;
   }
 
   .account {
