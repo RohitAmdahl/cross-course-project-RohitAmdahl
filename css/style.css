@@ -364,6 +364,8 @@ footer {
 ul {
   list-style: none;
   display: flex;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .copywrite {
@@ -388,9 +390,13 @@ ul {
 }
 
 .newsletter-text {
-   max-width: 1000px;
-   margin: 0 auto;
    padding: 20px;
+   box-sizing: border-box;
+   max-width: 535px;
+   margin: 0 auto;
+   line-height: 32px;
+   letter-spacing: 1px;
+  
 }
 
 .sosial_network_icons {
