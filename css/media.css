@@ -132,6 +132,26 @@
   align-items: center;
   }
 
+  #get_in_touch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #574F4F;
+    
+  }
+
+  .feedback {
+    margin-top: 40px;
+  }
+
+  .contact_info {
+    text-align: center;
+    
+  }
+
+  .contact {
+    margin-top: auto;
+  }
 
 }  
 
