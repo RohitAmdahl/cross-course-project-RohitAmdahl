@@ -161,6 +161,10 @@
     
   }
 
+  .account {
+    grid-template-columns: 248px;
+  }
+
   .search_input{
     position: static;
   }
@@ -251,6 +255,21 @@
     left: 95px;
   }
 
+  .cta{
+    width: 250px;
+  }
+
+  .feedback {
+    padding: 54px;
+    
+  }
+  .contact {
+    margin-bottom: 0;
+  }
+
+  .contact_text {
+    padding: 28px;
+  }
 
   nav {
     display: none;
@@ -607,14 +626,10 @@ header{
   padding-top: 50px;
   }
 
- .discount_code {
-   width: 293px;
-  }
 
   .discount_code {
-    font-size: 22px;
+    width: 292px;
   }
-
   .cta-1{
     width: 200px;
     margin: 10px;
