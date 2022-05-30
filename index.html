@@ -14,24 +14,23 @@
     <title>Rainy day| Homepage </title>
 </head>
 <body>
-  <header>
-    <div class="navigation">
-      <div>
+<header>
+      <div class="logo">
          <a href="index.html"><img src="./images/Logo.png" alt="Rainy-day logo" class="logo-img"/></a>
       </div>
+      <div class="navigation"></div>
          <div class="menu-bar">
                <input type="checkbox" id="menu-checkbox">
                <label for="menu-checkbox"><i class="fas fa-bars" id="burger"></i></label>
                <nav>
-                 <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="men.html">Men</a> </li>
-                    <li><a href="women.html">Women</a> </li>
-                    <li><a href="about.html">About Us</a> </li>
-                    <li><a href="collection.html">New Arrivals</a></li>
-                    <li><a href="login.html"><button class="cta-1 cta_mobile">Log in</button></a> </li>
-                    <li><a href="signup.html"><button class="cta-1 cta_mobile">Sign Up</button></a> </li>
-                  
+                 <ul class="nav_links">
+                    <li class="main_nav"><a href="index.html" class="active">Home</a></li>
+                    <li class="main_nav"><a href="men.html">Men</a> </li>
+                    <li class="main_nav"><a href="women.html">Women</a> </li>
+                    <li class="main_nav"><a href="about.html">About Us</a> </li>
+                    <li class="main_nav"><a href="collection.html">New Arrivals</a></li>
+                    <a href="login.html"><button class="cta-1 cta_mobile">Log in</button></a>
+                    <a href="signup.html"><button class="cta-1 cta_mobile">Sign Up</button></a>
                  </ul>
               </nav>
           </div>   
@@ -51,7 +50,7 @@
               </div>
         </div> 
 </header>
-    <main>
+<main>
       <div class="container-1">
             <div class="gender">
               <div>
@@ -85,59 +84,41 @@
             </div>
         </section>
       </div>
-    </main>       
-    <footer>
-      <div class="footer-text">
-        <div class="discount_text">
-          <div class="newsletter-text_1">
-            <p class="newsletter-text">Inspired by Norwegian weather and rainy days Choose your style and get updates for new arrivals</p>
-          </div>
-          <div class="offer_discount">
-            <a href="signup.html" class="discount_code"> Sign up for First discount-code <i class="fab fa-angellist"></i></a>
-          </div> 
-        </div> 
-        <div class="footer_content">
-          <div class="footer_links">
-            <div>
-              <ul class="footer_links_1">
-                <li><a href="index.html" class="footer_links_2">Home</a></li>
-                <li><a href="men.html" class="footer_links_2">Men</a></li>
-                <li><a href="women.html" class="footer_links_2">Women</a></li>
-                <li><a href="about.html" class="footer_links_2">About Us</a></li>
-                <li><a href="collection.html" class="footer_links_2">New Arrivals</a>  
-              </ul>
-            </div>
-            <div>
-              <ul class="footer_links_1"> 
-                <li><a href="https://www.facebook.com" class="footer_links_2">Facebook</a></li>
-                <li><a href=" https://www.instagram.com" class="footer_links_2">Instagram</a></li>
-                <li><a href="https://twitter.com/i/flow/login" class="footer_links_2">Twitter</a></li> 
-             </ul>
-            </div>
-            <div class="footer_links_1">
-              <ul class="footer_links_3">
-                <li><a href="#" class="footer_links_2">Cart</a></li>
-                <li><a href="collection.html" class="footer_links_2">Shopping</a></li>
-                <li><a href="contact.html" class="footer_links_2">Get in touch</a></li>
-              </ul>
-            </div>
-            </div>
-             <div class="form-footer">
-                <form action="submit.html" method="post">
-                  <label class="e-post" for="email">Enter your email Address:</label>
-                  <input type="email" placeholder="Enter your email Address" name="email" id="email" required>
-                  <input class="Subscribe" type="submit" value="Subscribe newsletter">   
-                </form>
-              </div>
-
-        </div>  
-        </div> 
-             <hr>
-               <div class="copywrite">
-                <div class="copy"> &copy;</div> 
-                <span>RAINY DAY 2021. ALL RIGHTS RESERVED</span> 
-                  <span> Rohit Kumar Amdahl</span>
-              </div>                      
-    </footer>
+</main>       
+<footer>
+  <div class="footer-text">
+    <div class="discount_text">
+      <div class="newsletter-text_1">
+        <p class="newsletter-text">Inspired by Norwegian weather and rainy days Choose your style and get updates for new arrivals</p>
+      </div>
+      <div class="offer_discount">
+        <a href="signup.html" class="discount_code"> Sign up for First discount-code <i class="fab fa-angellist"></i></a>
+      </div> 
+    </div> 
+      <div class="sosial_network_icons">
+          <a href="https://www.facebook.com" class="sosial_icon-2"><i class="fa-brands fa-facebook-square"></i></a> 
+          <a href="https://www.instagram.com" class="sosial_icon-2"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/i/flow/login" class="sosial_icon-2"><i class="fa-brands fa-twitter"></i></a>
+      </div>
+       <div class="footer_links">
+          <a href="#">Cart</a>
+          <a href="collection.html">Shopping</a>
+          <a href="contact.html">Get in touch</a>
+       </div>
+      <div class="form-footer">
+            <form action="submit.html" method="post">
+              <label class="e-post" for="email">Enter your email Address:</label>
+              <input type="email" placeholder="Enter your email Address" name="email" id="email" required>
+              <input class="Subscribe" type="submit" value="Subscribe newsletter">   
+            </form>
+      </div>
+    </div> 
+         <hr>
+           <div class="copywrite">
+            <div class="copy"> &copy;</div> 
+            <span>RAINY DAY 2021. ALL RIGHTS RESERVED</span> 
+              <span> Rohit Kumar Amdahl</span>
+          </div>                      
+</footer>
 </body>
 </html>

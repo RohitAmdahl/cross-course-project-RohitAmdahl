@@ -24,6 +24,18 @@ header {
 li  {
   list-style: none;
   color: #341f6c;
+  padding-right: 15px;
+}
+
+.menu-bar {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+ .nav_links{
+  display: flex;
 }
 
  li a:hover {
@@ -33,6 +45,12 @@ li  {
 .fa-solid.fa-magnifying-glass {
   color: #e9c69e;
   border: 0;
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sub_nav{
@@ -63,10 +81,7 @@ li  {
 }
 
 .logo-img {
-  width: 100%;
-  max-width: 140px;
-  padding-right: 20px;
-  border: 2px solid green;
+  max-width: 120px;
 }
 
 #menu-checkbox {
@@ -106,7 +121,6 @@ li  {
 
 nav a {
   color: #000;
-  padding-right: 25px;
   font-size: 1em;
 }
 
@@ -327,23 +341,6 @@ footer {
   align-items: baseline;
 }
 
- .footer_links a {
-  text-decoration: none;
-  color: #000000;
-  
-} 
-
-.footer_links {
-  display: inherit;
-  padding: 0px 30px;
-  margin: 10px 0px;
-  padding-left: 0px;
- 
-}
-.footer_links_2{
-  padding-right: 20px;
-  padding-left: 20px;
-}
 
 .offer_discount {
   display: flex;
@@ -358,6 +355,7 @@ footer {
 
 ul {
   list-style: none;
+  display: flex;
 }
 
 .copywrite {
@@ -369,8 +367,12 @@ ul {
 
 .form-footer {
   box-sizing: border-box;
-  max-width: 550px;
+  max-width: 850px;
   padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .copy {
@@ -383,16 +385,42 @@ ul {
    padding: 20px;
 }
 
-
-
-.footer_content{
+.sosial_network_icons {
+  margin: 0 auto;
+  margin-top: 0px;
+  max-width: 800px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 9px;
+  font-size: 29px;
+  font-size: 29px;
+  margin-bottom: 15px;
+}
+
+.footer_links {
+  margin: 0 auto;
+  max-width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  color: black;
+}
+
+.footer_links ::after{
+  content:'|' ;
+margin-left: 10px;
+}
+
+
+
+/* .footer_content{
   justify-content: center;
   margin-top: 20px;
   justify-content: space-evenly;
   align-items: baseline;
-}
+} */
 
 .newsletter-text_1{
   padding: 0;
@@ -500,20 +528,6 @@ color: #831352;
   max-width: 920px;
   padding-bottom: 20px;
 }
-
-
-.menu-bar{
-  outline: 2px solid red;
-}
-
-header{
-  outline: 2px solid red;
-}
-
-
-
-
-
 
 .sosial-media {
   width: 9%;

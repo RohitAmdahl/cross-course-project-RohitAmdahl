@@ -3,6 +3,13 @@
     font-size:1.5rem;
     padding: 0px;
   }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
 
    p{
     font-size: 0.9rem;
@@ -123,20 +130,6 @@
   align-items: center;
   }
 
-  .footer_links {
-    display: flex;
-    justify-content: space-between;
-    text-align: -moz-left;
-    box-sizing: border-box;
-    width: 600px;
-    padding-right: 0;
-    
-  }
-
-  .footer_links_2 {
-    padding: 20px;
-    margin-top: 10px;
-  }
 
 }  
 
@@ -153,7 +146,10 @@
     margin: 0 auto;
     
   }
-  
+  ul{
+    display: block;
+  }
+
   li a {
     display: block;
     padding-right: 0;
@@ -260,12 +256,12 @@
   .cta-1 {
     left: 95px;
   }
-
+/* 
    .logo-img {
     position: absolute;
     top: 12px;
     left: 247px;
-  }
+  } */
 
   nav {
     display: none;
@@ -390,23 +386,6 @@
     max-width: fit-content;
   }
 
-  .footer_links a {
-    margin: 0px;
-    padding: 0 px;
-    width: 150px;
-    
-  }
-
-   .footer_links{
-    margin: 0px;
-    box-sizing: border-box;
-    width: 500px;
-  } 
-
-  .footer_links_2 {
-    padding: inherit;
-  }
-  
   .footer-text {
    margin: 0;
    padding-right: 0px;
@@ -542,13 +521,13 @@
     font-size: 20px;
   }
 
-   .logo-img {
+   /* .logo-img {
     position: absolute;
     top: 9px;
     left: 196px;
     margin-top: 11px;
     left: 202px;
-  } 
+  }  */
 
   .navigation-2 {
     position: static;
@@ -625,13 +604,10 @@
 .price{
   padding: 0;
 }
-.footer_links{
-  padding-left: 0px;
-
-}
 
 .footer_links {
   display: contents;
+  padding-left: 0px;
 }
 
 .footer-text{
@@ -683,8 +659,10 @@ header{
     width: 200px;
     margin: 10px;
   }
+
   ul{
     text-align: center;
+    display: block;
   }
 
 }
@@ -720,13 +698,13 @@ header{
     width: 207px;
   }
 
-   .logo-img{
+   /* .logo-img{
     top: 0px;
     left: 150px; 
     max-width: 100px; 
     margin-top: 15px;
    
-  }
+  } */
 
   .search_input {
     top: 72px;
@@ -813,11 +791,11 @@ header{
     width: 250px;
   }
 
-  #burger {
+  /* #burger {
     margin-top: 25px;
     margin-right: -6px;
     margin-left: 10px;
-  }
+  } */
 
   .fas.fa-shopping-cart {
     margin-top: 0px;
@@ -825,13 +803,6 @@ header{
     left: 364px;
   }
 
-  .footer_links  {
-    margin: 0px;
-    padding-left: 0px;
-    margin-top: 15px;
-    padding-right: 9px;
-    
-  }
 }
 
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
