@@ -399,7 +399,7 @@
   .fas.fa-shopping-cart {
     position: static;
     font-size: 25px;
-    margin-left: 35px;
+    margin-left: 15px;
     } 
   
   
@@ -511,7 +511,7 @@
 
   .fas.fa-shopping-cart {
     font-size: 20px;
-    margin-left: -8px;
+     margin-left: -8px;
   }
 
   #burger {
@@ -519,6 +519,10 @@
     position: static;
     font-size: 22px;
   } 
+
+  .search-box{
+    width: 150px;
+  }
 
   .cta-1 {
     padding: 10px 15px;
@@ -626,10 +630,15 @@ header{
 
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
 
-/* @media (max-width: 420px) {
-  body {
-    margin: 0 auto;
-  } */
+ @media (max-width: 320px) {
+  
+  .search-box{
+    width: 150px;
+  }
+
+
+ }
+ 
 
   
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
