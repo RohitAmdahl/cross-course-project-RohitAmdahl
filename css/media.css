@@ -261,11 +261,11 @@
     left: 95px;
   }
 
-  /* .logo-img {
+   .logo-img {
     position: absolute;
     top: 12px;
     left: 247px;
-  } */
+  }
 
   nav {
     display: none;
@@ -542,13 +542,13 @@
     font-size: 20px;
   }
 
-  /* .logo-img {
+   .logo-img {
     position: absolute;
     top: 9px;
     left: 196px;
     margin-top: 11px;
     left: 202px;
-  } */
+  } 
 
   .navigation-2 {
     position: static;
@@ -644,11 +644,11 @@ header{
   padding: 0px;
 }
 
-/* .logo-img{
+ .logo-img{
   padding-right: 0px;
   left: 251px;
   margin: 0px;
-} */
+} 
 
 .search-box{
   padding-right: 80px;
@@ -726,12 +726,13 @@ header{
     width: 207px;
   }
 
-  /* .logo-img{
+   .logo-img{
     top: 0px;
     left: 150px; 
     max-width: 100px; 
     margin-top: 15px;
-  } */
+   
+  }
 
   .search_input {
     top: 72px;
