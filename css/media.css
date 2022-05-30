@@ -1,9 +1,27 @@
-  @media (max-width: 920px) {
+ /* @media (min-width: 1100px) {
+
+  .menu-bar{
+    width: 100%;
+  }
+
+  .logo, .logo-img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .container-1 {
+    padding-top: 20px;
+  }
+
+ }
+  
+  */
+ @media (max-width: 920px) {
   h1{
     font-size:1.5rem;
     padding: 0px;
   }
-  
+
   .logo {
     display: flex;
     justify-content: center;
@@ -52,7 +70,7 @@
   }
   
   .navigation {
-    padding: 20px;
+    padding: 0px;
     padding-right: 0px;
   }
 
@@ -144,8 +162,10 @@
     position: static;
     max-width: 650px;
     margin: 0 auto;
+    padding: 0;
     
   }
+
   ul{
     display: block;
   }
@@ -157,9 +177,7 @@
   }
 
   .search_input{
-    left: 394px;
-    top: 78px;
-    position: absolute;
+    position: static;
   }
 
   .copywrite {
@@ -240,14 +258,14 @@
     max-width: 120px;
   }
 
-  .search-box {
+  /* .search-box {
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 47px;
     display: inline;
     position: static;
     outline: 2px red;
-  }
+  } */
 
   .mens-jackets {
     margin: 0 auto;
@@ -275,14 +293,21 @@
     text-align: center;
   }
 
-  #burger {
+  .nav_links {
     display: block;
-    margin-top: 38px;
-    margin-right: 0;
+  }
+
+  .menu-bar{
+    width: 20%;
+    outline: 2px solid green;
+  }
+
+   #burger {
+    display: block;
     font-size: 25px;
     padding: 10px;
     cursor: pointer;
-  }
+  } 
 
   #menu-checkbox:checked ~ nav {
     display: block;
@@ -309,9 +334,16 @@
     border: none;
   }
 
-  .navigation-2 {
+   .navigation-2 {
     position: static;
-    display: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto ;
+    width: 80%;
+    outline: 2px solid red;
+    
+    
   }
 
   .container-1 {
@@ -396,9 +428,9 @@
   }
 
   .fas.fa-shopping-cart {
-    position: absolute;
-    left: 467px;
-    top: 87px;
+    position: static;
+    font-size: 25px;
+    margin-left: 35px;
     } 
   
   
@@ -494,10 +526,6 @@
     padding-top: 20px;
   }
 
-.navigation-2{
-  margin: 0 auto ;
-  max-width: 500px;
-}
 
 } 
 
@@ -510,11 +538,6 @@
 
   .header{
     max-width: 500px;
-  }
-
-  .navigation-2 {
-    max-width: 281px;
-    margin: 0 auto;
   }
 
   .fas.fa-shopping-cart {
@@ -534,13 +557,14 @@
     margin-top: 37px;
     width: 400px;
     padding-top: 8px;
+    max-width: 281px;
   }
 
-  .search-box {
+  /* .search-box {
     position: static;
     margin-bottom: 32px;
     width: 200px;
-  }
+  } */
 
   .search_input{
     top: 91px;
@@ -559,7 +583,7 @@
     font-size: 22px;
     margin-top: 59px;
     margin-left: 38px;
-  }
+  } 
 
   .cta-1 {
     padding: 10px 15px;
@@ -620,9 +644,9 @@ header{
   padding: 0px;
 }
 
-.search-box{
+/* .search-box{
   padding-right: 80px;
-}
+} */
 
 .cta-1 {
   margin-right: 25px;
@@ -670,11 +694,11 @@ header{
 
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
 
-@media (max-width: 420px) {
+/* @media (max-width: 420px) {
   body {
     margin: 0 auto;
-  }
-  .cta-1 {
+  } */
+  /* .cta-1 {
     font-size: 16px;
     padding: 8px;
     margin: 8px;
@@ -688,15 +712,15 @@ header{
   .navigation-2 {
     margin: 0 auto;
     max-width: 250px;
-  }
+  } */
 
-  .search-box {
+  /* .search-box {
     padding-left: 10px;
     margin-bottom: 35px;
     margin-top: 65px;
     padding-right: 49px;
     width: 207px;
-  }
+  } */
 
    /* .logo-img{
     top: 0px;
@@ -706,7 +730,7 @@ header{
    
   } */
 
-  .search_input {
+  /* .search_input {
     top: 72px;
     left: 284px; 
   }
@@ -791,11 +815,11 @@ header{
     width: 250px;
   }
 
-  /* #burger {
+   #burger {
     margin-top: 25px;
     margin-right: -6px;
     margin-left: 10px;
-  } */
+  } 
 
   .fas.fa-shopping-cart {
     margin-top: 0px;
@@ -803,7 +827,7 @@ header{
     left: 364px;
   }
 
-}
+} */
 
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
