@@ -243,15 +243,6 @@
     max-width: 120px;
   }
 
-  /* .search-box {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 47px;
-    display: inline;
-    position: static;
-    outline: 2px red;
-  } */
-
   .mens-jackets {
     margin: 0 auto;
   }
@@ -259,12 +250,7 @@
   .cta-1 {
     left: 95px;
   }
-/* 
-   .logo-img {
-    position: absolute;
-    top: 12px;
-    left: 247px;
-  } */
+
 
   nav {
     display: none;
@@ -327,8 +313,6 @@
     margin: 0 auto ;
     width: 80%;
     outline: 2px solid red;
-    
-    
   }
 
   .container-1 {
@@ -516,7 +500,7 @@
 
 /*-----------------------------------------------media phone--media quarry -------------------------------- ----*/
 
-@media (max-width: 540px)  {
+@media (max-width: 420px)  {
   body {
     margin: 0;
   }
@@ -527,47 +511,13 @@
 
   .fas.fa-shopping-cart {
     font-size: 20px;
+    margin-left: -8px;
   }
-
-   /* .logo-img {
-    position: absolute;
-    top: 9px;
-    left: 196px;
-    margin-top: 11px;
-    left: 202px;
-  }  */
-
-  .navigation-2 {
-    position: static;
-    margin-top: 37px;
-    width: 400px;
-    padding-top: 8px;
-    max-width: 281px;
-  }
-
-  /* .search-box {
-    position: static;
-    margin-bottom: 32px;
-    width: 200px;
-  } */
-
-  .search_input{
-    top: 91px;
-   
-    left: 357px;
-  }
-
-    .fas.fa-shopping-cart {
-        margin-left: -8px;
-        margin-top: 17px;
-    }
 
   #burger {
     display: block;
     position: static;
     font-size: 22px;
-    margin-top: 59px;
-    margin-left: 38px;
   } 
 
   .cta-1 {
@@ -577,7 +527,6 @@
     margin-left: 6px;
   }
  
-
   #menu-checkbox:checked ~ nav {
     display: grid;
     position: absolute;
@@ -585,12 +534,22 @@
     top: 155px;
   }
 
-  ul{
-    padding-right: 77px;
-  }
-
   .wrap-1 {
     margin-top: 50px;
+  }
+
+  .new-arrivals {
+    flex-wrap: inherit;
+  }
+
+  .footer_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newsletter-text{
+    padding-top: 0;
   }
 
   .wrap{
@@ -614,11 +573,6 @@
   padding: 0;
 }
 
-.footer_links {
-  display: contents;
-  padding-left: 0px;
-}
-
 .footer-text{
   padding-right: 0;
 }
@@ -629,17 +583,10 @@ header{
   padding: 0px;
 }
 
-/* .search-box{
-  padding-right: 80px;
-} */
-
 .cta-1 {
   margin-right: 25px;
 }
 
-.newsletter-text {
-  display: none;
-}
 
 .products-login {
   margin-top: 50px;
@@ -683,137 +630,8 @@ header{
   body {
     margin: 0 auto;
   } */
-  /* .cta-1 {
-    font-size: 16px;
-    padding: 8px;
-    margin: 8px;
-  }
 
-  .style_text {
-    padding-bottom: 20px;
-    margin-bottom: 10px;
-  }
-
-  .navigation-2 {
-    margin: 0 auto;
-    max-width: 250px;
-  } */
-
-  /* .search-box {
-    padding-left: 10px;
-    margin-bottom: 35px;
-    margin-top: 65px;
-    padding-right: 49px;
-    width: 207px;
-  } */
-
-   /* .logo-img{
-    top: 0px;
-    left: 150px; 
-    max-width: 100px; 
-    margin-top: 15px;
-   
-  } */
-
-  /* .search_input {
-    top: 72px;
-    left: 284px; 
-  }
-
-  .container-1 {
-    padding: 20px;
-    margin: 0 auto;
-  }
-  .buy-buy {
-    margin: 0 auto;
-    max-width: 250px;
-  }
-  .buy {
-    width: 250px;
-  }
   
-  ul{
-    padding: 0px 15px;
-  }
-
-  .copywrite {
-    padding: 10px;
-  }
-
-  .shopping, .shopping-women{
-    display: grid;
-    margin: 0 auto;
-    grid-template-columns: 250px;
-    padding: 0;
-  }
-
-  .welcome-collection {
-    display: grid;
-    grid-template-columns: 250px;
-    padding: 0;
-    margin-bottom: 15px;
-    padding-top: 36px;
-  }
-
-  .discount_code {
-    max-width: fit-content;
-    width: 210px; 
-    margin: 0 auto;
-  }
-
-  .account {
-    margin: 0 auto;
-  }
-
-  nav a {
-    text-align: center;
-    width: 400px;
-  }
-
-  .cta-1.cta_mobile {
-    margin: 0 auto;
-    font-size: 1.3rem;
-  }
- 
-
-  nav{
-    padding-right: 156px;
-    padding-top: 64px;
-    margin-top: -23px;
-  }
-  .cta{
-    max-width: 250px;
-    margin: 10 auto;
-  }
-  .details {
-    padding: 20px;
-  }
-  .account {
-    grid-template-columns: 250px;
-  }
- 
-  .noroff {
-    padding: 15px;
-  }
-
-  .discount_code{
-    width: 250px;
-  }
-
-   #burger {
-    margin-top: 25px;
-    margin-right: -6px;
-    margin-left: 10px;
-  } 
-
-  .fas.fa-shopping-cart {
-    margin-top: 0px;
-    top: 75px;
-    left: 364px;
-  }
-
-} */
-
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
 /*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
 
@@ -822,132 +640,4 @@ header{
   body {
     margin: 0;
   }
-
-  .fas.fa-shopping-cart {
-    left: 371px;
-    top: 60px;
-  }
-
-  .navigation-2 {
-    width: 200px;
-  }
-  .navigation{
-    padding-right: 10;
-  }
-
-  h1{
-    font-size: 1rem;
-  }
-
-  h2{
-    font-size: 0.9rem;
-  }
-
-  p{
-    font-size: 0.7rem;
-  }
-
-  .cta-2{
-    font-size: 1rem;
-    padding: 15px 40px;
-  }
-  .new-arrivals {
-    flex-direction: inherit;
-  }
-
-  logo-img {
-    left: 95px;
-  }
-  nav a{
-    font-size: medium;
-    width: 90px;
-  }
-
-  #burger {
-    margin: 0;
-  }
-
-  .cta{
-    max-width: 250px;
-    margin: 0 auto;
-    margin-bottom: 25px;
-  }
-
-  .details {
-    padding: 20px;
-  }
-
-  .account {
-    grid-template-columns: 250px;
-  }
-
-  .btn {
-    margin: 10 10px;
-  }
-
-  .illustration {
-    margin: 0 auto;
-  }
-
-  .wrap-1 {
-    margin-bottom: 45px;
-  }
-
-  .logo-img{
-    left: 100px;
-    top: 13px;
-  }
-
-  .products-login{
-    padding-left: 20px;
-  }
-  .price{
-    padding: 0;
-  }
-
-  .footer_content{
-    margin: 0 auto;
-  }
-  .discount_code {
-    font-size: 16px;
-  }
-
-  .footer_links {
-    font-size: 16px;
-  }
-  .search-box{
-    padding-right: 36px;
-    margin-right: 43px;
-  }
-  .fas.fa-shopping-cart {
-    left: 285px;
-    top: 84px;
-  }
-  .search_input{
-    left: 216px;
-  }
-  .cta-1.cta_mobile {
-    width: 120px;
-   
-  }
-  nav a {
-    padding: 0;
-  }
-
-  .footer_content {
-    display: contents;
-  }
-
-  .style_text {
-   font-size: 1em;
-   margin-top: 10px;
-   padding-bottom: 0px;
-  }
-  .price-1{
-    border: none;
-  }
-  .cards {
-    height: 220px;
-    width: 206px;
-  }
-}  */
+*/
