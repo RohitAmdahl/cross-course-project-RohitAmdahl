@@ -35,7 +35,6 @@ li  {
   justify-content: center;
   text-align: center;
   align-items: center;
-  
 }
 
  .nav_links{
@@ -44,6 +43,10 @@ li  {
 
  li a:hover {
   color: #797101;
+}
+
+a{
+  color: #000000;
 }
 
 .fa-solid.fa-magnifying-glass {
@@ -108,7 +111,6 @@ li  {
   border-right-width: 0px;
   
 }
-
 
 .search_input {
  font-size: 20px;
