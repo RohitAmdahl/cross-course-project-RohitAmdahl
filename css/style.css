@@ -85,7 +85,6 @@ a{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  position: relative;
 }
 
 .logo-img {
@@ -107,15 +106,11 @@ a{
   border-radius: 3px;
   height: 40px;
   border: 2px solid #e9c69e;
-  position:relative;
-  border-right-width: 0px;
   
 }
 
 .search_input {
- font-size: 20px;
- position: absolute; 
- left: 156px; 
+ font-size: 20px; 
  height: 40px;
  width: 50px;
  /* top: 14.5px; */
@@ -125,6 +120,7 @@ a{
  cursor: pointer;
  
 }
+
 .cta_mobile{
   display: none;
 }
@@ -440,6 +436,7 @@ margin-left: 10px;
 
 .newsletter-text_1{
   padding: 0;
+  text-align: center;
 }
 
 .discount_code {
@@ -455,7 +452,6 @@ margin-left: 10px;
   border-radius: 7px;
   width: 500px;
   margin: 0 auto;
-  outline: #87caf5 solid 3px;
   box-shadow:
   -2.9px -2.9px 4px rgba(0, 0, 0, 0.005),
   10.6px 10.6px 17.2px rgba(0, 0, 0, 0.027),

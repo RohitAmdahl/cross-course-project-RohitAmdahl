@@ -185,9 +185,9 @@
     grid-template-columns: 248px;
   }
 
-  .search_input{
+  /* .search_input{
     position: static;
-  }
+  } */
 
   .copywrite {
     padding: 15px;
