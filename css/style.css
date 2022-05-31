@@ -24,9 +24,6 @@ header {
 
 
 
-
-
-
 /*------------------------------------header------------------------------------------------------------*/
 
 li  {
@@ -44,9 +41,6 @@ li  {
   align-items: center;
 }
 
- .nav_links{
- display: flex;
-}
 
  li a:hover {
   color: #797101;
@@ -97,7 +91,6 @@ a{
 .logo-img {
   max-width: 120px;
   margin-right: 25px;
-
 }
 
  #menu-checkbox {
