@@ -22,27 +22,9 @@ header {
   margin: 0 auto;
 }
 
-/*------------------------------------header------------------------------------------------------------*/
 
- /* #nav{
-  margin: 30px 0  10px 10px;
-  cursor: pointer;
-  z-index: 100;
-  outline: 2px solid rgb(159, 243, 69);
-} 
 
-#bar{
-  height: 12px;
-  width: 40px;
-  background-color: #000;
-  display: block;
-  border-radius: 5px;
-  outline: 2px solid red;
-  transition: 0.2s ease-in;
-} */
-/* .burger{
-  display: none;
-} */
+
 
 
 /*------------------------------------header------------------------------------------------------------*/
@@ -63,8 +45,7 @@ li  {
 }
 
  .nav_links{
-  display: flex;
-
+ display: flex;
 }
 
  li a:hover {
@@ -119,13 +100,13 @@ a{
 
 }
 
-#menu-checkbox {
+ #menu-checkbox {
   display: none;
 }
 
 #burger {
   display: none;
-}
+}  
 
 .search-box {
   padding: 5px 10px;
@@ -170,6 +151,7 @@ padding-bottom: 3px;
 .fas.fa-shopping-cart {
   font-size: 22px;
 }
+
 
 
 .cta-1 {

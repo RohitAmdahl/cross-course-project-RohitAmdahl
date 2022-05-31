@@ -6,8 +6,6 @@
     padding: 0px;
   }
 
-
-
   .logo {
     display: flex;
     justify-content: center;
@@ -161,7 +159,7 @@
 
 /* -------------------------------------------------------------720px -------------------------------------------- */
  @media (max-width: 600px)  {
- 
+
   .Confirmation {
     margin-left: 0px;
   }
@@ -172,37 +170,7 @@
     padding: 0; 
   }
 
-
-  .change{
-    background-color: #6f6a6a;
-    height: 100vh;
-    margin: 0;
-    position: fixed;
-    top: 0;
-    width: 20%;
-    z-index: -100;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  
-  }
-
-  .burger div{
-    width: 25px;
-    height: 5px;
-    background-color: #574F4F;
-    margin: 5px;
-  }
-
-  /* .burger{
-  display: block;
-  } */
-
-  .nav_links {
-    display: block;
-  }
-
+ 
   ul{
     display: block;
   }
@@ -218,9 +186,9 @@
     grid-template-columns: 248px;
   }
 
-  /* .search_input{
+   .search_input{
     position: static;
-  } */
+  } 
 
   .copywrite {
     padding: 15px;
@@ -229,6 +197,7 @@
   .style_text{
     font-size: 1.5em;
   }
+  
   main{
     margin: opx;
   }
@@ -324,36 +293,27 @@
     padding: 28px;
   }
 
-  nav {
-    display: none;
-    background-color: #fcfcfc;
-    left: 0px;
-    padding-bottom: 165px;
-    padding-top: 55px;
-    font-size: 22px;
-    font-weight: 600;
-    z-index: 1;
-    text-align: center;
-  }
 
- 
   .menu-bar{
     width: 20%;
   }
+  
 
-   /* #burger {
+   #burger {
     display: block;
     font-size: 25px;
     padding: 10px;
     cursor: pointer;
-  }  */
-/* 
+  }  
+ 
   #menu-checkbox:checked ~ nav {
     display: block;
     position: absolute;
     left: 0px;
-    top: 155px;
-  } */
+    top: 131px;
+    background: antiquewhite;
+
+  } 
 
   .sub_nav{
     display: none;
@@ -379,7 +339,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto ;
-    width: 80%;
+    /* width: 80%; */
 
   }
 
@@ -563,6 +523,9 @@
     padding-top: 20px;
   }
 
+  /* .nav_links {
+    display: block;
+  } */
 
 } 
 
@@ -577,16 +540,20 @@
     max-width: 500px;
   }
 
+  /* .nav_links {
+    display: block;
+  } */
+
   .fas.fa-shopping-cart {
     font-size: 20px;
     margin: 0;
   }
 
-  /* #burger {
+   #burger {
     display: block;
     position: static;
     font-size: 22px;
-  }  */
+  } 
 
   .search-box{
     width: 150px;
@@ -599,12 +566,13 @@
     margin-left: 6px;
   }
  
-  /* #menu-checkbox:checked ~ nav {
-    display: grid;
+   #menu-checkbox:checked ~ nav {
+    display: block;
     position: absolute;
     left: 0px;
     top: 155px;
-  } */
+    background: antiquewhite;
+  } 
 
   .wrap-1 {
     margin-top: 50px;
