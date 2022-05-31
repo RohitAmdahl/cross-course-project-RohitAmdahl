@@ -6,6 +6,8 @@
     padding: 0px;
   }
 
+
+
   .logo {
     display: flex;
     justify-content: center;
@@ -166,8 +168,38 @@
     position: static;
     max-width: 650px;
     margin: 0 auto;
-    padding: 0;
-    
+    padding: 0; 
+  }
+
+
+  .change{
+    background-color: #6f6a6a;
+    height: 100vh;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 20%;
+    z-index: -100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+
+  .burger div{
+    width: 25px;
+    height: 5px;
+    background-color: #574F4F;
+    margin: 5px;
+  }
+
+  /* .burger{
+  display: block;
+  } */
+
+  .nav_links {
+    display: block;
   }
 
   ul{
@@ -303,28 +335,24 @@
     text-align: center;
   }
 
-  .nav_links {
-    display: block;
-  }
-
+ 
   .menu-bar{
     width: 20%;
-
   }
 
-   #burger {
+   /* #burger {
     display: block;
     font-size: 25px;
     padding: 10px;
     cursor: pointer;
-  } 
-
+  }  */
+/* 
   #menu-checkbox:checked ~ nav {
     display: block;
     position: absolute;
     left: 0px;
     top: 155px;
-  }
+  } */
 
   .sub_nav{
     display: none;
@@ -553,11 +581,11 @@
     margin: 0;
   }
 
-  #burger {
+  /* #burger {
     display: block;
     position: static;
     font-size: 22px;
-  } 
+  }  */
 
   .search-box{
     width: 150px;
@@ -570,12 +598,12 @@
     margin-left: 6px;
   }
  
-  #menu-checkbox:checked ~ nav {
+  /* #menu-checkbox:checked ~ nav {
     display: grid;
     position: absolute;
     left: 0px;
     top: 155px;
-  }
+  } */
 
   .wrap-1 {
     margin-top: 50px;
