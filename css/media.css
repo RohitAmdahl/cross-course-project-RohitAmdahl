@@ -550,7 +550,7 @@
 
   .fas.fa-shopping-cart {
     font-size: 20px;
-     margin-left: -8px;
+    margin: 0;
   }
 
   #burger {
@@ -669,6 +669,14 @@ header{
   
   .search-box{
     width: 150px;
+  }
+
+  .fas.fa-shopping-cart {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 8px;
+  
   }
 
 

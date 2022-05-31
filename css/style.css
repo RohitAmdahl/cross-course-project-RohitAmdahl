@@ -135,12 +135,15 @@ a {
 }
 
 .active {
-  color:#4400ff;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+padding-bottom: 3px;
 }
 
 
 .fas.fa-shopping-cart {
   font-size: 22px;
+  margin: 25px;
 }
 
 /* .cart {
@@ -231,9 +234,8 @@ a {
   41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
   100px 100px 80px rgba(0, 0, 0, 0.07)
 ;
-
-
 }
+
 .buy-now:hover {
   background-color: #000;
 }
@@ -270,6 +272,10 @@ a {
   width: 100%;
   max-width: 500px;
 
+}
+
+input{
+  height: 35px;
 }
 /*------------------------------------section new arrivals------------------------------------------------*/
 .men {
@@ -355,8 +361,7 @@ footer {
 #email {
   padding: 5px 15px;
   display: block;
-  margin-top: 5px;
-  
+  margin-top: 5px; 
 }
 
 ul {
@@ -425,15 +430,6 @@ ul {
 margin-left: 10px;
 }
 
-
-
-/* .footer_content{
-  justify-content: center;
-  margin-top: 20px;
-  justify-content: space-evenly;
-  align-items: baseline;
-} */
-
 .newsletter-text_1{
   padding: 0;
   text-align: center;
@@ -473,13 +469,6 @@ margin-left: 10px;
  }
 
 /*........................................About us ..........................................*/
-.sosial_icon-1{
-color: #831352;
-}
-
-.sosial_icon-2{
- color: rgb(73, 44, 1);
-}
 
 .about {
   text-align: center;
@@ -826,8 +815,8 @@ color: #831352;
 }
 
 .sosial_network {
-  font-size: 2.5em;
-  padding-bottom: 10px;
+  font-size: 2.1em;
+  padding-bottom: 15px;
 }
 
 /*------------------------------------Log in and sign up -----------------------------------------------------------*/
