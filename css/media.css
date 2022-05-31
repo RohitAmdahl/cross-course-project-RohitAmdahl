@@ -170,6 +170,10 @@
     padding: 0; 
   }
 
+  nav{
+    display: none;
+  }
+
  
   ul{
     display: block;
@@ -312,12 +316,12 @@
     left: 0px;
     top: 131px;
     background: antiquewhite;
-
   } 
 
   .sub_nav{
     display: none;
   }
+
   .cta_mobile{
     display:block;
     margin-bottom: 10px;
@@ -523,10 +527,6 @@
     padding-top: 20px;
   }
 
-  /* .nav_links {
-    display: block;
-  } */
-
 } 
 
 /*-----------------------------------------------media phone--media quarry -------------------------------- ----*/
@@ -539,10 +539,6 @@
   .header{
     max-width: 500px;
   }
-
-  /* .nav_links {
-    display: block;
-  } */
 
   .fas.fa-shopping-cart {
     font-size: 20px;
