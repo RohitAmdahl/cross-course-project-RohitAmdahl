@@ -16,9 +16,9 @@ console.log(address);
 const addressError = document.querySelector("#addressError");
 console.log(addressError);
 
-const RepeatPassword = document.querySelector("#RepeatPassword");
-console.log(RepeatPassword);
-const RepeatError = document.querySelector("#RepeatError");
+const phoneNumber = document.querySelector("#phone");
+console.log(phoneNumber);
+const RepeatError = document.querySelector("#phoneError");
 console.log(RepeatError);
 
 
@@ -29,10 +29,10 @@ function LogInForm(event) {
   event.preventDefault();
 
   if (checkInputLength(yourName.value, 2) === true) {
-    NameError.style.display = "none";
+    fullNameError.style.display = "none";
     
   }else{
-    NameError.style.display = "block";
+    fullNameError.style.display = "block";
   }
 
   
@@ -45,10 +45,10 @@ function LogInForm(event) {
 
 
   if (checkInputLength(email.value ) === true) {
-    passwordError.style.display = "none";
+    addressError.style.display = "none";
   }
   else{
-    passwordError.style.display = "block";
+    addressError.style.display = "block";
   }
 
   if (checkInputLength(password.value) === true) {
@@ -59,11 +59,11 @@ function LogInForm(event) {
   }
 
 
-  if (checkInputLength(password.value) === true) {
-    RepeatError.style.display = "none";
+  if (checkInputLength(password.value, 10) === true) {
+    phoneError.style.display = "none";
   }
   else{
-    RepeatError.style.display = "block";
+    phoneError.style.display = "block";
   }
 
 }
@@ -72,8 +72,8 @@ submitBtn.addEventListener("submit",LogInForm);
 
  form.addEventListener("submit", LogInForm);
  email.addEventListener("submit", LogInForm);
- password.addEventListener("submit", LogInForm);
- RepeatPassword.addEventListener("submit", LogInForm);
+ address.addEventListener("submit", LogInForm);
+ phoneNumber.addEventListener("submit", LogInForm);
 
 
 function checkInputLength(value, input){
