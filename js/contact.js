@@ -55,7 +55,7 @@ function LogInForm(event) {
     phoneError.style.display = "none";
   }
   else{
-    passwordError.style.display = "block";
+    phoneError.style.display = "block";
   }
 
 }

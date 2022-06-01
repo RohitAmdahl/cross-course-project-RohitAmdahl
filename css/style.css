@@ -848,9 +848,6 @@ form{
 }
 
 .account {
-  display: grid;
-  grid-template-columns: 161px 300px;
-  grid-gap: 10px;
   padding-top: 25px;
   text-align: start;
 }
