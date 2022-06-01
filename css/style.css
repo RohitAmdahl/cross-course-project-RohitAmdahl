@@ -942,5 +942,14 @@ form{
 
 .error{
   color: red;
-  display: none; 
+   display: none; 
+}
+
+#NameError,
+#emailError,
+#youPasswordError {
+          display: none;
+          color: red;
+          font-size: 0.9rem;
+          margin-top: 2px;
 }

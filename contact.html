@@ -66,21 +66,42 @@
         </div> -->
         <div class="feedback">
           <form action="submit.html" class="account">
-            <label class="label" for="name">Full name</label>
-            <input type="text" id="name" name="name" />
-            <label class="label"for="email">Email</label>
-            <input type="email" id="email" name="Email" required />
-            <label class="label" for="password">Password</label>
-            <input type="password" name="password" maxlength="10" required />
-            <label class="label" for="address">Address</label>
-            <input type="address" id="address" name="address" maxlength="10" required />
-            <label class="label" for="phone">Phone number</label>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" required />
-              <form action="submit.html" method="post">
-                <label for="text">Send us feedback</label>
-                <textarea name="text" id="review" cols="30" rows="10"></textarea>
+            <div>
+              <label class="label" for="name">Full name
+                <input type="text" id="name" name="name" />
+              </label>
+              <div class="error" id="fullNameError">please enter your name</div>
+            </div>
+
+            <div>
+              <label class="label"for="email">Email
+                <input type="email" id="email" name="Email" required />
+              </label>
+              <div class="error" id="emailError">please enter your email</div>
+            </div>
+
+            <div>
+              <label class="label" for="address">Address
+               <input type="address" id="address" name="address" maxlength="10" required />
+              </label>
+              <div class="error" id="addressError">please write your address</div>
+            </div>
+
+            <div>
+              <label class="label" for="phone">Phone number
+               <input type="tel" id="phone" name="phone" placeholder="123-45-678-91" maxlength="10" required />
+              </label>
+              <div class="error" id="phoneError">please write your address</div>
+            </div>
+
+            <div>
+              <label for="text">Send us feedback
+               <textarea name="text" id="review" cols="30" rows="10"></textarea>
+              </label>
+            </div>
+
                 <button type="submit" class="cta">Send</button>
-              </form>
+              
           </form>
         </div>    
       </div>
@@ -121,5 +142,7 @@
               <span> Rohit Kumar Amdahl</span>
           </div>                      
 </footer>
+<script src="js/script.js"></script> 
+<script src="js/contact.js"></script>   
 </body>
 </html>
