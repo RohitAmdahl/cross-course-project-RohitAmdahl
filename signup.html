@@ -57,18 +57,40 @@
     </div>
    <section>
      <h1 class="create-account">Create Account</h1>
-     <form action="submit.html" method="post" class="account">
-          <label class="label" for="name">Full name</label>
-          <input type="text" id="name" name="name" />
-          <label class="label" for="email">Email</label>
-          <input type="email" id="email" name="Email" required />
-          <label class="label" for="password">Password</label>
-          <input type="password" id="password" name="password" maxlength="10" required />
-          <label class="label" for="password">Repeat-Password</label>
-          <input type="password" id="password" name="password" maxlength="10" required />
-       </form>
+
+      <form action="submit.html" method="post" class="account">
+
+        <div>
+         <label class="label" for="name">Full name
+         <input type="text" id="name" name="name" />
+        </label>
+           <div class="error" id="NameError">please enter your name</div>
+        </div>
+ 
+        <div>
+         <label class="label" for="email">Email
+         <input type="email" id="email" name="Email" />
+        </label>
+         <div class="error" id="emailError">please enter your email</div>
+        </div>
+ 
+        <div>
+         <label class="label" for="password">Password
+         <input type="password" name="password" />
+        </label>
+         <div class="error" id="youPasswordError">please enter your password</div>
+        </div> 
+
+        <div>
+          <label class="label" for="password">Repeat-Password
+          <input type="password" name="password" />
+        </label>
+          <div class="error" id="youPasswordError">please enter your password</div>
+         </div> 
+      </form>
+
           <div>
-            <a href="./collection.html">
+            <a href="#">
              <button type="submit" class="cta">Sign Up </button>
             </a>
            </div> 
@@ -108,8 +130,9 @@
             <div class="copy"> &copy;</div> 
             <span>RAINY DAY 2021. ALL RIGHTS RESERVED</span> 
               <span> Rohit Kumar Amdahl</span>
-          </div>                      
-</footer>
+          </div> 
+          <script src="js/form.js"></script>                     
+</footer> 
 
 </body>
 </html>
