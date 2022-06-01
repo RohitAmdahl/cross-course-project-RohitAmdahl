@@ -44,26 +44,18 @@ function LogInForm(event) {
   }
 
 
-  if (checkInputLength(email.value ) === true) {
+  if (checkInputLength(address.value, 50) === true) {
     addressError.style.display = "none";
   }
   else{
     addressError.style.display = "block";
   }
 
-  if (checkInputLength(password.value) === true) {
-    passwordError.style.display = "none";
-  }
-  else{
-    passwordError.style.display = "block";
-  }
-
-
-  if (checkInputLength(password.value, 10) === true) {
+  if (checkInputLength(phoneNumber.value) === true) {
     phoneError.style.display = "none";
   }
   else{
-    phoneError.style.display = "block";
+    passwordError.style.display = "block";
   }
 
 }
