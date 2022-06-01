@@ -22,6 +22,9 @@ header {
   margin: 0 auto;
 }
 
+#close{
+  display: none
+}
 
 
 /*------------------------------------header------------------------------------------------------------*/
@@ -697,8 +700,14 @@ form{
  .card-details {
   text-align: center;
   text-decoration: none;
-  margin-top: 50px;
+
 } 
+
+.card-info{
+  border-left-width: 1px;
+  border-left-style: solid;
+  padding-left: 40px;
+}
 
 /* .car {
   display: flex;
@@ -848,6 +857,8 @@ form{
 }
 
 .account {
+  display: flex;
+  flex-direction: column;
   padding-top: 25px;
   text-align: start;
 }
@@ -949,4 +960,17 @@ form{
           color: red;
           font-size: 0.9rem;
           margin-top: 2px;
+}
+
+.payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.size-jakets {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
 }

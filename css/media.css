@@ -163,6 +163,11 @@
   .Confirmation {
     margin-left: 0px;
   }
+  
+.change{
+  color: red;
+}
+
   header { 
     position: static;
     max-width: 650px;
@@ -174,7 +179,7 @@
     display: none;
   }
 
- 
+
   ul{
     display: block;
   }
@@ -205,6 +210,9 @@
   main{
     margin: opx;
   }
+  .main_nav{
+    font-size: 1.2em;
+  }
   
   .get-in-touch {
     margin: 0 auto;
@@ -226,6 +234,7 @@
   ul {
     padding-right: 0;
     margin: 10px ;
+   
   }
 
   p {
@@ -308,7 +317,21 @@
     font-size: 25px;
     padding: 10px;
     cursor: pointer;
+    border: 1px solid;
+    padding: 5px;
   }  
+
+  #close {
+    display: block;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 25px;
+  }  
+
+
  
   #menu-checkbox:checked ~ nav {
     display: block;
@@ -316,6 +339,8 @@
     left: 0px;
     top: 131px;
     background: antiquewhite;
+    height: 95vh;
+    z-index: 100;
   } 
 
   .sub_nav{
@@ -548,7 +573,7 @@
    #burger {
     display: block;
     position: static;
-    font-size: 22px;
+    font-size: 25px;
   } 
 
   .search-box{
