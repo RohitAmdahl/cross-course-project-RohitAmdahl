@@ -306,22 +306,21 @@
     padding: 28px;
   }
 
-
+/* 
   .menu-bar{
     width: 20%;
-  }
-  
+  } */
+
 
    #burger {
     display: block;
     font-size: 25px;
     padding: 10px;
     cursor: pointer;
-    border: 1px solid;
-    padding: 5px;
+
   }  
 
-  #close {
+  /* #close {
     display: block;
     font-size: 25px;
     padding: 10px;
@@ -329,10 +328,9 @@
     border: 1px solid;
     padding: 5px;
     font-size: 25px;
-  }  
+  }   */
 
 
- 
   #menu-checkbox:checked ~ nav {
     display: block;
     position: absolute;
@@ -341,7 +339,9 @@
     background: antiquewhite;
     height: 95vh;
     z-index: 100;
-  } 
+    transform: 0.4s all;
+  }  
+
 
   .sub_nav{
     display: none;

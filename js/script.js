@@ -1,14 +1,18 @@
-// const slideMenu = document.querySelector("#burger")
-// console.log(slideMenu);
+const openMenu = document.querySelector("#burger")
+console.log(openMenu);
 
+const closeMenu = document.querySelector("#close")
+console.log(closeMenu);
 
-// function openNav() {
+const menu = document.querySelector(".menu-bar")
+console.log(menu);
+
+function openNav() {
 
  
-// // const naviGation = document.querySelector(".menu-bar").classList.toggle(".change")
-// // console.log(naviGation);
 
-// }
+
+}
   
-// document.addEventListener("click", openNav);
+document.addEventListener("click", openNav);
 
