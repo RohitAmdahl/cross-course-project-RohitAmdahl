@@ -795,6 +795,13 @@ form{
   width: 450px;
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 450px;
+}
 
 
 /*------------------------------------product -----------------------------------------------------------*/

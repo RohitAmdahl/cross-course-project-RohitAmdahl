@@ -290,9 +290,6 @@
     left: 95px;
   }
 
-  .cta{
-    width: 250px;
-  }
 
   .feedback {
     padding: 54px;
@@ -319,6 +316,19 @@
     cursor: pointer;
 
   }  
+
+  .login-Form {
+    width: 350px;
+  }
+  
+  .sign-up-Form {
+    width: 350px;
+  }
+  
+  .contact-form {
+    width: 350px;
+  }
+  
 
   /* #close {
     display: block;
@@ -638,6 +648,9 @@
   padding-right: 0;
 }
 
+
+
+
   /*------------------------------------------------Men- women , collection-media quarry -------------------------------- ----*/
 header{
   margin: 0 auto;
@@ -676,6 +689,18 @@ header{
   ul{
     text-align: center;
     display: block;
+  }
+
+  .login-Form {
+    width: 280px;
+  }
+  
+  .sign-up-Form {
+    width: 280px;
+  }
+  
+  .contact-form {
+    width: 280px;
   }
 
 }
