@@ -1,23 +1,11 @@
 const form = document.querySelector(".account");
- console.log(form);
-
 const yourName = document.querySelector("#name");
- console.log(yourName);
 const NameError = document.querySelector("#NameError");
-console.log(NameError);
-
 const email = document.querySelector("#email");
- console.log(email);
 const emailError = document.querySelector("#emailError");
-console.log(emailError);
-
 const password = document.querySelector("#yourPassword");
-console.log(password);
 const passwordError = document.querySelector("#youPasswordError");
-console.log(passwordError);
-
 const submitBtn = document.querySelector(".cta")
-console.log(submitBtn);
 
 function LogInForm(event) {
   event.preventDefault();
