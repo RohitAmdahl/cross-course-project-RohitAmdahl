@@ -1,5 +1,5 @@
 
- const button = document.querySelector(".btn-small")
+ const button = document.querySelectorAll(".btn-small")
  console.log(button);
 
  const shoppingCart = document.querySelector("#cart");
@@ -9,3 +9,10 @@ console.log(shoppingCart);
  console.log(products);
 
 
+button.forEach(function (button) {
+  button.onclick = function(event) {
+    console.log(event.target.dataset);
+  }
+  
+})
+  
