@@ -41,13 +41,10 @@ console.log(products);
     //document.querySelector.(".checkout").classList.add("hidden");
     cartItems.innerHTML = `<p class="empty">Your shopping cart is empty</p> `;
     priceOFitems.innerHTML = "";
-  
-  
+
   }
 
-
  }
-
 
 
 function updateProductInCart(product) {
