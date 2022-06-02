@@ -1,9 +1,8 @@
-
 let productCart = [];
 
-const parentElement = document.querySelector("")
+const cartItems = document.querySelector(".cart-items")
+console.log(cartItems);
 
-const cards = document.querySelectorAll(".cards");
-console.log(cards);
+const priceOFitems = document.querySelector(".total-price");
+console.log(priceOFitems);
 
-const productsItems =  
