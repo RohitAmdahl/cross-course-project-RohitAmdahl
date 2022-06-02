@@ -39,7 +39,8 @@ button.forEach(function (button) {
   button.onclick = function(event) {
     console.log(event.target.dataset);
     productCart.push(event.target.dataset.products);
-    const itemsToAddTocart = productCart.find(products => card.id === event.target.dataset.products);
+    const itemsToAddTocart = productCart.find(products => products.id === event.target.dataset.products);
+    console.log(itemsToAddTocart);
     console.log(itemsToAddTocart);
 
   }
