@@ -1,29 +1,15 @@
 const form = document.querySelector(".account");
- console.log(form);
-
+ 
 const yourName = document.querySelector("#name");
- console.log(yourName);
 const fullNameError = document.querySelector("#fullNameError");
-console.log(fullNameError);
-
 const email = document.querySelector("#email");
- console.log(email);
 const emailError = document.querySelector("#emailError");
-console.log(emailError);
-
 const address= document.querySelector("#address");
-console.log(address);
 const addressError = document.querySelector("#addressError");
-console.log(addressError);
-
 const phoneNumber = document.querySelector("#phone");
-console.log(phoneNumber);
 const RepeatError = document.querySelector("#phoneError");
-console.log(RepeatError);
-
-
 const submitBtn = document.querySelector(".cta")
-console.log(submitBtn);
+
 
 function LogInForm(event) {
   event.preventDefault();
