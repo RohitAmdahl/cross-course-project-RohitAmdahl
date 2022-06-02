@@ -154,6 +154,11 @@
     margin-top: auto;
   }
 
+  .card-info {
+    border-left-width: 0px;
+    padding-left: 0px;
+  }
+
 }  
 
 
@@ -495,6 +500,7 @@
   }
   .products {
     width: 100%;
+
     
   }
   .welcome-2 {
@@ -558,8 +564,14 @@
   }
 
   .text{
-    display: inline-block;
     padding-top: 20px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+  }
+  .card-info {
+    border-left-width: 0px;
+    padding-left: 0px;
   }
 
 } 
@@ -648,7 +660,10 @@
   padding-right: 0;
 }
 
-
+.card-info {
+  border-left-width: 0px;
+  padding-left: 0px;
+}
 
 
   /*------------------------------------------------Men- women , collection-media quarry -------------------------------- ----*/
@@ -675,6 +690,7 @@ header{
   max-width: 500px;
   margin: 0 auto;
   padding-top: 50px;
+  padding-left: 0px;
   }
 
 
@@ -703,6 +719,13 @@ header{
     width: 280px;
   }
 
+  .welcome-collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
 
 
@@ -720,6 +743,11 @@ header{
     margin-bottom: 0px;
     margin-right: 8px;
   
+  }
+
+  .card-info {
+    border-left-width: 0px;
+    padding-left: 0px;
   }
 
 

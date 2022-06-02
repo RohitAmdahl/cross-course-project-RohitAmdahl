@@ -44,14 +44,14 @@ function LogInForm(event) {
   }
 
 
-  if (checkInputLength(address.value, 50) === true) {
+  if (checkInputLength(address.value, 40) === true) {
     addressError.style.display = "none";
   }
   else{
     addressError.style.display = "block";
   }
 
-  if (checkInputLength(phoneNumber.value) === true) {
+  if (checkInputLength(phoneNumber.value, 10) === true) {
     phoneError.style.display = "none";
   }
   else{
