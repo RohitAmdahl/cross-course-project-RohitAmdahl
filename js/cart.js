@@ -13,11 +13,34 @@ console.log(products);
    
   if (productInCart.length > 0) {
 
+    let result = productCart.map( product =>{
+      return `
+      
+      <p class="empty">Your shopping cart is empty</p> 
+      <li class="buyItem">
+<img src="images/manacketgreen.png">
+<div>
+<h5>Products Name</h5>
+<h6>$199</h6>
+<div>
+  <button>-</button>
+  <span class="countOfProduct">1</span>
+  <button>+</button>
+</div>
+</div>
+</li> -->
+                  
+      `
+
+
+    });
+
     
   }
   else{
-    document.querySelector.(".checkout").classList.add("hidden");
+    //document.querySelector.(".checkout").classList.add("hidden");
     cartItems.innerHTML = `<p class="empty">Your shopping cart is empty</p> `;
+    priceOFitems.innerHTML = "";
   
   
   }
@@ -72,3 +95,5 @@ products.forEach(function (products) {
 
 
 });
+
+
