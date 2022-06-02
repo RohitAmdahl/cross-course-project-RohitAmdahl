@@ -235,6 +235,22 @@ padding-bottom: 3px;
   top: 45px;
 }
 
+.add-to-cart-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-small {
+  background-color: aliceblue;
+  font-size: 15px;
+  padding: 5px 28px;
+  margin: 5px 0px;
+  border-radius: 5px;
+}
+
+
+
 .buy-now {
   background-color: #574f4f;
   color: #e9c69e;
@@ -680,7 +696,7 @@ form{
 }
 
 .cards {
-  height: 265px;
+  height: 300px;
   width: 250px;
   padding: 20px;
   box-shadow:  1.7px 1.7px 1.4px rgba(0, 0, 0, -0.001),
