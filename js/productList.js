@@ -14,7 +14,7 @@ console.log(cartList);
 let productCartArray = [];
 
  productsArray.forEach(function(product){
-  itemsWrapper.innerHTML  +=
+   itemsWrapper.innerHTML  +=
 
    `
       <div class ="cards">

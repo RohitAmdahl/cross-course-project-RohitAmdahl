@@ -1,5 +1,5 @@
 
-  export   const productsArray = [
+  export const productsArray = [
 
   {
   name: "Rainy day, blue",
