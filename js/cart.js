@@ -55,13 +55,13 @@ button.forEach(function(button) {
       cartList.style.display = "block";
       cartList.style.color = "red";
       cartList.innerHTML= "";
-      // total = 0;
-      cartItems.foreach(function(cartElement) {
+      //total = 0;
+      cartItems.forEach(function(cartElement) {
         cartList.innerHTML += `<div class="classlist">
-                             <p>${cartElement.name}<p>
-                             <img src="${cartElement.image}" alt="" class="products">
+                             <p>${cartElement.id}<p>
+                             
                              </div>  `
-       window.location.href = "/products/products.html"
+      // window.location.href = "/products/products.html"
    })
 
    // totalcost.innerHTML= `Total: ${total}`;
