@@ -35,6 +35,7 @@ let productCartArray = [];
  const button = document.querySelectorAll(".add-to-cart-btn")
  console.log(button);
 
+ button.onclick
 
 button.forEach(function(button) {
    button.onclick = function(event) {
@@ -48,22 +49,23 @@ button.forEach(function(button) {
 })
 
 
+button.onclick = function toDetailsPage() {
+   window.location.href = '/products/products.html'
+}
 
-
-
-   function cartPage(cartItems) {
-     cartProducts.foreach(function() {
-        window.location.href = "product.html"
-     price.innerHTML += `
-                              <div class="products">
-                              <img src="${product.image}" alt="" class="products">
-                              </div>
-                              <div class="price-2">
+   function showCartPage(cartItems) {
+      
+      cartItems.foreach(function() {
+      price.innerHTML += `<h1 class="menswear">Unisex</h1>
+                          <h2 class="sub-heading">Universal design winter jackets and water resistant.</h2>
+                            <div class="price-2">
                               <p>${product.name}</p>
                               <p>${product.price}</p>
+                              </div>
+                              <div class="price-2">
                               <p>${product.Total}</p>
                               <p>${product.price}</p>
-                              </div>
+                              
                                `
    })
 
