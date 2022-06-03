@@ -1,57 +1,45 @@
-// import { products } from "/js/product.js";
 
-// const productCards = document.querySelector(".cards");
+import { productsArray } from "/js/product.js"
+console.log(productsArray);
 
-// products.forEach(function(product){
+//  const button = document.querySelectorAll(".btn-small")
+//  console.log(button);
 
-//   productCards.innerHTML += 
-//   `
-//   <div class="cards">
-//   <div class="products">
-//       <img src="${products.image}" alt="${products.description}">
-//   </div>
-//   <div class="price-1">
-//    <p class="productName">${products.name}</p>
-//    <p class="cost">${products.price}</p>
-//   </div>
-//   <div class="add-to-cart-btn" >
-//    <button class="btn-small">Add to Cart</button>
-//  </div>
-// </div>
-
-//   `
-
-// }) 
-
-let productCart = [];
-
- const button = document.querySelectorAll(".btn-small")
- console.log(button);
-
-  const shoppingCart = document.querySelector("#cart");
-  console.log(shoppingCart);
-
- const products = document.querySelectorAll(".cards")
- console.log(products);
+//   const shoppingCart = document.querySelector("#cart");
+//   console.log(shoppingCart);
 
 
-button.forEach(function (button) {
-  button.onclick = function(event) {
-    console.log(event.target.dataset);
-    productCart.push(event.target.dataset.products);
-    const itemsToAddToCart = productCart.find(products => products.id === event.target.dataset.products);
-    console.log(itemsToAddToCart);
-    openCart();
+// const items= document.querySelector(".cards");
 
-  }
-  function openCart(cartItems){
-    shoppingCart.style.display="block";
+ productsArray.forEach(function(product){
+  items.innerHTML  +=
 
-   
+   `
+ 
+`
+ })
+
+
+// let productCart = [];
+
+
+// button.forEach(function (button) {
+//   button.onclick = function(event) {
+//     console.log(event.target.dataset);
+//     productCart.push(event.target.dataset.products);
+//     const itemsToAddToCart = productCart.find(products => products.id === event.target.dataset.products);
+//     console.log(itemsToAddToCart);
+//     openCart();
+
+//   }
+//   function openCart(cartItems){
+//     shoppingCart.style.display="block";
 
 
 
 
-  }
-})
-  
+
+
+//   }
+// })
+
