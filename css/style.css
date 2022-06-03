@@ -146,9 +146,16 @@ padding-bottom: 3px;
 
 .fas.fa-shopping-cart {
   font-size: 22px;
+  display: none;
+  height: 100px;
+  width: 100px;
   
 }
 
+.classlist{
+  height: 100px;
+  width: 100px;
+}
 
 
 .cta-1 {
@@ -240,6 +247,7 @@ padding-bottom: 3px;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .btn-small {
