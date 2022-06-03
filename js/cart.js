@@ -47,6 +47,7 @@ button.forEach(function(button) {
        productCartArray.push(cartProducts);
        //window.location.href = "/products/products.html"
        CartPage(productCartArray);
+       localStorage.setItem("cartlist", JSON.stringify(productCartArray));
    }
 })
 
@@ -58,8 +59,7 @@ button.forEach(function(button) {
       //total = 0;
       cartItems.forEach(function(cartElement) {
         cartList.innerHTML += `<div class="classlist">
-                             <p>${cartElement.id}<p>
-                             
+                             <p>${cartElement.name}<p>
                              </div>  `
       // window.location.href = "/products/products.html"
    })
