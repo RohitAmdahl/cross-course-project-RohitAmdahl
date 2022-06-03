@@ -9,19 +9,27 @@ console.log(productsArray);
 //   console.log(shoppingCart);
 
 
-const items= document.querySelector(".cards");
+const itemsWrapper= document.querySelector(".women-section");
 
  productsArray.forEach(function(product){
-  items.innerHTML  +=
+  itemsWrapper.innerHTML  +=
 
-   `<div class="container">
+   `
       <div class ="cards">
+      <div class="products">
       <img src="${product.image}" alt="" class="products">
-      <p>${product.name}</p>
-      <p>${product.price}</p>
+      </div>
+      <div class="price_1">
+      <p class="productName">${product.name}</p>
+      <p class="cost">${product.price}</p>
+      </div>
+      <div class="add_to_cart_btn">
       <button class="btn-small">Add to cart</button>
       </div>
-   </div>
+ 
+    
+      </div>
+   
 `
  })
 
