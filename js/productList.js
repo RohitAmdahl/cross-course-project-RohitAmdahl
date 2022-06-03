@@ -41,29 +41,27 @@ let productCartArray = [];
 button.forEach(function(button) {
    button.onclick = function(event) {
       console.log(event.target.dataset.product);
-       //productCartArray.push(event.target.dataset.product);
        const cartProducts = productsArray.find(itemsWrapper => itemsWrapper.id === event.target.dataset.product)
-       //console.log(productCartArray);
        productCartArray.push(cartProducts);
-       //window.location.href = "/products/products.html"
        CartPage(productCartArray);
        localStorage.setItem("cartlist", JSON.stringify(productCartArray));
    }
 })
 
+const addToCart = JSON.parse(localStorage.getItem(".cartList"))
+console.log(addToCart);
 
    function CartPage(cartItems) {
       cartList.style.display = "block";
       cartList.style.color = "red";
       cartList.innerHTML= "";
-      //total = 0;
       cartItems.forEach(function(cartElement) {
         cartList.innerHTML += `<div class="classlist">
                              <p>${cartElement.name}<p>
                              </div>  `
-      // window.location.href = "/products/products.html"
+      
    })
 
-   // totalcost.innerHTML= `Total: ${total}`;
+  
 }
 
