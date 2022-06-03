@@ -45,21 +45,21 @@ button.forEach(function(button) {
        const cartProducts = productsArray.find(itemsWrapper => itemsWrapper.id === event.target.dataset.product)
        console.log(productCartArray);
       productCartArray.push(cartProducts);
-   //   window.location.href = "/products/products.html"
+       window.location.href = "/products/products.html"
    }
 })
 
 
    function CartPage(cartItems) {
-      cart.style.display = "block";
-      cart.style.color = "red";
+      cartList.style.display = "block";
+      cartList.style.color = "red";
       cartList.innerHTML= "";
       cartItems.foreach(function(cartElement) {
         cartList.innerHTML += `<div class="classlist">
                              <p>${cartElement.name}<p>
                              <img src="${cartElement.image}" alt="" class="products">
                              </div>  `
-                          
+       window.location.href = "/products/products.html"
    })
 
 
