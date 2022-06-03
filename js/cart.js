@@ -54,7 +54,7 @@ button.onclick = function toDetailsPage() {
 }
 
    function showCartPage(cartItems) {
-      
+
       cartItems.foreach(function() {
       price.innerHTML += `<h1 class="menswear">Unisex</h1>
                           <h2 class="sub-heading">Universal design winter jackets and water resistant.</h2>
@@ -72,5 +72,17 @@ button.onclick = function toDetailsPage() {
 
 }
 
+function myFunction() {
+   var number = document.querySelector("quantity-input").value;
+   var x = number + 1;
+   document.getElementById("demo").innerHTML = x;
+ }
 
+let x = 1950;
+let y = 1;
+let z = x * y;
+ 
 
+btn.addEventListener("click", function () {
+  
+});
