@@ -617,14 +617,14 @@ form{
   text-align: left;
 }
 
-.welcome-2 {
+/* .welcome-2 {
   width: 100%;
   margin-top: 85px;
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   margin-top: 25px;
-}
+} */
 
 .four {
   grid-column: 2;
@@ -724,15 +724,6 @@ form{
   background-color: #f6f4f4; 
 }
  
-.men-section {
-  display: grid;
-  grid-template-columns: 250px 250px 250px;
-  align-items: center;
-  justify-content: center;
-  gap: 60px;
-  padding: 50px;
-  background-color: #e2e9ec;
-}
 
 /*------------------------------------checkout page -----------------------------------------------------------*/
  .card-details {
