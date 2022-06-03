@@ -2,59 +2,73 @@
 import { productsArray } from "/js/product.js"
 console.log(productsArray);
 
-
-
-
-
-
 const itemsWrapper= document.querySelector(".women-section");
+const cartIcon = document.querySelector("#cart");
+console.log(cartIcon);
+const price = document.querySelectorAll(".price-2");
+console.log(price);
+
+
+
+let productCartArray = [];
 
  productsArray.forEach(function(product){
   itemsWrapper.innerHTML  +=
 
    `
       <div class ="cards">
-      <div class="products">
-      <img src="${product.image}" alt="" class="products">
-      </div>
-      <div class="price-1">
-      <p class="productName">${product.name}</p>
-      <p class="cost">${product.price}</p>
-      </div>
-      <div class="add-to-cart-btn">
-      <button class="btn-small">Add to cart</button>
-      </div>
- 
+         <div class="products">
+         <img src="${product.image}" alt="" class="products">
+         </div>
+         <div class="price-1">
+         <p class="productName">${product.name}</p>
+         <p class="cost">${product.price}</p>
+         </div>
+         <div class="add-to-cart-btn">
+         <button class="btn-small" data-product = ${product.id}>Add to cart</button>
+         </div>
       </div>
    
 `
  })
 
+ const button = document.querySelectorAll(".add-to-cart-btn")
+ console.log(button);
+
+
+button.forEach(function(button) {
+   button.onclick = function(event) {
+      //console.log(event.target.dataset.product);
+      productCartArray.push(event.target.dataset.product);
+      const cartProducts = productsArray.find(itemsWrapper => itemsWrapper.id === event.target.dataset.product)
+      console.log(productCartArray);
+      productCartArray.push(cartProducts);
+     
+   }
+})
 
 
 
 
 
-//let productCart = [];
+   function cartPage(cartItems) {
+     cartProducts.foreach(function() {
+        window.location.href = "product.html"
+     price.innerHTML += `
+                              <div class="products">
+                              <img src="${product.image}" alt="" class="products">
+                              </div>
+                              <div class="price-2">
+                              <p>${product.name}</p>
+                              <p>${product.price}</p>
+                              <p>${product.Total}</p>
+                              <p>${product.price}</p>
+                              </div>
+                               `
+   })
 
 
-//  button.forEach(function (button) {
-//    button.onclick = function(event) {
-//      console.log(event.target.dataset);
-//      productCart.push(event.target.dataset.products);
-//      const itemsToAddToCart = productCart.find(products => products.id === event.target.dataset.products);
-//      console.log(itemsToAddToCart);
-//      openCart();
-
-//   }
-//   function openCart(cartItems){
-//     shoppingCart.style.display="block";
+}
 
 
-
-
-
-
-//   }
-// })
 
