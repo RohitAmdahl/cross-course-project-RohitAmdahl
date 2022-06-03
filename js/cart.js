@@ -9,13 +9,19 @@ console.log(productsArray);
 //   console.log(shoppingCart);
 
 
-// const items= document.querySelector(".cards");
+const items= document.querySelector(".cards");
 
  productsArray.forEach(function(product){
   items.innerHTML  +=
 
-   `
- 
+   `<div class="container">
+      <div class ="cards">
+      <img src="${product.image}" alt="" class="products">
+      <p>${product.name}</p>
+      <p>${product.price}</p>
+      <button class="btn-small">Add to cart</button>
+      </div>
+   </div>
 `
  })
 
