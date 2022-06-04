@@ -17,7 +17,7 @@ let productCartArray = [];
    itemsWrapper.innerHTML  +=
 
    ` 
-     <div class="details" id="datallist">
+      <div class ="cards">
          <div class="products">
          <img src="${product.image}" alt="" class="products">
          </div>
@@ -28,7 +28,8 @@ let productCartArray = [];
          <div class="add-to-cart-btn">
          <button class="btn-small" data-product = ${product.id}>Add to cart</button>
          </div>
-      </div>    
+      </div>
+      
    
 `
  })
@@ -45,9 +46,11 @@ button.forEach(function(button) {
        productCartArray.push(cartProducts);
        CartPage(productCartArray);
        localStorage.setItem("cartlist", JSON.stringify(productCartArray));
-       
    }
 })
+
+const addToCart = JSON.parse(localStorage.getItem(".cartList"))
+console.log(addToCart);
 
    function CartPage(cartItems) {
       cartList.style.display = "block";
@@ -58,7 +61,6 @@ button.forEach(function(button) {
         
                               <div class="classlist">
                              <p>${cartElement.id}<p>
-                             <p>${cartElement.name}<p>
                              </div>  
                              `
       

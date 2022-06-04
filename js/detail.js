@@ -1,6 +1,6 @@
 
-const cartList = JSON.parse(localStorage.getItem(".cartList"))
-console.log(cartList);
+const addToCart = JSON.parse(localStorage.getItem(".cartList"))
+console.log(addToCart);
 
 //  import { productsArray } from "/js/product.js"
 //  console.log(productsArray);
