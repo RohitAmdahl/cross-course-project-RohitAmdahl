@@ -19,7 +19,8 @@ let productCartArray = [];
    ` 
       <div class ="cards">
          <div class="products">
-         <img src="${product.image}" alt="" class="products">
+         
+         <a href="/products/products.html"><img src="${product.image}" alt="" class="products"></a>
          </div>
          <div class="price-1">
          <p class="productName">${product.name}</p>
@@ -28,8 +29,7 @@ let productCartArray = [];
          <div class="add-to-cart-btn">
          <button class="btn-small" data-product = ${product.id}>Add to cart</button>
          </div>
-      </div>
-      
+      </div>     
    
 `
  })
@@ -57,9 +57,9 @@ button.forEach(function(button) {
       cartList.innerHTML= "";
       cartItems.forEach(function(cartElement) {
         cartList.innerHTML += `
-        
                               <div class="classlist">
-                             <p>${cartElement.id}<p>
+                             <span>${cartElement.id}<span>
+                             <span>${cartElement.name}<span>
                              </div>  
                              `
       
