@@ -49,8 +49,7 @@ button.forEach(function(button) {
    }
 })
 
-const addToCart = JSON.parse(localStorage.getItem(".cartList"))
-console.log(addToCart);
+
 
    function CartPage(cartItems) {
       cartList.style.display = "block";
