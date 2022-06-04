@@ -17,7 +17,7 @@ let productCartArray = [];
    itemsWrapper.innerHTML  +=
 
    ` 
-      <div class="details" id="datallist">
+     <div class="details" id="datallist">
          <div class="products">
          <img src="${product.image}" alt="" class="products">
          </div>
@@ -28,8 +28,7 @@ let productCartArray = [];
          <div class="add-to-cart-btn">
          <button class="btn-small" data-product = ${product.id}>Add to cart</button>
          </div>
-      </div>
-      
+      </div>    
    
 `
  })
