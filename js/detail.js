@@ -7,6 +7,10 @@ console.log(details);
 const productInfo  = document.querySelector(".card_details")
 console.log(productInfo);
 
+const plus = document.querySelector("#plus")
+console.log(plus);
+const minus = document.querySelector("#minus")
+console.log(minus);
 const cart = document.querySelector("#cart")
 console.log(cart);
 // const url =  product.html?id=123;
