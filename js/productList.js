@@ -57,7 +57,7 @@ console.log(addToCart);
       cartList.innerHTML= "";
       cartItems.forEach(function(cartElement) {
         cartList.innerHTML += `<div class="classlist">
-                             <p>${cartElement.name}<p>
+                             <p>${cartElement.id}<p>
                              </div>  `
       
    })
