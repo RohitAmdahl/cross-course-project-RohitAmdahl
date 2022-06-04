@@ -46,11 +46,9 @@ button.forEach(function(button) {
        productCartArray.push(cartProducts);
        CartPage(productCartArray);
        localStorage.setItem("cartlist", JSON.stringify(productCartArray));
+       
    }
 })
-
-const addToCart = JSON.parse(localStorage.getItem(".cartList"))
-console.log(addToCart);
 
    function CartPage(cartItems) {
       cartList.style.display = "block";
@@ -61,6 +59,7 @@ console.log(addToCart);
         
                               <div class="classlist">
                              <p>${cartElement.id}<p>
+                             <p>${cartElement.name}<p>
                              </div>  
                              `
       
