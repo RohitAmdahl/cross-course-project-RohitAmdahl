@@ -1,8 +1,10 @@
 // import { productsArray } from "/js/product.js" 
 
-import {productCartArray} from "/js/product.js";
-console.log(productCartArray);
+// import {productCartArray} from "./js/product.js";
+// console.log(productCartArray);
 
+const details = document.querySelector("#datalist")
+console.log(details);
 
 const cart = document.querySelector("#cart")
 console.log(cart);
