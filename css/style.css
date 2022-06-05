@@ -646,6 +646,8 @@ form{
   justify-content: center;
   align-items: center;
   font-style: italic;
+  padding-top: 10px;
+  padding-bottom: 10px;
 } 
 
 /*........................................collection-----------------------------------..........................................*/
