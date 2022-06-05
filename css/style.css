@@ -142,7 +142,11 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 padding-bottom: 3px;
 color: #797101;
+
+
 }
+
+
 
 
 .fas.fa-shopping-cart {
@@ -224,6 +228,8 @@ color: #797101;
   align-items: center;
 
 }
+
+
 
 .btn-small {
   background-color: #f3c2ba;
@@ -753,6 +759,8 @@ form{
   background-color: #F3F3F3;
   padding: 10px 30px; 
 }
+
+
 
 .purchase {
   display: flex;
