@@ -30,14 +30,14 @@ function LogInForm(event) {
   }
 
 
-  if (checkInputLength(address.value, 40) === true) {
+  if (checkInputLength(address.value, 20) === true) {
     addressError.style.display = "none";
   }
   else{
     addressError.style.display = "block";
   }
 
-  if (checkInputLength(phoneNumber.value, 10) === true) {
+  if (checkInputLength(phoneNumber.value,) === true) {
     phoneError.style.display = "none";
   }
   else{
@@ -62,9 +62,8 @@ function checkInputLength(value, input){
   }
 }
 
-
-function validDataEmail(email) {
-  const regEx = /\S+@\S+\.\S+/;
-   const emailPatternMatches = regEx.test(email);
-   return emailPatternMatches; 
- }
+function validateEmail(email) {
+  const regEx = /\S+@\S+.\S+/;
+  const patternMatches = regEx.test(email);
+  return patternMatches;
+}
