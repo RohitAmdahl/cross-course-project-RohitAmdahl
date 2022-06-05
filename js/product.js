@@ -2,7 +2,7 @@
   export const productsArray = [
 
   {
-  name: "Rainy day, blue",
+  name: "Rainy, blue",
   description: "rainy day jacket water proof",
   image: "./images/hiking-2.png",
   id: "1",
@@ -41,7 +41,7 @@
   },
 
   {
-    name: "Rainy day, pink",
+    name: "Rainy, pink",
     description: "rainy day pink jacket water proof pink unisex in new look",
     image: "/images/manjacketpink.png",
     id: "5",
@@ -51,7 +51,7 @@
   },
 
   {
-    name: "Rainy day, pink",
+    name: "Rainy, pink",
     description: "rainy day pink jacket water proof unisex new style ",
     image: "/images/manjacketpink.png",
     id: "6",
