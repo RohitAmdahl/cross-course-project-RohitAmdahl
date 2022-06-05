@@ -8,7 +8,7 @@ console.log(cartlist);
 // const url =  product.html?id=123;
 
 const linkCards = document.getElementById("detailsContainer");
-
+console.log(linkCards);
 
 //  const url = "http://127.0.0.1:5501/products/product.js?id=123";
 //  console.log(url);
