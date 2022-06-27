@@ -18,4 +18,5 @@ console.log(linkCards);
 // console.log(id);
 
 // const product = products.find(product => product.id === id)
+
 // console.log(product);
