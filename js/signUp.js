@@ -28,7 +28,7 @@ function LogInForm(event) {
   }
 
   
-  if (checkInputLength(email.value) === true) {
+  if (validDataEmail(email.value) === true) {
     emailError.style.display = "none";
   }
   else{
@@ -36,22 +36,22 @@ function LogInForm(event) {
   }
 
 
-  if (checkInputLength(email.value ) === true) {
+  // if (checkInputLength(email.value ) === true) {
+  //   passwordError.style.display = "none";
+  // }
+  // else{
+  //   passwordError.style.display = "block";
+  // }
+
+  if (checkInputLength(password.value, 15) === true) {
     passwordError.style.display = "none";
   }
   else{
     passwordError.style.display = "block";
   }
 
-  if (checkInputLength(password.value) === true) {
-    passwordError.style.display = "none";
-  }
-  else{
-    passwordError.style.display = "block";
-  }
 
-
-  if (checkInputLength(password.value) === true) {
+  if (checkInputLength(password.value, 15) === true) {
     RepeatError.style.display = "none";
   }
   else{
