@@ -22,7 +22,7 @@ function LogInForm(event) {
   }
 
   
-  if (checkInputLength(email.value) === true) {
+  if (validateEmail(email.value) === true) {
     emailError.style.display = "none";
   }
   else{
@@ -37,7 +37,7 @@ function LogInForm(event) {
     addressError.style.display = "block";
   }
 
-  if (checkInputLength(phoneNumber.value,) === true) {
+  if (checkInputLength(phoneNumber.value, 12) === true) {
     phoneError.style.display = "none";
   }
   else{
