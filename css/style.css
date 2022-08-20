@@ -278,7 +278,6 @@ color: #797101;
 
 .Subscribe {
   margin-top: 10px;
-  padding: 11px 30px;
   font-size: 1em;
   color: #000000;
   border-radius: 5px;
@@ -388,6 +387,7 @@ footer {
 #email {
   display: block;
   margin-top: 5px; 
+  text-align: center;
 }
 
 ul {
@@ -415,6 +415,7 @@ ul {
 }
 
 form{
+  display: grid;
   text-align: center;
 }
 
