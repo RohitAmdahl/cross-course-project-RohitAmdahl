@@ -176,7 +176,9 @@ transition: ease-in 0.5s;
   max-width: 200px;
 }
 
-.jackets_selection_pictures
+.jackets_selection_pictures{
+  display: inline-block;
+}
 
 /*---------------------------------------main-----------------------------------------------------------*/
 
