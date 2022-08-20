@@ -1,12 +1,19 @@
-const url = "https://www.rkamdahl.no/wp-json/wc/v3/products?consumer_key=ck_946e569b72881be9b01c9ebcbfb9761e36118143&consumer_secret=cs_cd563c29f6ce7fc749515dfe3912ec618804f8b6";
+// const url = "https://www.rkamdahl.no/wp-json/wc/v3/products?consumer_key=ck_946e569b72881be9b01c9ebcbfb9761e36118143&consumer_secret=cs_cd563c29f6ce7fc749515dfe3912ec618804f8b6";
 
 
-// const url = "https://www.rkamdahl.no/wp-json/wc/store/products";
+ const url = "https://www.rkamdahl.no/wp-json/wc/store/products";
 
 async function getProduct(url){
+  try{
   const response = await fetch(url);
   const results =  await response.json();
   console.log(results);
+
+  }
+  catch (error){
+console.log("an error");
+  }
+
 }
 getProduct(url);
 /*
