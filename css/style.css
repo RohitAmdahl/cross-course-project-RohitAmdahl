@@ -47,6 +47,7 @@ li  {
 
  li a:hover {
   color: #797101;
+  transition: ease-in 0.5s;
 }
 
 a{
@@ -142,17 +143,12 @@ border-bottom-style: solid;
 border-bottom-width: 2px;
 padding-bottom: 3px;
 color: #797101;
-
-
+transition: ease-in 0.5s;
 }
-
-
-
 
 .fas.fa-shopping-cart {
   font-size: 22px;
 }
-
 
 .cta-1 {
   background: #e9c69e;
@@ -167,8 +163,6 @@ color: #797101;
   font-size: 18px;
 }
 
-
-
 .color{
   background-color: #f4e3cf;
 }
@@ -176,6 +170,13 @@ color: #797101;
 .cta-1:hover {
   background-color: #87caf5;
 }
+
+.jacket_box{
+  width: 100%;
+  max-width: 200px;
+}
+
+.jackets_selection_pictures
 
 /*---------------------------------------main-----------------------------------------------------------*/
 
@@ -447,6 +448,7 @@ form{
   font-size: 29px;
   margin-bottom: 15px;
 }
+
 
 .footer_links {
   margin: 0 auto;
