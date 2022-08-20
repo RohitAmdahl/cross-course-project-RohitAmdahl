@@ -1,4 +1,4 @@
-
+/*
   export const productsArray = [
 
   {
@@ -14,20 +14,9 @@
     name: "Viking, green",
     description: "rainy day jacket water proof",
     image: "./images/manacketgreen.png",
-    id: "2",
-    price: "1950kr,-",
-    Total: "Total",
-  
-  },
-
-  {
-    name: "Viking, green",
-    description: "rainy day jacket water proof",
-    image: "./images/manacketgreen.png",
     id: "3",
     price: "150kr,-",
     Total: "Total",
-
   }, 
 
   {
@@ -120,7 +109,7 @@
   },
 
 ]
-
+*/
 
 
 
