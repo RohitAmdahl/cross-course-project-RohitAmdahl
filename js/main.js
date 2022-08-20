@@ -6,13 +6,10 @@ const itemsWrapper= document.querySelector(".women-section");
 
 const cart = document.querySelector("#cart");
 const cartList = document.querySelector(".classlist");
-console.log(cart);
-console.log(cartList);
-
-
+//console.log(cart);
+//console.log(cartList);
 
 let productCartArray = [];
-
  productsArray.forEach(function(product){
    itemsWrapper.innerHTML  +=
 
@@ -34,12 +31,8 @@ let productCartArray = [];
 `
  })
 
-
-
  const button = document.querySelectorAll(".add-to-cart-btn")
  console.log(button);
-
- 
 
 button.forEach(function(button) {
    button.onclick = function(event) {
@@ -50,7 +43,6 @@ button.forEach(function(button) {
        localStorage.setItem("cartlist", JSON.stringify(productCartArray));
    }
 })
-
 
 
    function CartPage(cartItems) {
