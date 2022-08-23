@@ -17,16 +17,11 @@ async function fetchID(){
                             <img src="" alt="" class="items-1">
                             <h1>${link.id}</h1>
                             <h2>${link.name}</h2>
+                            <p class="cost">${link.price}</p>
                           </div>    
                         `
 
-
-
-
-
 }
-
-
 
 fetchID()
 // const cartlist = JSON.parse(localStorage.getItem(".cartList"))
