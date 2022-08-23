@@ -712,7 +712,7 @@ form{
   border-radius: 8px;
 }
 
-.women-section {
+.men-section {
   display: grid;
   grid-template-columns: 250px 250px 250px;
   align-items:center;
@@ -721,6 +721,17 @@ form{
   padding: 50px;
   background-color: #f6f4f4; 
 }
+
+.women-section {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 50px;
+  background-color: #f6f4f4;
+}
+
  
 
 /*------------------------------------checkout page -----------------------------------------------------------*/
