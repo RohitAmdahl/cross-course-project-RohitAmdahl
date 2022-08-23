@@ -1,5 +1,5 @@
 
-//import { productsArray } from "/js/product.js"
+// import { productsArray } from "/js/product.js"
 // console.log(productsArray);
 
 

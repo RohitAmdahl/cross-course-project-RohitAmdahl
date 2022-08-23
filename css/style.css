@@ -632,7 +632,7 @@ form{
 
 .products {
   width: 100%;
-  max-width: 160px;
+  max-width: 250px;
   padding-left: 35px;
 }
 
@@ -697,8 +697,8 @@ form{
 }
 
 .cards {
-  height: 300px;
-  width: 250px;
+  height: 490px;
+  width: 375px;
   padding: 20px;
   box-shadow:  1.7px 1.7px 1.4px rgba(0, 0, 0, -0.001),
   3.9px 3.9px 3.1px rgba(0, 0, 0, 0.001),
@@ -727,7 +727,7 @@ form{
   grid-template-columns: 250px 250px 250px;
   align-items: center;
   justify-content: center;
-  gap: 60px;
+  gap: 70px;
   padding: 50px;
   background-color: #f6f4f4;
 }
