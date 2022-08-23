@@ -1,22 +1,35 @@
+const linkCards = document.getElementById("detailsContainer");
+const queryString = document.location.search;
+const params = new URLSearchParams(queryString);
+console.log(params);
+const id = params.get("id");
+console.log(id);
+const linkUrl = "https://www.rkamdahl.no/wp-json/wc/store/products/? +id";
 
+console.log(linkUrl);
+
+async function fetchID(){
+  const response = await fetch(linkUrl);
+  const link = await response.json();
+  console.log(link);
+
+  linkCards.innerHTML +=  ` <div>
+                            <img src="" alt="" class="items-1">
+                            <h1>${link.id}</h1>
+                            <h2>${link.name}</h2>
+                          </div>    
+                        `
+
+
+
+
+
+}
+
+
+
+fetchID()
 // const cartlist = JSON.parse(localStorage.getItem(".cartList"))
 // console.log(cartlist);
 
-//  import { productsArray } from "/js/product.js"
-//  console.log(productsArray);
 
-// const url =  product.html?id=123;
-
-// const linkCards = document.getElementById("detailsContainer");
-// console.log(linkCards);
-
-//  const url = "https://www.rkamdahl.no/wp-json/wc/store/products";
-//  console.log(url);
-// const params = new URLSearchParams(queryString);
-// console.log(params);
-// const id = params.get("id");
-// console.log(id);
-
-// const product = products.find(product => product.id === id)
-
-// console.log(product);
