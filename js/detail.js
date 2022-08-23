@@ -7,8 +7,8 @@
 
 // const url =  product.html?id=123;
 
-const linkCards = document.getElementById("detailsContainer");
-console.log(linkCards);
+// const linkCards = document.getElementById("detailsContainer");
+// console.log(linkCards);
 
 //  const url = "https://www.rkamdahl.no/wp-json/wc/store/products";
 //  console.log(url);
