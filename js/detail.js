@@ -12,13 +12,13 @@ async function fetchProductsID(){
   const productsJacket = await response.json();
   console.log(productsJacket);
 
-  document.querySelector(".items-1").innerHTML = productsJacket.images[0].src;
+  document.querySelector(".items-1").src = productsJacket.images[0].src;
   document.querySelector("h1").innerText = productsJacket.name;
   document.querySelector(".sub-heading").innerHTML = productsJacket.short_description;
   document.getElementById("price-2").innerHTML = productsJacket.prices.price;
   document.querySelector(".details").innerHTML= productsJacket.description;
   //document.querySelector(".cost").innerText= price;
-  document.querySelector(".in-stock").innerText= productsJacket.is_in_stock;
+  document.querySelector(".menswear").innerText= productsJacket.name;
       
 }
 
