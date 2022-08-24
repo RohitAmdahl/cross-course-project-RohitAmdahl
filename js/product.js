@@ -15,6 +15,7 @@ async function getProduct(url){
                                 <div class="price-1">
                                 <p class="productName">${product.name}</p>
                                 <p class="cost">${product.prices.price}</p>
+                                <p class="cost">${product.prices.currency_symbol}</p>
                                 </div></a>
                                 <div class="add-to-cart-btn">
                                 <button class="btn-small" data-product = ${product.id}>Add to cart</button>
