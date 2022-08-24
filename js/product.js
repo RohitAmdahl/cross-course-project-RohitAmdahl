@@ -5,6 +5,7 @@ async function getProduct(url){
   const response = await fetch(url);
   const results =  await response.json();
   // console.log(results);
+  products.innerHTML = "";
   results.forEach(function(product){
    products.innerHTML  +=    ` <div class ="cards">
                                 <div class="products">

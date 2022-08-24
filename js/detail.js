@@ -12,6 +12,8 @@ async function fetchProductsID(){
   const productsJacket = await response.json();
   console.log(productsJacket);
 
+  // productsJacket.innerHTML = "";
+ 
   document.querySelector(".items-1").src = productsJacket.images[0].src;
   document.querySelector("h1").innerText = productsJacket.name;
   document.querySelector(".sub-heading").innerHTML = productsJacket.short_description;
