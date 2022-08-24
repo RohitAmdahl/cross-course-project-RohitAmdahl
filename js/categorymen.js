@@ -3,7 +3,6 @@
 const url = "https://www.rkamdahl.no/wp-json/wc/store/products?category=24";
 const  products = document.querySelector(".women-section");
 
-
 async function getProductCategory(url){
 const response = await fetch(url);
   const results =  await response.json();
