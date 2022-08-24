@@ -7,9 +7,9 @@ async function getProductCategory(url){
 const response = await fetch(url);
   const results =  await response.json();
   console.log(results);
-    products.innerHTML = "";
+  products.innerHTML = "";
   results.forEach(function(product){
-   products.innerHTML  +=    ` <div class ="cards">
+  products.innerHTML  +=    ` <div class ="cards">
                                 <div class="products">
                                 <a href="/products/products.html?id=${product.id}">
                                 <img src="${product.images[0].src}" alt="product pictures" class="products"> 
