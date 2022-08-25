@@ -30,25 +30,22 @@ getProductCategory(url)
 
 
 
-const cart = document.querySelector("#cart");
-const cartList = document.querySelector(".classlist");
-console.log(cart);
-console.log(cartList);
+// const cart = document.querySelector("#cart");
+// const cartList = document.querySelector(".classlist");
+// console.log(cart);
+// console.log(cartList);
+const buttons = document.querySelectorAll(".add-to-cart-btn");
+console.log(buttons);
+buttons.forEach(function (button) {
+    button.onclick = function (event) {
+        console.log(event);
+    };
+});
+// buttons.forEach((button) => {
+//   button.addEventListener("click", handelClick);
 
+// });
 
-// button.forEach(function(button) {
-//    button.onclick = function(event) {
-//       console.log(event.target.dataset.product);
-//        const cartProducts = url.find(products => products.id === event.target.dataset.product)
-//        url.push(cartProducts);
-//        CartPage(url);
-//        localStorage.setItem("cartList", JSON.stringify(url));
-//    }
-// })
-const button = document.querySelectorAll(".add-to-cart-btn");
-console.log(button);
-button.forEach(function(button){
-  button.onclick = function(event){
-    console.log(event.target);
-  }
-})
+// function handelClick(event){
+//   console.log(event);
+// }
