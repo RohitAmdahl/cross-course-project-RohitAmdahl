@@ -226,9 +226,8 @@ transition: ease-in 0.2s;
 }
 
 .add-to-cart-btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: grid;
+
 
 }
 
@@ -246,7 +245,6 @@ transition: ease-in 0.2s;
   box-shadow: 1.3px 1.3px 20.4px rgba(0, 0, 0, 0.059),
       2.9px 2.9px 38.2px rgba(0, 0, 0, 0.076),
       5.4px 5.4px 53px rgba(0, 0, 0, 0.082),;
-  transition: ease-in 0.2s;
 }
 
 .buy-now {
@@ -638,6 +636,7 @@ form{
   width: 100%;
   max-width: 250px;
   padding-left: 35px;
+  height: 280px;
 }
 
 .star {
