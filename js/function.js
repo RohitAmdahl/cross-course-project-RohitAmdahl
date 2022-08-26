@@ -1,7 +1,17 @@
 
+     export function cartItems() {
+      const items = localStorage.getItem("cartProducts");
 
+      if (items === null) {
+        return [];
+      }
+      else {
+        return JSON.parse(items);
+      }
 
+   }
 
+//------------------------------------------//------------------------------------------------//
 
 //  const url = "https://www.rkamdahl.no/wp-json/wc/store/products?per_page=20";
 //  const  products = document.querySelector(".women-section");

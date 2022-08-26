@@ -1,33 +1,29 @@
-   function cartItems() {
-      const items = localStorage.getItem("cartProducts");
-
-      if (items === null) {
-        return [];
-      }
-      else {
-        return JSON.parse(items);
-      }
-
-   }
+import { cartItems } from "/js/function.js"
 
 const saveToCart = cartItems();
 
 const products = document.querySelector(".women-section");
+console.log(products);
 
-saveToCart.forEach(addingToCart => {
-     products.innerHTML  +=    `
-                               <div class ="cards">
+saveToCart.forEach((addinGToCart) => {
+    products.innerHTML  +=    ` <div class ="cards">
                                 <div class="products">
-                                <img src="${product.images[0].src}" alt="product pictures" class="products"> 
+                                <h2>${addinGToCart.name}</h2>
                                 </div>
-                                <div class="price-1">
-                                <p class="productName">${product.name}</p>
-                                <p class="cost">${product.prices.price}</p>
-                                <p class="cost">${product.prices}</p>
+                                 <div class="price-1">
+                                   <h3class="cost">"${addinGToCart.price}"</h3>
                                 </div>
+                                  </a>
                                </div>    
-                             `;
+                             `
 });
+
+
+//------------------------------------------------------//--------------------
+
+
+
+
 
 //  import {url} from "./category_men.js";
 //  console.log(url);
