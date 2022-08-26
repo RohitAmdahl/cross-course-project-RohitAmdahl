@@ -16,10 +16,10 @@ const response = await fetch(url);
                                 </div>
                                  <div class="price-1">
                                   <p class="productName">${product.name}</p>
-                                   <h3class="cost">${product.prices.price} ${product.prices.currency_symbol}</h3>
+                                   <h3class="cost">"${product.prices.price}" "${product.prices.currency_symbol}"</h3>
                                 </div>
                                     <div class="view_product">
-                                      <button class="btn-small" data-product="${product.id}">View products</button>
+                                      <button class="btn-small""${product.id}">View products</button>
                                     </div>
                                   </a>
                                    <div class="add-to-cart-btn">
@@ -27,11 +27,10 @@ const response = await fetch(url);
                                    </div>
                                </div>    
                              `
-
-                   
+               
   })
 } 
-  
+
 getProductCategory(url)
 
 
