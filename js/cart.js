@@ -1,5 +1,6 @@
 
-// import {url} from "./category_men.js";
+
+//  import {url} from "./category_men.js";
 //  console.log(url);
 
 
@@ -7,21 +8,43 @@
 // const cartList = document.querySelector(".classlist");
 // console.log(cart);
 // console.log(cartList);
-const buttons = document.querySelectorAll( ".btn");
-console.log(buttons);
-// buttons.forEach(function (button) {
-//     button.onclick = function (event) {
-//         console.log(event);
-//     };
+
+// function getBasket() {
+//   return JSON.parse(localStorage.getItem("basket"))
+// }
+
+// function saveBasket(basketArray) {
+//   localStorage.setItem("basket", JSON.stringify(basketArray)); 
+// }
+
+// function addToBasket(productId, quantity) {
+//   const basket = getBasket();
+//   const alreadyInBasket = basket.find(product => product.id === productId);
+  
+//   if (alreadyInBasket) {
+//     alreadyInBasket.quantity + quantity;
+//   } else {
+//     basket.push({ productId, quantity });
+//     saveBasket(basket);
+//   }
+// }
+
+
+
+
+
+
+
+// buttons.forEach((button) => {
+//   button.addEventListener("click", handelClick);
+
 // });
-buttons.forEach((button) => {
-  button.addEventListener("click", handelClick);
 
-});
+// function handelClick(event){
+//   console.log(event);
+// }
 
-function handelClick(event){
-  console.log(event);
-}
+
 
 
 // const cart = document.querySelector("#cart");

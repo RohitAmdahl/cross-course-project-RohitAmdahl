@@ -12,37 +12,18 @@ async function fetchProductsID(){
   const productsJacket = await response.json();
   console.log(productsJacket);
 
-  // productsJacket.innerHTML = "";
- 
   document.querySelector(".items-1").src = productsJacket.images[0].src;
   document.querySelector("h1").innerText = productsJacket.name;
   document.querySelector(".sub-heading").innerHTML = productsJacket.short_description;
   document.getElementById("price-2").innerHTML = productsJacket.prices.price;
   document.querySelector(".details").innerHTML= productsJacket.description;
-  //document.querySelector(".cost").innerText= price;
   document.querySelector(".menswear").innerText= productsJacket.name;
+
       
 }
 
 fetchProductsID()
-// async function fetchID(){
-//   const response = await fetch(linkUrl);
-//   const link = await response.json();
-//   console.log(link);
 
-//   linkCards.innerHTML +=  ` <div>
-//                             <img src="${link.images[0].src}" alt="" class="items-1">
-//                             <h1>${link.id}</h1>
-//                             <h2>${link.name}</h2>
-//                             <p class="cost">${link.prices.price}</p>
-//                             <p class="cost">${link.description}</p>
-//                           </div>    
-//                         `
-
-// }
-
-// fetchID()
-// const cartlist = JSON.parse(localStorage.getItem(".cartList"))
-// console.log(cartlist);
-
+  const button = document.querySelector(".btn");
+  console.log(button);
 
