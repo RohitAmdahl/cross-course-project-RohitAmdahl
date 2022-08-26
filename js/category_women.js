@@ -15,7 +15,11 @@ const response = await fetch(url);
                                 <div class="price-1">
                                 <p class="productName">${product.name}</p>
                                 <p class="cost">${product.prices.price} ${product.prices.currency_symbol}</p>
-                                </div></a>
+                                </div>
+                                <div class="view_product">
+                                <button class="btn-small" data-product = ${product.id}>View products</button>
+                                </div>
+                                </a>
                                 <div class="add-to-cart-btn">
                                 <button class="btn-small" data-product = ${product.id}>Add to cart</button>
                                 </div>

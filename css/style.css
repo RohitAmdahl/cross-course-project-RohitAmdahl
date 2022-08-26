@@ -700,8 +700,8 @@ form{
 }
 
 .cards {
-  height: 490px;
-  width: 320px;
+  height: 520px;
+  width: 335px;
   padding: 20px;
   box-shadow:  1.7px 1.7px 1.4px rgba(0, 0, 0, -0.001),
   3.9px 3.9px 3.1px rgba(0, 0, 0, 0.001),
@@ -727,7 +727,7 @@ form{
 
 .women-section {
   display: grid;
-  grid-template-columns: 250px 250px 250px;
+  grid-template-columns: 310px 310px 310px;
   align-items: center;
   justify-content: center;
   gap: 70px;

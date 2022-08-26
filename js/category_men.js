@@ -11,18 +11,24 @@ const response = await fetch(url);
   results.forEach(function(product){
   products.innerHTML  +=    ` <div class ="cards">
                                 <div class="products">
-                                <a href="/products/products.html?id=${product.id}">
-                                <img src="${product.images[0].src}" alt="product pictures" class="products"> 
+                                 <a href="/products/products.html?id=${product.id}">
+                                  <img src="${product.images[0].src}" alt="product pictures" class="products"> 
                                 </div>
-                                <div class="price-1">
-                                <p class="productName">${product.name}</p>
-                                <p class="cost">${product.prices.price} ${product.prices.currency_symbol}</p>
-                                </div></a>
-                                <div class="add-to-cart-btn">
-                                <button class="btn-small cart_btn" data-product = ${product.id}>Add to cart</button>
+                                 <div class="price-1">
+                                  <p class="productName">${product.name}</p>
+                                   <h3class="cost">${product.prices.price} ${product.prices.currency_symbol}</h3>
                                 </div>
+                                    <div class="view_product">
+                                      <button class="btn-small" data-product="${product.id}">View products</button>
+                                    </div>
+                                  </a>
+                                   <div class="add-to-cart-btn">
+                                    <button class="btn-small cart_btn" data-product="${product.id}">Add to cart</button>
+                                   </div>
                                </div>    
                              `
+
+                   
   })
 } 
   
@@ -49,3 +55,5 @@ buttons.forEach((button) => {
 function handelClick(event){
   console.log(event);
 }
+
+
