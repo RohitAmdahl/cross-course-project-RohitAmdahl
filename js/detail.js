@@ -31,19 +31,23 @@ async function fetchProductsID(){
     const { name } = event.target.dataset;
     const { id } = event.target.dataset;
     const { price } = event.target.dataset;
-    
+
 
     const currentItems = cartItems()
 
-    let cartObject 
+    // let cartObject = "far"
+    // const dataObject = currentItems.find(items)
+    // console.log(items);
+    // return items.id === currentItems.id;
 
+    // console.log(dataObject);
 
     const productExists = currentItems.find(function (items) {
       return items.id === id;
     });
 
     if (!productExists) {
-      const productCart = { id: id, name: name }
+      const productCart = { id: id, name: name, price: price }
       currentItems.push(productCart);
       saveItems(currentItems);
     }

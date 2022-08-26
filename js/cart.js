@@ -10,8 +10,8 @@
 
    }
 
-
 const saveToCart = cartItems();
+
 const products = document.querySelector(".women-section");
 
 saveToCart.forEach(addingToCart => {
