@@ -26,7 +26,7 @@ async function fetchProductsID(){
   const button = document.querySelector(".addtocart");
   console.log(button);
 
-  button.onclick = function(event){
+  button.onclick = function(event){ 
     console.log(event.target.dataset.name);
     const { name } = event.target.dataset;
     const { id } = event.target.dataset;
