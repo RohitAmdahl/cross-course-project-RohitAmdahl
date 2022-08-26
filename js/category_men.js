@@ -35,24 +35,5 @@ getProductCategory(url)
 
 
 
-// const cart = document.querySelector("#cart");
-// const cartList = document.querySelector(".classlist");
-// console.log(cart);
-// console.log(cartList);
-const buttons = document.querySelectorAll( ".add-to-cart-btn");
-console.log(buttons);
-// buttons.forEach(function (button) {
-//     button.onclick = function (event) {
-//         console.log(event);
-//     };
-// });
-buttons.forEach((button) => {
-  button.addEventListener("click", handelClick);
-
-});
-
-function handelClick(event){
-  console.log(event);
-}
 
 
