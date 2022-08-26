@@ -1,3 +1,4 @@
+
 const linkCards = document.getElementById("detailsContainer");
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
@@ -17,20 +18,61 @@ async function fetchProductsID(){
   document.querySelector(".sub-heading").innerHTML = productsJacket.short_description;
   document.getElementById("price-2").innerHTML = productsJacket.prices.price;
   document.querySelector(".details").innerHTML= productsJacket.description;
-  document.querySelector(".menswear").innerText= productsJacket.name;
+  document.querySelector(".addtocart").dataset.name = productsJacket.name;
+  document.querySelector(".addtocart").dataset.id = productsJacket.id;
+  document.querySelector(".addtocart").dataset.price = productsJacket.prices.price;
 
-      
+
+  const button = document.querySelector(".addtocart");
+  console.log(button);
+
+  button.onclick = function(event){
+    console.log(event.target.dataset.name);
+    const { name } = event.target.dataset;
+    const { id } = event.target.dataset;
+    const { price } = event.target.dataset;
+    
+
+    const currentItems = cartItems()
+
+    let cartObject 
+
+
+    const productExists = currentItems.find(function (items) {
+      return items.id === id;
+    });
+
+    if (!productExists) {
+      const productCart = { id: id, name: name }
+      currentItems.push(productCart);
+      saveItems(currentItems);
+    }
+    else {
+      const newItems = currentItems.filter(fav => items.id !== id);
+      saveItems(newItems);
+    }
+  }
+
+   function cartItems() {
+      const items = localStorage.getItem("cartProducts");
+
+      if (items === null) {
+        return [];
+      }
+      else {
+        return JSON.parse(items);
+      }
+
+   }
+
+  function saveItems(items) {
+    localStorage.setItem("cartProducts", JSON.stringify (items));
+  }
+
+  const saveToCart = cartItems();
+const products = document.querySelector(".women-section");
+
 }
 
 fetchProductsID()
 
-const button = document.querySelector(".btn");
-console.log(button);
-
-button.onclick = function(event){
-  console.log(event);
-// const id = this.productsJacket.id;
-// const name = this.productsJacket.name;
-// console.log(name);
-// console.log(id);
-}

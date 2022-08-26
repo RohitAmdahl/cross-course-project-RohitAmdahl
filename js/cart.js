@@ -1,4 +1,33 @@
+   function cartItems() {
+      const items = localStorage.getItem("cartProducts");
 
+      if (items === null) {
+        return [];
+      }
+      else {
+        return JSON.parse(items);
+      }
+
+   }
+
+
+const saveToCart = cartItems();
+const products = document.querySelector(".women-section");
+
+saveToCart.forEach(addingToCart => {
+     products.innerHTML  +=    `
+                               <div class ="cards">
+                                <div class="products">
+                                <img src="${product.images[0].src}" alt="product pictures" class="products"> 
+                                </div>
+                                <div class="price-1">
+                                <p class="productName">${product.name}</p>
+                                <p class="cost">${product.prices.price}</p>
+                                <p class="cost">${product.prices}</p>
+                                </div>
+                               </div>    
+                             `;
+});
 
 //  import {url} from "./category_men.js";
 //  console.log(url);

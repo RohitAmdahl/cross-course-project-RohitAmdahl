@@ -1,3 +1,8 @@
+
+
+
+
+
 //  const url = "https://www.rkamdahl.no/wp-json/wc/store/products?per_page=20";
 //  const  products = document.querySelector(".women-section");
 
