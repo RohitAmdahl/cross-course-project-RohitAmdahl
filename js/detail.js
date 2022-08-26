@@ -24,6 +24,13 @@ async function fetchProductsID(){
 
 fetchProductsID()
 
-  const button = document.querySelector(".btn");
-  console.log(button);
+const button = document.querySelector(".btn");
+console.log(button);
 
+button.onclick = function(event){
+  console.log(event);
+// const id = this.productsJacket.id;
+// const name = this.productsJacket.name;
+// console.log(name);
+// console.log(id);
+}
