@@ -731,9 +731,18 @@ form{
   border-radius: 8px;
 }
 
+/* .card{
+  color: rgb(125, 124, 124);
+  border: 1px solid rgba(225, 225, 255, 255);
+} */
+
+
+
+
 .cart-btn {
   display: flex;
   justify-content: center;
+  transition: ease-in-out 0.3s;
 
 }
 .cart-btn:hover {
