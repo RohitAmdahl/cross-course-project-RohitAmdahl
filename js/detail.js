@@ -9,8 +9,7 @@ const linkUrl = `https://www.rkamdahl.no/wp-json/wc/store/products/${id}`;
 console.log(linkUrl);
 async function fetchProductsID() {
   try {
-
-      const response = await fetch(linkUrl);
+  const response = await fetch(linkUrl);
   const productsJacket = await response.json();
   console.log(productsJacket);
 
@@ -24,9 +23,6 @@ async function fetchProductsID() {
   document.querySelector(".addtocart").dataset.price = productsJacket.prices.price;
   document.querySelector(".addtocart").dataset.src.images = productsJacket.images.src;
  
-
-  
-
   const button = document.querySelector(".addtocart");
   console.log(button);
 
@@ -87,5 +83,5 @@ async function fetchProductsID() {
 
 }
 
-fetchProductsID()
+fetchProductsID();
 
