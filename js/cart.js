@@ -10,10 +10,10 @@ saveToCart.forEach((addinGToCart) => {
                                 <div class="products">
                                 <h2>${addinGToCart.name}</h2>
                                 </div>
-                                 <div class="price-1">
-                                   <h3class="cost">"${addinGToCart.price}"</h3>
+                                <div class="price-1">
+                                <h3class="cost">"${addinGToCart.price}"</h3>
                                 </div>
-                                  </a>
+                                </a>
                                </div>    
                              `
 });

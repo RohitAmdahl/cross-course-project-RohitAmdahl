@@ -21,17 +21,20 @@ async function fetchProductsID() {
   document.querySelector(".addtocart").dataset.name = productsJacket.name;
   document.querySelector(".addtocart").dataset.id = productsJacket.id;
   document.querySelector(".addtocart").dataset.price = productsJacket.prices.price;
-  document.querySelector(".addtocart").dataset.src.images = productsJacket.images.src;
+  document.querySelector(".addtocart").dataset.images = productsJacket.images.src;
+    
  
-  const button = document.querySelector(".addtocart");
-  console.log(button);
-
-  button.onclick = function(event){ 
+    const button = document.querySelector(".addtocart");
+    console.log(button);
+    const displayMsg = document.querySelector(".display_massage")
+    console.log(displayMsg);
+    button.onclick = function (event) { 
+    displayMsg.style.display = "block"
     const { name } = event.target.dataset;
     const { id } = event.target.dataset;
     const { price } = event.target.dataset;
-    const { images} = event.target.dataset;
-    console.log(images);
+    // const { images } = event.target.dataset;
+    // console.log(images);
    
    
 
@@ -43,10 +46,13 @@ async function fetchProductsID() {
     // return items.id === currentItems.id;
 
     // console.log(dataObject);
+    // createHtml()
+
     const currentItems = cartItems();  
     
     const productExists = currentItems.find(function (items) {
       return items.id === id;
+      
     });
 
     if (!productExists) {
@@ -72,9 +78,16 @@ async function fetchProductsID() {
 
    }
 
-  function saveItems(items) {
+    function saveItems(items) {
+    // productExists.innerHTML +=`<div>Your product is added to the cart</div>`
     localStorage.setItem("cartProducts", JSON.stringify (items));
-  }
+    }
+    
+    // function createHtml() {
+    //   createHtml.innerHTML +=`<div class="display_massage">Your product is added to the cart</div>`
+    // }
+
+   
 
     
   } catch (error) {
