@@ -652,7 +652,7 @@ form{
   width: 100%;
   max-width: 250px;
   padding-left: 35px;
-  height: 280px;
+  /* height: 280px; */
 }
 
 .star {
