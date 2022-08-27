@@ -1,8 +1,9 @@
 const url = "https://www.rkamdahl.no/wp-json/wc/store/products?category=23";
 const  products = document.querySelector(".women-section");
 
-async function getProductCategory(url){
-const response = await fetch(url);
+async function getProductCategory(url) {
+  try {
+    const response = await fetch(url);
   const results =  await response.json();
   console.log(results);
     products.innerHTML = "";
@@ -27,6 +28,11 @@ const response = await fetch(url);
                              `
   })
   
+
+  } catch (error) {
+    console.log(error);
+  }
+
 } 
   
 

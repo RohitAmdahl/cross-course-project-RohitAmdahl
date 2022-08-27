@@ -7,8 +7,10 @@ console.log(id);
 const linkUrl = `https://www.rkamdahl.no/wp-json/wc/store/products/${id}`;
 
 console.log(linkUrl);
-async function fetchProductsID(){
-  const response = await fetch(linkUrl);
+async function fetchProductsID() {
+  try {
+
+      const response = await fetch(linkUrl);
   const productsJacket = await response.json();
   console.log(productsJacket);
 
@@ -76,6 +78,11 @@ async function fetchProductsID(){
 
   function saveItems(items) {
     localStorage.setItem("cartProducts", JSON.stringify (items));
+  }
+
+    
+  } catch (error) {
+    console.log(error);
   }
 
 }
