@@ -9,9 +9,10 @@ saveToCart.forEach((addinGToCart) => {
     products.innerHTML  +=    ` <div class ="cards">
                                 <div class="products">
                                 <h2>${addinGToCart.name}</h2>
+                                <img src="${addinGToCart.images[0].src} alt="" class="products">
                                 </div>
                                 <div class="price-1">
-                                <h3class="cost">"${addinGToCart.price}"</h3>
+                                <h3class="cost">Price: "${addinGToCart.price}"</h3>
                                 </div>
                                 </a>
                                </div>    

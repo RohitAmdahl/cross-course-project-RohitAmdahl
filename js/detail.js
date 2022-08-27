@@ -21,7 +21,7 @@ async function fetchProductsID() {
   document.querySelector(".addtocart").dataset.name = productsJacket.name;
   document.querySelector(".addtocart").dataset.id = productsJacket.id;
   document.querySelector(".addtocart").dataset.price = productsJacket.prices.price;
-  document.querySelector(".addtocart").dataset.images = productsJacket.images.src;
+  document.querySelector(".addtocart").dataset.images = productsJacket.images[0].src;
     
  
     const button = document.querySelector(".addtocart");
@@ -33,7 +33,7 @@ async function fetchProductsID() {
     const { name } = event.target.dataset;
     const { id } = event.target.dataset;
     const { price } = event.target.dataset;
-    // const { images } = event.target.dataset;
+    const { images } = event.target.dataset;
     // console.log(images);
    
    
@@ -56,7 +56,7 @@ async function fetchProductsID() {
     });
 
     if (!productExists) {
-      const productCart = { id: id, name: name, price: price }
+      const productCart = { id: id, name: name, price: price, images: images[0].src }
       currentItems.push(productCart);
       saveItems(currentItems);
     }
