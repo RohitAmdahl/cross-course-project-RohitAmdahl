@@ -1,5 +1,4 @@
 
-  
  @media (max-width: 920px) {
   h1{
     font-size:1.5rem;
@@ -47,6 +46,7 @@
   .mens-jackets {
     margin: 0 auto;
     margin-bottom: 20px;
+    padding: 0px;
   }
 
   .cta {
@@ -93,10 +93,10 @@
   margin: 0 auto;
 }
 
-.men-section {
+/* .men-section {
   grid-template-columns: 250px auto;
   padding-top: 50px;
-}
+} */
 
 .women-section {
   grid-template-columns: 250px auto;
@@ -376,7 +376,7 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto ;
-    /* width: 80%; */
+  
 
   }
 
@@ -572,6 +572,11 @@
     flex-direction: column;
   }
 
+  .mens-jackets{
+    padding: 0px;
+  }
+
+
 } 
 
 /*-----------------------------------------------media phone--media quarry -------------------------------- ----*/
@@ -685,7 +690,7 @@ header{
 }
 
 .footer-text {
-  max-width: 500px;
+  max-width: 250px;
   margin: 0 auto;
   padding-top: 50px;
   padding-left: 0px;
@@ -724,6 +729,26 @@ header{
     align-items: center;
   }
 
+  .items-1{
+    max-width: 250px;
+
+  }
+  .mens-jackets{
+    max-width: 300px;
+  }
+
+.sub-heading {
+ text-align: center;
+ max-width: 250px;
+ margin: 0 auto;
+ }
+ 
+ .price-2 {
+   display: flex;
+   flex-direction: column;
+ }
+
+
 }
 
 
@@ -748,12 +773,16 @@ header{
     padding-left: 0px;
   }
   .cards {
-    height: 330px;
+    height: 200px;
     width: 250px;
    }
   .products {
    max-width: 160px;
 
+  }
+
+  .women-section {
+  padding: 0px;
   }
  }
  
