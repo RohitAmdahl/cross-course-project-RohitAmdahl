@@ -7,8 +7,8 @@ async function getProductCategory(url) {
   const results =  await response.json();
   console.log(results);
   products.innerHTML = "";
-  results.forEach(function(product){
-  products.innerHTML += ` <div class ="cards">
+    results.forEach(function (product) {
+      products.innerHTML += ` <div class ="cards">
                                 <div class="products">
                                 <a href="/products/products.html?id=${product.id}">
                                 <img src="${product.images[0].src}" alt="product pictures" class="products"> 
@@ -21,10 +21,10 @@ async function getProductCategory(url) {
                                 <button class="btn-small" data-product = ${product.id}>View our product</button>
                                 </div>
                                 </a>
-                               </div>  
-                               `;   
+                               </div>`; 
+                              
                             
-  })
+    });
   
 
   } catch (error) {
