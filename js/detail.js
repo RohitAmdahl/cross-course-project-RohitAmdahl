@@ -9,89 +9,66 @@ const linkUrl = `https://www.rkamdahl.no/wp-json/wc/store/products/${id}`;
 console.log(linkUrl);
 async function fetchProductsID() {
   try {
-  const response = await fetch(linkUrl);
-  const productsJacket = await response.json();
-  console.log(productsJacket);
+    const response = await fetch(linkUrl);
+    const productsJacket = await response.json();
+    console.log(productsJacket);
 
-  document.querySelector(".items-1").src = productsJacket.images[0].src;
-  document.querySelector("h1").innerText = productsJacket.name;
-  document.querySelector(".sub-heading").innerHTML = productsJacket.short_description;
-  document.getElementById("price-2").innerHTML = productsJacket.prices.price;
-  document.querySelector(".details").innerHTML= productsJacket.description;
-  document.querySelector(".addtocart").dataset.name = productsJacket.name;
-  document.querySelector(".addtocart").dataset.id = productsJacket.id;
-  document.querySelector(".addtocart").dataset.price = productsJacket.prices.price;
-  document.querySelector(".addtocart").dataset.image = productsJacket.images[0].src;
-    
- 
+    document.querySelector(".items-1").src = productsJacket.images[0].src;
+    document.querySelector("h1").innerText = productsJacket.name;
+    document.querySelector(".sub-heading").innerHTML =
+      productsJacket.short_description;
+    document.getElementById("price-2").innerHTML = productsJacket.prices.price;
+    document.querySelector(".details").innerHTML = productsJacket.description;
+    document.querySelector(".addtocart").dataset.name = productsJacket.name;
+    document.querySelector(".addtocart").dataset.id = productsJacket.id;
+    document.querySelector(".addtocart").dataset.price =
+      productsJacket.prices.price;
+    document.querySelector(".addtocart").dataset.image =
+      productsJacket.images[0].src;
+
     const button = document.querySelector(".addtocart");
     console.log(button);
-    const displayMsg = document.querySelector(".display_massage")
+    //---display msg on after add to cart button--------
+    const displayMsg = document.querySelector(".display_massage");
     console.log(displayMsg);
-    button.onclick = function (event) { 
-    displayMsg.style.display = "block"
-    const { name, id, price, image } = event.target.dataset;
-  
-   
-   
+    button.onclick = function (event) {
+      displayMsg.style.display = "block";
+      //--------
+      const { name, id, price, image } = event.target.dataset;
 
-    // import const currentItems = cartItems()
-    // const products = document.querySelector(".women-section");
-    // let cartObject = "far"
-    // const dataObject = currentItems.find(items)
-    // console.log(items);
-    // return items.id === currentItems.id;
+      const currentItems = cartItems();
 
-    // console.log(dataObject);
-    // createHtml()
+      const productExists = currentItems.find(function (items) {
+        return items.id === id;
+      });
 
-    const currentItems = cartItems();  
-    
-    const productExists = currentItems.find(function (items) {
-      return items.id === id;
-      
-    });
+      if (!productExists) {
+        const productCart = { id: id, name: name, price: price, image: image };
+        currentItems.push(productCart);
+        saveItems(currentItems);
+      } else {
+        const newItems = currentItems.filter((items) => items.id !== id);
+        saveItems(newItems);
+      }
+    };
 
-    if (!productExists) {
-      const productCart = { id: id, name: name, price: price, image: image };
-      currentItems.push(productCart);
-      saveItems(currentItems);
-    }
-    else {
-      const newItems = currentItems.filter(items => items.id !== id);
-      saveItems(newItems);
-    }
-  }
-
-   function cartItems() {
+    function cartItems() {
       const items = localStorage.getItem("cartProducts");
 
       if (items === null) {
         return [];
-      }
-      else {
+      } else {
         return JSON.parse(items);
       }
-
-   }
+    }
 
     function saveItems(items) {
-    // productExists.innerHTML +=`<div>Your product is added to the cart</div>`
-    localStorage.setItem("cartProducts", JSON.stringify (items));
+      // productExists.innerHTML +=`<div>Your product is added to the cart</div>`
+      localStorage.setItem("cartProducts", JSON.stringify(items));
     }
-    
-    // function createHtml() {
-    //   createHtml.innerHTML +=`<div class="display_massage">Your product is added to the cart</div>`
-    // }
-
-   
-
-    
   } catch (error) {
     console.log(error);
   }
-
 }
 
 fetchProductsID();
-
