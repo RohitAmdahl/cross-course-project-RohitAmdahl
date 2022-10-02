@@ -74,6 +74,8 @@ async function fetchProductsID() {
 
 fetchProductsID();
 
+//------quantity adding on the page
+
 const plus = document.getElementById("plus");
 console.log(plus);
 const minus = document.getElementById("minus");
