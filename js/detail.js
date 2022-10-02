@@ -6,14 +6,13 @@ console.log(params);
 const id = params.get("id");
 console.log(id);
 const linkUrl = `https://www.rkamdahl.no/wp-json/wc/store/products/${id}`;
-linkCards.innerHTML = "";
+
 console.log(linkUrl);
 async function fetchProductsID() {
   try {
     const response = await fetch(linkUrl);
     const productsJacket = await response.json();
     console.log(productsJacket);
-
     document.querySelector(".items-1").src = productsJacket.images[0].src;
     document.querySelector("h1").innerText = productsJacket.name;
     document.querySelector(".sub-heading").innerHTML =
