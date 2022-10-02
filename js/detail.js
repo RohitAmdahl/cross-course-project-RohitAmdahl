@@ -1,11 +1,12 @@
 const linkCards = document.getElementById("detailsContainer");
+console.log(linkCards);
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 console.log(params);
 const id = params.get("id");
 console.log(id);
 const linkUrl = `https://www.rkamdahl.no/wp-json/wc/store/products/${id}`;
-
+linkCards.innerHTML = "";
 console.log(linkUrl);
 async function fetchProductsID() {
   try {
@@ -72,3 +73,26 @@ async function fetchProductsID() {
 }
 
 fetchProductsID();
+
+const plus = document.getElementById("plus");
+console.log(plus);
+const minus = document.getElementById("minus");
+console.log(minus);
+const number = document.getElementById("numberCount");
+console.log(number);
+
+let a = 0;
+
+plus.onclick = () => {
+  a++;
+  number.innerHTML = a;
+  console.log(a);
+};
+
+minus.onclick = () => {
+  if (a > 0) {
+    a--;
+  }
+  number.innerHTML = a;
+  console.log(a);
+};

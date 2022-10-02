@@ -1,9 +1,6 @@
 {
-  "liveServer.settings.port": 5501,
-  "cSpell.words": [
-    "Containerlogin",
-    "Eventlistner"
-  ],
+  "liveServer.settings.port": 5502,
+  "cSpell.words": ["Containerlogin", "Eventlistner"],
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.formatOnType": true
