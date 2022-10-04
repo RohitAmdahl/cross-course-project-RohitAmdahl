@@ -3,7 +3,7 @@
 ![Home](https://user-images.githubusercontent.com/91061651/193788678-87a6816e-145c-4b95-ad2d-e8fe7e4609c8.jpg)
 
 ## Description
-This is my first website. we got task from school to design a website. An online shop selling men's and women’s rain jackets.They are designed for a range of different outdoor activities that enriches people's lives.i focus on mostly raniy jacket and design of the jacket so i eddit the pictures in photoshop.
+This is my first website. we got task from school to design a website. An online shop selling men's and women’s rain jackets.They are designed for a range of different outdoor activities that enriches people's lives.i focus on mostly raniy jacketand winter jackets thought process that i live here in Norway, so i decided to make a website for Norwegians. in just a imegination,  and design of the jacket so i edit the pictures in photoshop. and edit my picture in photoshop downloade from unsplash.
 
 ## logo and slogen
 We got logo and slogen, but since this website is going to design by me so i just thought to do as i like to do. i edit the logo- in PHOTOSHOP and change the Slogen 
@@ -39,7 +39,7 @@ jacket made in Norway,with eco logical materials.
 ### inspiration bord for my first project.
 ![11](https://user-images.githubusercontent.com/91061651/193879435-03ff3ddb-45fc-4296-9eb8-c0f98310c58c.jpg)
 
-### user testing
+## User testing
 feedback from user testing was very nice and my website is very easy to understnd and easy to buy project. also i have been sending next to one user and i ask to test my website and i just follow how your is scrolling and how they are surfing the wholewebsite, few changed made after user testing. And got to understnd the users even i have been checking color and accessibility. for my Accessibility is a big factor today and i want to make Accessibil websites/product for the people.
 
 ## Contributing
@@ -56,4 +56,4 @@ LinkedIn profile.
 same pictures are taken from unsplash. 
 
 ## Acknowledgments
-this was my first website,i got help from teachers.
+this was my first website,i got help from teachers.and classmates.
