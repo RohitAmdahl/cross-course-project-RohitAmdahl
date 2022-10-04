@@ -28,12 +28,16 @@ The jackets are mid-range in price and emphasize durability and being suitable f
 jacket made in Norway,with eco logical materials. 
 
 ## Built With
-.figma-for protoypes and wireframes
-.HTML
-.CSS
-.Javascript
-.Wordpress REST API
-.Hotjar
+- figma-for protoypes and wireframes.
+- HTML.
+- CSS.
+- Javascript.
+- Wordpress REST API.
+- Hotjar
+- USER TESTING
+
+### inspiration bord for my first project.
+![11](https://user-images.githubusercontent.com/91061651/193879435-03ff3ddb-45fc-4296-9eb8-c0f98310c58c.jpg)
 
 ### user testing
 feedback from user testing was very nice and my website is very easy to understnd and easy to buy project. also i have been sending next to one user and i ask to test my website and i just follow how your is scrolling and how they are surfing the wholewebsite, few changed made after user testing. And got to understnd the users even i have been checking color and accessibility. for my Accessibility is a big factor today and i want to make Accessibil websites/product for the people.
