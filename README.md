@@ -9,19 +9,16 @@ this is my first website. we got task from school to designa website.An online s
 Choose your style
 
 ## design process to end end . these steps i have taken.
-- .Designing and geting inspiration from pictures.
-- List item 2
-- List item 3
-.Designing and geting inspiration from pictures.
-.Made inspiration board.
-.Made parsona.
-.Install Hotjar.
-.Designing layout/ wireframes.
-.Low fidelity and high fidelity and protype.
-.Created wordpress, products.
-.Made en API call.
-.Performing usability tests to improve user experience.
-.Responsive website.
+- Designing and geting inspiration from pictures.
+- Made inspiration board.
+- Made parsona.
+- Install Hotjar.
+- Designing layout/ wireframes.
+- Low fidelity and high fidelity and protype.
+- Created wordpress, products.
+- Made en API call.
+- Performing usability tests to improve user experience.
+- Responsive website.
 
 ## Target audience
 Men and women aged 18 to 50 whose interests are: being outdoors, hiking, exploring, skiing, camping, canoeing
