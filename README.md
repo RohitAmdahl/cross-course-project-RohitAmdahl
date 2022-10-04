@@ -3,10 +3,11 @@
 ![Home](https://user-images.githubusercontent.com/91061651/193788678-87a6816e-145c-4b95-ad2d-e8fe7e4609c8.jpg)
 
 ## Description
-this is my first website. we got task from school to designa website.An online shop selling men's and women’s rain jackets. They are designed for a range of different outdoor activities that enriches people's lives.
+this is my first website. we got task from school to design a website. An online shop selling men's and women’s rain jackets.They are designed for a range of different outdoor activities that enriches people's lives.i focus on mostly raniy jacket and design of the jacket so i eddit the pictures in photoshop.
 
-## Slogen
-Choose your style
+## logo and slogen
+We got logo and slogen, but since this website is going to design by me so i just thought to do as i like to do. i edit the logo- in PHOTOSHOP and change the Slogen 
+logo design u are loogin on the home page, but slogen is on the pages it says Choose your style.
 
 ## design process to end end . these steps i have taken.
 - Designing and geting inspiration from pictures.
@@ -27,8 +28,7 @@ Unique selling points
 The jackets are mid-range in price and emphasize durability and being suitable for a range of different weather types ensuring customers are comfortable whatever adventure they go on.
 jacket made in Norway,with eco logical materials
 
-##Site architecture
-Home
+## Site architecture that i have design it. 
 Men.
 Women.
 About us.
@@ -64,9 +64,8 @@ LinkedIn profile.
 
 [My LinkedIn page]([www.linkedin.com](https://www.linkedin.com/in/rohit-kumar-amdahl-308047140/))
 
-## License
-
-You can link to your license file here if you're using one, or mention what license the codebase falls under. If you're unsure then you can simply delete this section.
+## References.
+same pictures are taken from unsplash. 
 
 ## Acknowledgments
 this was my first website,i got help from teachers.
