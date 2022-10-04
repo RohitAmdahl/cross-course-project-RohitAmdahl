@@ -9,7 +9,9 @@ this is my first website. we got task from school to designa website.An online s
 Choose your style
 
 ## design process to end end . these steps i have taken.
-
+- .Designing and geting inspiration from pictures.
+- List item 2
+- List item 3
 .Designing and geting inspiration from pictures.
 .Made inspiration board.
 .Made parsona.
