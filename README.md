@@ -1,20 +1,42 @@
-# Your project title
+# Rainy day
 
 ![Home](https://user-images.githubusercontent.com/91061651/193788678-87a6816e-145c-4b95-ad2d-e8fe7e4609c8.jpg)
 
 
-A simple overview of the use/purpose of the project.
+this is my first website. we got task from school to designa website.
 
 ## Description
 
-Add a more detailed description of what your project entails and set out to do.
-
-You can add some bullet points if you'd like to:
+Development of this project 
 
 - List item 1
 - List item 2
 - List item 3
 
+//---------------
+
+An online shop selling men's and women’s rain jackets. They are designed for a range of different outdoor activities that enriches people's lives.
+
+Slogan
+Pushing the Comfort Zone
+
+Target audience
+Men and women aged 30 to 50 whose interests are: being outdoors, hiking, exploring, skiing, camping, canoeing
+
+Unique selling points
+The jackets are mid-range in price and emphasize durability and being suitable for a range of different weather types ensuring customers are comfortable whatever adventure they go on.
+
+Site architecture
+Home
+List of Jackets
+A jacket specific page showing the jacket
+A checkout page
+A checkout success
+About
+Contact
+
+
+//---------------------
 ## Built With
 
 You can list a the tech stack that you've used over here
