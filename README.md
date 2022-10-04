@@ -22,26 +22,10 @@ logo design u are loogin on the home page, but slogen is on the pages it says Ch
 - Responsive website.
 
 ## Target audience
-Men and women aged 18 to 50 whose interests are: being outdoors, hiking, exploring, skiing, camping, canoeing
-
+Men and women aged 18 to 50 whose interests are: being outdoors,
 Unique selling points
-The jackets are mid-range in price and emphasize durability and being suitable for a range of different weather types ensuring customers are comfortable whatever adventure they go on.
-jacket made in Norway,with eco logical materials
-
-## Site architecture that i have design it. 
-- Men.
-Women.
-About us.
-New arrivels.
-Log in.
-sign Up.
-search option-- that i am working on.
-cart  functionality
-product details page
-A checkout page.
-A checkout success.
-product confermayion page 
-Get in touch.
+The jackets are mid-range in price and emphasize durability and being suitable for a range of different weather types ensuring customers are comfortable whatever adventure or weather- going on.
+jacket made in Norway,with eco logical materials. 
 
 ## Built With
 .figma-for protoypes and wireframes
