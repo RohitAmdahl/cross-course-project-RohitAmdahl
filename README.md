@@ -3,7 +3,7 @@
 ![Home](https://user-images.githubusercontent.com/91061651/193788678-87a6816e-145c-4b95-ad2d-e8fe7e4609c8.jpg)
 
 ## Description
-this is my first website. we got task from school to design a website. An online shop selling men's and women’s rain jackets.They are designed for a range of different outdoor activities that enriches people's lives.i focus on mostly raniy jacket and design of the jacket so i eddit the pictures in photoshop.
+This is my first website. we got task from school to design a website. An online shop selling men's and women’s rain jackets.They are designed for a range of different outdoor activities that enriches people's lives.i focus on mostly raniy jacket and design of the jacket so i eddit the pictures in photoshop.
 
 ## logo and slogen
 We got logo and slogen, but since this website is going to design by me so i just thought to do as i like to do. i edit the logo- in PHOTOSHOP and change the Slogen 
