@@ -6,8 +6,8 @@
 This is my first website. we got task from school to design a website. An online shop selling men's and women’s rain jackets.They are designed for a range of different outdoor activities that enriches people's lives.i focus on mostly raniy jacketand winter jackets thought process that i live here in Norway, so i decided to make a website for Norwegians. in just a imegination,  and design of the jacket so i edit the pictures in photoshop. and edit my picture in photoshop downloade from unsplash.
 
 ## logo and slogen
-We got logo and slogen, but since this website is going to design by me so i just thought to do as i like to do. i edit the logo- in PHOTOSHOP and change the Slogen 
-logo design u are loogin on the home page, but slogen is on the pages it says Choose your style.
+We got logo and slogen, but since this website is going to design by me so i just thought to do as i like to do. i edit and give new design in PHOTOSHOP and change the Slogen 
+Slogen is on the pages it says Choose your style.
 
 ## design process to end end . these steps i have taken.
 - Designing and geting inspiration from pictures.
