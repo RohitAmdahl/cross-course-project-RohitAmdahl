@@ -1,0 +1,811 @@
+
+ @media (max-width: 920px) {
+  h1{
+    font-size:1.5rem;
+    padding: 0px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+   p{
+    font-size: 0.9rem;
+    padding: 0px;
+  }
+
+  .about-text{
+    padding: 20px;
+    font-size: 0.9rem;
+    max-width: 680px;
+  }
+  
+  .men{
+    display: none;
+  }
+
+  .women{
+    max-width: 320px;
+    position: inherit;
+  }
+
+  .buy{
+    width: 320px;
+    margin: 0 auto;
+    padding-left: 19px;
+  }
+
+  .group-picture {
+    max-width: 601px;
+    padding-bottom: 10px; 
+  }
+  
+  .mens-jackets {
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+
+  .cta {
+    margin: 30px 0px;
+  }
+  
+  .navigation {
+    padding: 0px;
+    padding-right: 0px;
+    display: block;
+  }
+
+
+  .footer-text {
+    margin: 0 auto;
+    max-width: 850px;
+  }
+
+  .about {
+    margin-top: 25px;
+  }
+
+  .welcome-collection {
+    grid-template-columns: 250px auto;
+    padding-top: 50px;
+  }
+ 
+.star{
+  top: -183px;
+  left: 192px;
+
+}
+.create-account {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0px;
+ 
+}
+.purchase {
+  margin: 0 auto;
+}
+
+.card-details {
+  margin: 0 auto;
+}
+
+/* .men-section {
+  grid-template-columns: 250px auto;
+  padding-top: 50px;
+} */
+
+.women-section {
+  grid-template-columns: 250px auto;
+  padding-top: 50px;
+}
+
+.wrap {
+  max-width: 500px;
+  margin-top: 40px;
+  padding: 0px;
+}
+
+ .form-footer {
+  padding-right: 0;
+}
+
+.shopping{
+  margin-bottom: 20px;
+}
+
+.Confirmation {
+  text-align: center;
+  margin: 20px 0px ;
+}
+
+.shipping{
+  margin-bottom: 15px;
+}
+
+.footer_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+  #get_in_touch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #574F4F;
+    
+  }
+
+  .feedback {
+    margin-top: 40px;
+  }
+
+  .contact_info {
+    text-align: center;
+    
+  }
+
+  .contact {
+    margin-top: auto;
+  }
+
+   .card-info {
+    border-left-width: 0px;
+    padding-left: 0px;
+  }
+
+}  
+
+
+/* -------------------------------------------------------------720px -------------------------------------------- */
+ @media (max-width: 600px)  {
+
+  .Confirmation {
+    margin-left: 0px;
+  }
+  
+.change{
+  color: red;
+}
+
+  header { 
+    position: static;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0; 
+  }
+
+  nav{
+    display: none;
+  }
+
+
+  ul{
+    display: block;
+  }
+
+  li a {
+    display: block;
+    padding-right: 0;
+    padding-top: 10px;
+    
+  }
+
+  .account {
+    grid-template-columns: 248px;
+  }
+
+   .search_input{
+    position: static;
+  } 
+
+  .copywrite {
+    padding: 15px;
+  }
+
+  .style_text{
+    font-size: 1.5em;
+  }
+  
+  main{
+    margin: opx;
+  }
+  .main_nav{
+    font-size: 1.2em;
+  }
+  
+  .get-in-touch {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .order-star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .wrap-1 {
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  ul {
+    padding-right: 0;
+    margin: 10px ;
+   
+  }
+
+  p {
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 10px;
+    }
+
+  .price {
+    width: 220px;
+    padding-left: 35px;
+    margin: 0 auto;
+  }
+  .about-text {
+    padding-left: 50px;
+    padding-right: 60px ;
+    max-width: 590px;
+  }
+
+  .about {
+    margin-top: 20px;
+  }
+  .background{
+    height: 350px;
+  }
+
+  .follow-media {
+    padding: 0;
+  }
+  
+  .details {
+    max-width: 320px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+  }
+
+  .details-1 {
+    max-width: 120px;
+  }
+
+  .mens-jackets {
+    margin: 0 auto;
+  }
+
+  .cta-1 {
+    left: 95px;
+  }
+
+
+  .feedback {
+    padding: 54px;
+    
+  }
+  .contact {
+    margin-bottom: 0;
+  }
+
+  .contact_text {
+    padding: 28px;
+  }
+
+/* 
+  .menu-bar{
+    width: 20%;
+  } */
+
+
+   #burger {
+    display: block;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+
+  }  
+
+  .login-Form {
+    width: 350px;
+  }
+  
+  .sign-up-Form {
+    width: 350px;
+  }
+  
+  .contact-form {
+    width: 350px;
+  }
+  
+
+  /* #close {
+    display: block;
+    font-size: 25px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid;
+    padding: 5px;
+    font-size: 25px;
+  }   */
+
+
+  #menu-checkbox:checked ~ nav {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 131px;
+    background: antiquewhite;
+    height: 95vh;
+    z-index: 100;
+    transform: 0.4s all;
+  }  
+
+
+  .sub_nav{
+    display: none;
+  }
+
+  .cta_mobile{
+    display:block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 355px;
+    height: 50px;
+    font-size: 1.4rem;
+  }
+
+  .women-1,
+  .men-1 {
+    max-width: 500px;
+    border: none;
+  }
+
+   .navigation-2 {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto ;
+  
+
+  }
+
+  .container-1 {
+    flex-direction: column;
+  }
+
+  .men {
+    position: absolute;
+    left: 1px;
+  }
+
+  .men:hover {
+    z-index: 1;
+    transform: scale(1.1);
+    transition: ease-out 250ms;
+  }
+
+  .women {
+    position: inherit;
+    padding-bottom: 20px;
+    
+  }
+
+  .women:hover {
+    transform: scale(1.1);
+    transition: ease-out 250ms;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .men-women{
+    flex-direction: column;
+  }
+
+  .buy {
+    text-align: center;
+    padding-left: 0px;
+  }
+
+  .buy-now {
+    padding: 10px 30px;
+  }
+
+  .new-arrivals {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-text {
+    padding: 20px;
+  }
+
+  .form-footer {
+    padding: 0px;
+  }
+ 
+ .offer_discount {
+  display: flex;
+}
+
+  .confirmation{
+    margin: 0 auto;
+    max-width: 500px;
+  }
+  
+  .contact_info{
+    margin: 0 auto;
+    max-width: fit-content;
+  }
+
+  .footer-text {
+   margin: 0;
+   padding-right: 0px;
+  }
+
+  .form-footer {
+    margin-top: 20px;
+  }
+
+  .fas.fa-shopping-cart {
+    position: static;
+    font-size: 25px;
+    margin-left: 15px;
+    } 
+  
+  
+  /*--------------------------------------------------About us, men.women,  --------------------------*/
+  .group-picture {
+    width: 100%;
+  }
+  .about {
+    margin-top: 20px;
+  }
+
+  .welcome-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  .choose-my-style {
+    font-size: 22px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-left: 64px;
+    margin-bottom: 64px;
+  }
+  .products {
+    width: 100%;
+
+    
+  }
+  .welcome-2 {
+    max-width: 800px;
+    margin-top: 5px;
+  } 
+
+  /*------------------------------------------------collection-,log in, Sign up ------------------------------- ----*/
+   .new {
+    margin-top: 25px;
+    font-size: 2em;
+  }
+  .new-1 {
+    font-size: 1.4em;
+  }
+  .welcome-collection {
+    grid-template-columns: repeat(2, auto);
+  }
+  .wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .login-picture {
+    left: 177px;
+  }
+  .cta {
+    left: 169px;
+    margin-bottom: 65px;
+  }
+  .items-2 {
+    display: inline-block;
+  }
+  .btn {
+    padding: 10px 30px;
+   margin-bottom: 20px;
+  }
+  .sub-heading {
+    font-size: 18px;
+    text-align: center;
+    max-width: 450px;
+  }
+  
+  .cart-product {
+    margin-left: 7px;
+    margin-bottom: -18px;
+    margin-top: -8px;
+    position: static;
+  }
+  .card-details {
+    text-decoration: underline;
+    margin-bottom: 50px;
+  }
+  
+  .discount-code {
+    max-width: 250px;
+    margin: 0 auto;
+    width: 210px;
+  }
+
+  .login-picture {
+    display: none;
+  }
+
+  .text{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+  }
+  .card-info {
+    border-left-width: 0px;
+    padding-left: 0px;
+  }
+  
+  .women-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mens-jackets{
+    padding: 10px;
+  }
+
+  .items-1 {
+  max-width: 300px;
+  }
+
+
+} 
+
+/*-----------------------------------------------media phone--media quarry -------------------------------- ----*/
+
+@media (max-width: 420px)  {
+  body {
+    margin: 0;
+  }
+
+  .header{
+    max-width: 500px;
+  }
+
+  .fas.fa-shopping-cart {
+    font-size: 20px;
+    margin: 0;
+  }
+
+   #burger {
+    display: block;
+    position: static;
+    font-size: 25px;
+  } 
+
+  .search-box{
+    width: 150px;
+  }
+
+  .cta-1 {
+    padding: 10px 15px;
+    margin: 0;
+    font-size: 0.9em;
+    margin-left: 6px;
+  }
+ 
+   #menu-checkbox:checked ~ nav {
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 155px;
+    background: antiquewhite;
+  } 
+
+  .wrap-1 {
+    margin-top: 50px;
+  }
+
+  .new-arrivals {
+    flex-wrap: inherit;
+  }
+
+  .footer_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .newsletter-text{
+    padding-top: 0;
+  }
+
+  .wrap{
+    margin-top: 50px;
+  }
+  
+  .order-confirm {
+    font-size: 1.5em;
+  }
+
+.women-section {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.men-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.price{
+  padding: 0;
+}
+
+.footer-text{
+  padding-right: 0;
+}
+
+.card-info {
+  border-left-width: 0px;
+  padding-left: 0px;
+}
+
+
+  /*------------------------------------------------Men- women , collection-media quarry -------------------------------- ----*/
+header{
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.cta-1 {
+  margin-right: 25px;
+}
+
+
+.products-login {
+  margin-top: 50px;
+  max-width: 400px;
+}
+
+.form{
+  margin-top:25px ;
+}
+
+.footer-text {
+  max-width: 250px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-left: 0px;
+  }
+
+
+  .discount_code {
+    width: 292px;
+  }
+  .cta-1{
+    width: 200px;
+    margin: 10px;
+  }
+
+  ul{
+    text-align: center;
+    display: block;
+  }
+
+  .login-Form {
+    width: 280px;
+  }
+  
+  .sign-up-Form {
+    width: 280px;
+  }
+  
+  .contact-form {
+    width: 280px;
+  }
+
+  .welcome-collection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .items-1{
+    max-width: 250px;
+
+  }
+  .mens-jackets{
+    max-width: 300px;
+  }
+
+.sub-heading {
+ text-align: center;
+ max-width: 250px;
+ margin: 0 auto;
+ }
+
+ .price-2 {
+   display: flex;
+   flex-direction: column;
+ }
+
+
+}
+
+
+/*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
+
+ @media (max-width: 320px) {
+  
+  .search-box{
+    width: 150px;
+  }
+
+  .fas.fa-shopping-cart {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 8px;
+  }
+
+  .card-info {
+    border-left-width: 0px;
+    padding-left: 0px;
+  }
+
+  .cards {
+    height: 295px;
+    width: 250px;
+   }
+
+  .products {
+    max-width: 160px;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .women-section {
+  padding: 0px;
+  }
+
+  .account {
+  padding: 15px;
+  }
+ }
+ 
+
+  
+/*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
+/*-----------------------------------------------media phone 420--media quarry -------------------------------- ----*/
+
+
+/* @media (max-width: 320px) {
+  body {
+    margin: 0;
+  }
+*/
