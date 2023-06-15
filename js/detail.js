@@ -5,7 +5,7 @@ const params = new URLSearchParams(queryString);
 console.log(params);
 const id = params.get("id");
 console.log(id);
-const linkUrl = `https://www.rkamdahl.no/wp-json/wc/store/products/${id}`;
+const linkUrl = `https://api.noroff.dev/api/v1/rainy-days/${id}`;
 
 console.log(linkUrl);
 async function fetchProductsID() {
@@ -13,18 +13,16 @@ async function fetchProductsID() {
     const response = await fetch(linkUrl);
     const productsJacket = await response.json();
     console.log(productsJacket);
-    document.querySelector(".items-1").src = productsJacket.images[0].src;
-    document.querySelector("h1").innerText = productsJacket.name;
+    document.querySelector(".items-1").src = productsJacket.image;
+    document.querySelector("h1").innerText = productsJacket.title;
     document.querySelector(".sub-heading").innerHTML =
-      productsJacket.short_description;
-    document.getElementById("price-2").innerHTML = productsJacket.prices.price;
+      productsJacket.description;
+    document.getElementById("price-2").innerHTML = productsJacket.price;
     document.querySelector(".details").innerHTML = productsJacket.description;
-    document.querySelector(".addtocart").dataset.name = productsJacket.name;
+    document.querySelector(".addtocart").dataset.name = productsJacket.title;
     document.querySelector(".addtocart").dataset.id = productsJacket.id;
-    document.querySelector(".addtocart").dataset.price =
-      productsJacket.prices.price;
-    document.querySelector(".addtocart").dataset.image =
-      productsJacket.images[0].src;
+    document.querySelector(".addtocart").dataset.price = productsJacket.price;
+    document.querySelector(".addtocart").dataset.image = productsJacket.image;
 
     const button = document.querySelector(".addtocart");
     console.log(button);
