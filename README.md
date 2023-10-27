@@ -3,21 +3,21 @@
 ![Home](https://user-images.githubusercontent.com/91061651/193788678-87a6816e-145c-4b95-ad2d-e8fe7e4609c8.jpg)
 
 ## Description
-This is my first website. we got task from school to design a website. An online shop selling men's and women’s rain jackets.They are designed for a range of different outdoor activities that enriches people's lives.i focus on mostly raniy jacket and winter jackets thought process that i live here in Norway, so i decided to make a website for Norwegians. in just a imagination,  and design of the jacket so i edit the pictures in photoshop. and edit my picture in photoshop downloaded from unsplash.
+I gathered design inspiration from pictures, created an inspiration board, and developed personas. I installed Hotjar for insights, and designed layouts and wireframes, progressing from low to high fidelity and prototypes. I implemented the designs into WordPress, set up products, made API calls, and conducted usability tests for a better user experience. Ensured responsiveness for the website.
 
-## logo and slogen
-We got logo and slogen, but since this website is going to design by me so i just thought to do as i like to do. i edit and give new design in PHOTOSHOP and change the Slogen 
+## logo and slogan
+We got a logo and slogan, but since this website is going to be designed by me so I just thought to do as I like to do. i edited and gave new design in PHOTOSHOP and changed the Slogan 
 Slogen is on the pages it says Choose your style.
 
-## design process to end end . these steps i have taken.
-- Designing and geting inspiration from pictures.
+## design process to end end. these steps I have taken.
+- Designing and getting inspiration from pictures.
 - Made inspiration board.
 - Made parsona.
 - Install Hotjar.
 - Designing layout/ wireframes.
-- Low fidelity and high fidelity and protype.
-- Created wordpress, products.
-- Made en API call.
+- Low fidelity and high fidelity and prototype.
+- Created WordPress, products.
+- Made an API call.
 - Performing usability tests to improve user experience.
 - Responsive website.
 
@@ -25,10 +25,10 @@ Slogen is on the pages it says Choose your style.
 Men and women aged 18 to 50 whose interests are: being outdoors,
 Unique selling points
 The jackets are mid-range in price and emphasize durability and being suitable for a range of different weather types ensuring customers are comfortable whatever adventure or weather- going on.
-jacket made in Norway,with eco logical materials. 
+jacket made in Norway, with ecological materials. 
 
 ## Built With
-- figma-for protoypes and wireframes.
+- figma-for prototypes and wireframes.
 - HTML.
 - CSS.
 - Javascript.
@@ -36,11 +36,10 @@ jacket made in Norway,with eco logical materials.
 - Hotjar
 - USER TESTING
 
-### inspiration bord for my first project.
+### inspiration board for my first project.
 ![11](https://user-images.githubusercontent.com/91061651/193879435-03ff3ddb-45fc-4296-9eb8-c0f98310c58c.jpg)
 
-## User testing
-feedback from user testing was very nice and my website is very easy to understnd and easy to buy project. also i have been sending next to one user and i ask to test my website and i just follow how your is scrolling and how they are surfing the wholewebsite, few changed made after user testing. And got to understnd the users even i have been checking color and accessibility. for my Accessibility is a big factor today and i want to make Accessibil websites/product for the people.
+
 
 ## Contributing
 
